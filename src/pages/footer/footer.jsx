@@ -85,7 +85,7 @@ const Footer = () => {
             <div className="flex flex-col items-center space-y-4  sm:w-1/3 transform hover:scale-105 transition duration-300 ease-in-out  lg:border-x-2  py-10 hover:border-x-black">
               <div className="w-4/5 justify-center">
                 <img
-                  src="/logo/loonahospitalwhite.png"
+                  src="/logo/blisslogo1.png"
                   alt="Hospital Logo"
                   className="w-full"
                 />

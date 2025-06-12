@@ -59,9 +59,9 @@ function HeaderMain() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="/logo/logoofbliss.png"
+              src="/logo/blisslogo1.png"
               className="h-16"
-              alt="Loonahospital Logo"
+              alt="blisshospital Logo"
             />
           </Link>
 
