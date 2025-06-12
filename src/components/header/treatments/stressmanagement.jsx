@@ -34,10 +34,15 @@ const StressManagement = () => {
               Regain Control. Restore Balance. Rebuild Peace of Mind.
             </h2>
             <p>
-              Stress Management Therapy helps you manage stress with practical tools, emotional insight, and lifestyle strategies. We work with you to identify triggers, understand their effects, and build resilience for a healthier life.
+              Stress Management Therapy helps you manage stress with practical
+              tools, emotional insight, and lifestyle strategies. We work with
+              you to identify triggers, understand their effects, and build
+              resilience for a healthier life.
             </p>
 
-            <h2 className="font-semibold text-xl">What Is Stress Management Therapy?</h2>
+            <h2 className="font-semibold text-xl">
+              What Is Stress Management Therapy?
+            </h2>
             <ul className="list-disc pl-6">
               <li>Identify internal and external sources of stress</li>
               <li>Understand how stress affects body and mind</li>
@@ -46,7 +51,9 @@ const StressManagement = () => {
               <li>Set boundaries and create healthy routines</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">Common Sources of Stress We Address</h2>
+            <h2 className="font-semibold text-xl">
+              Common Sources of Stress We Address
+            </h2>
             <ul className="list-disc pl-6">
               <li>Work-related stress and burnout</li>
               <li>Academic or career pressure</li>
@@ -59,15 +66,33 @@ const StressManagement = () => {
 
             <h2 className="font-semibold text-xl">Therapy Techniques We Use</h2>
             <ul className="list-disc pl-6">
-              <li><strong>CBT:</strong> Reframe unhelpful thinking patterns</li>
-              <li><strong>MBSR:</strong> Mindfulness-based techniques</li>
-              <li><strong>Somatic tools:</strong> Grounding, breathwork, relaxation</li>
-              <li><strong>Time and energy management:</strong> Balance and boundaries</li>
-              <li><strong>Emotional regulation:</strong> Build healthy response strategies</li>
-              <li><strong>Lifestyle coaching:</strong> Sleep, diet, and exercise support</li>
+              <li>
+                <strong>CBT:</strong> Reframe unhelpful thinking patterns
+              </li>
+              <li>
+                <strong>MBSR:</strong> Mindfulness-based techniques
+              </li>
+              <li>
+                <strong>Somatic tools:</strong> Grounding, breathwork,
+                relaxation
+              </li>
+              <li>
+                <strong>Time and energy management:</strong> Balance and
+                boundaries
+              </li>
+              <li>
+                <strong>Emotional regulation:</strong> Build healthy response
+                strategies
+              </li>
+              <li>
+                <strong>Lifestyle coaching:</strong> Sleep, diet, and exercise
+                support
+              </li>
             </ul>
 
-            <h2 className="font-semibold text-xl">Signs You May Need Stress Therapy</h2>
+            <h2 className="font-semibold text-xl">
+              Signs You May Need Stress Therapy
+            </h2>
             <ul className="list-disc pl-6">
               <li>Feeling constantly on edge or overwhelmed</li>
               <li>Physical issues: tension, headaches, insomnia</li>
@@ -75,7 +100,9 @@ const StressManagement = () => {
               <li>Using food, substances, or isolation to cope</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">Why Choose Stress Therapy?</h2>
+            <h2 className="font-semibold text-xl">
+              Why Choose Stress Therapy?
+            </h2>
             <ul className="list-disc pl-6">
               <li>Respond with clarity, not reactivity</li>
               <li>Prevent burnout and emotional fatigue</li>
@@ -85,12 +112,14 @@ const StressManagement = () => {
           </div>
 
           <div className="lg:w-1/4 h-1/3 bg-gray-100 py-10 rounded-md shadow px-10">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Other Counselling and Therapy</h2>
+            <h2 className="text-xl font-semibold mb-4 text-gray-800">
+              Other Counselling and Therapy
+            </h2>
             <ul className="space-y-4">
               {data.sidebarLinks.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-blue-600 hover:text-blue-800 cursor-pointer"
+                  className="flex items-center text-pink-600 hover:text-pink-800 cursor-pointer"
                 >
                   <FaAngleRight className="mr-2" />
                   <Link to={item.link}>{item.title}</Link>

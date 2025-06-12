@@ -35,7 +35,10 @@ function AllPayments() {
   const [searchTerm, setSearchTerm] = useState("");
   const [statusFilter, setStatusFilter] = useState("all");
   const [doctorFilter, setDoctorFilter] = useState("all");
-  const [sortConfig, setSortConfig] = useState({ key: "paymentId", direction: "asc" });
+  const [sortConfig, setSortConfig] = useState({
+    key: "paymentId",
+    direction: "asc",
+  });
   const [currentPage, setCurrentPage] = useState(1);
   const rowsPerPage = 10;
 
@@ -57,7 +60,9 @@ function AllPayments() {
           phone: payment.patient?.phone || "N/A",
           email: payment.patient?.email || "N/A",
           doctor: payment.appointment?.doctor?.name || "N/A",
-          date: payment.appointment?.date ? new Date(payment.appointment?.date).toLocaleDateString() : "N/A",
+          date: payment.appointment?.date
+            ? new Date(payment.appointment?.date).toLocaleDateString()
+            : "N/A",
           timeSlot: payment.appointment?.timeSlot || "N/A",
           status: payment.status || "N/A",
         }))
@@ -71,8 +76,11 @@ function AllPayments() {
     const matchesSearch = Object.values(row).some((value) =>
       String(value).toLowerCase().includes(term)
     );
-    const matchesStatus = statusFilter === "all" || row.status.toLowerCase() === statusFilter;
-    const matchesDoctor = doctorFilter === "all" || row.doctor.toLowerCase().includes(doctorFilter.toLowerCase());
+    const matchesStatus =
+      statusFilter === "all" || row.status.toLowerCase() === statusFilter;
+    const matchesDoctor =
+      doctorFilter === "all" ||
+      row.doctor.toLowerCase().includes(doctorFilter.toLowerCase());
 
     return matchesSearch && matchesStatus && matchesDoctor;
   });
@@ -98,7 +106,10 @@ function AllPayments() {
 
   // Paginate the sorted rows
   const indexOfLastRow = currentPage * rowsPerPage;
-  const currentRows = sortedRows.slice(indexOfLastRow - rowsPerPage, indexOfLastRow);
+  const currentRows = sortedRows.slice(
+    indexOfLastRow - rowsPerPage,
+    indexOfLastRow
+  );
   const totalPages = Math.ceil(filteredRows.length / rowsPerPage);
 
   const handleSort = (column) => {
@@ -125,7 +136,7 @@ function AllPayments() {
           <input
             type="text"
             placeholder="Search payments"
-            className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
@@ -152,7 +163,7 @@ function AllPayments() {
           <input
             type="text"
             placeholder="Filter by doctor"
-            className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
             value={doctorFilter}
             onChange={(e) => setDoctorFilter(e.target.value)}
           />
@@ -184,7 +195,9 @@ function AllPayments() {
             <tbody className="text-sm">
               {currentRows.map((row) => (
                 <tr key={row.id} className="hover:bg-gray-50">
-                  <td className="p-2 w-28 whitespace-nowrap">{row.paymentId}</td>
+                  <td className="p-2 w-28 whitespace-nowrap">
+                    {row.paymentId}
+                  </td>
                   <td className="p-2 w-28">{row.amount}</td>
                   <td className="p-2 w-52">{row.patientName}</td>
                   <td className="p-2 w-32">{row.phone}</td>

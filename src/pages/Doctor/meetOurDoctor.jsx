@@ -34,7 +34,7 @@ const MeetOutDoctors = () => {
         <input
           type="text"
           placeholder="Name, Specialist"
-          className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
@@ -91,7 +91,7 @@ const MeetOutDoctors = () => {
               <div className="flex w-full space-x-2 mt-2 px-4 pb-4">
                 <button
                   onClick={() => navigate(`/doctor/${doctor._id}`)}
-                  className="flex-grow text-sm text-center py-2 bg-blue-500 text-white rounded-sm"
+                  className="flex-grow text-sm text-center py-2 bg-pink-500 text-white rounded-sm"
                 >
                   View Full Profile
                 </button>

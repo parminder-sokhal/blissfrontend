@@ -62,7 +62,7 @@ const Doctors = () => {
       <div className="flex justify-between items-center mb-4 px-5">
         <h2 className="sm:text-3xl text-2xl">Our Team of Experts</h2>
         <Link to="/doctors">
-          <h3 className="hover:underline underline-offset-10 hover:text-blue-600 decoration-2 decoration-yellow-600">
+          <h3 className="hover:underline underline-offset-10 hover:text-pink-600 decoration-2 decoration-yellow-600">
             View all
           </h3>
         </Link>
@@ -117,7 +117,7 @@ const Doctors = () => {
                       <div className="flex w-full gap-1 pb-4 ">
                         <button
                           onClick={() => navigate(`/doctor/${doctor._id}`)}
-                          className="flex-grow text-sm text-center bg-blue-500 text-white "
+                          className="flex-grow text-sm text-center bg-pink-500 text-white "
                         >
                           View Full Profile
                         </button>
@@ -139,14 +139,14 @@ const Doctors = () => {
           <div className="relative w-full flex justify-center gap-4 mt-4">
             <button
               onClick={handlePrev}
-              className="bg-white text-black hover:text-blue-700 p-2 rounded-full shadow-md"
+              className="bg-white text-black hover:text-pink-700 p-2 rounded-full shadow-md"
             >
               <FaChevronLeft size={24} />
               <span className="sr-only">Previous</span>
             </button>
             <button
               onClick={handleNext}
-              className="bg-white text-black hover:text-blue-700 p-2 rounded-full shadow-md"
+              className="bg-white text-black hover:text-pink-700 p-2 rounded-full shadow-md"
             >
               <FaChevronRight size={24} />
               <span className="sr-only">Next</span>

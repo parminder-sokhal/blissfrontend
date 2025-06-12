@@ -109,7 +109,7 @@ const PatientReview = () => {
                 <div className="flex flex-row bg-white shadow-lg rounded-lg overflow-hidden h-full">
                   {/* Left section */}
                   <div className="w-1/3 flex flex-col items-center justify-start py-10">
-                    <div className="w-24 h-24 mb-4 rounded-full overflow-hidden border-2 border-blue-500">
+                    <div className="w-24 h-24 mb-4 rounded-full overflow-hidden border-2 border-pink-500">
                       {story.video.includes("youtube") ? (
                         <iframe
                           width="100%"
@@ -154,13 +154,13 @@ const PatientReview = () => {
           <div className="flex justify-center mt-4 space-x-4">
             <button
               onClick={handlePrev}
-              className="bg-white text-black hover:text-blue-700 p-2 rounded-full shadow"
+              className="bg-white text-black hover:text-pink-700 p-2 rounded-full shadow"
             >
               <FaChevronLeft />
             </button>
             <button
               onClick={handleNext}
-              className="bg-white text-black hover:text-blue-700 p-2 rounded-full shadow"
+              className="bg-white text-black hover:text-pink-700 p-2 rounded-full shadow"
             >
               <FaChevronRight />
             </button>

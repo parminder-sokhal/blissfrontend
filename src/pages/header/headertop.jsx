@@ -12,19 +12,19 @@ import {
 
 const Headertop = () => {
   return (
-    <header className="bg-[#102A83] text-white h-10 py-2 px-4 fixed top-0 left-0 w-full z-50">
+    <header className="bg-pink-500 text-white h-10 py-2 px-4 fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex items-center justify-around space-x-4">
         {/* Left Section: Mobile View */}
         <div className="flex items-center space-x-6 text-sm sm:block md:flex lg:hidden">
           <Link
-              to="tel:+919815015212"
-            className="flex items-center space-x-2 hover:text-[#DB8E00]"
+            to="tel:+919815015212"
+            className="flex items-center space-x-2 hover:text-black"
           >
             <FaPhoneAlt className="text-xl" />
           </Link>
           <Link
             to="mailto:Loonahospital@gmail.com"
-            className="flex items-center space-x-2 hover:text-[#DB8E00]"
+            className="flex items-center space-x-2 hover:text-black"
           >
             <FaEnvelope className="text-xl" />
           </Link>
@@ -33,7 +33,7 @@ const Headertop = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="text-white text-xl hover:text-[#DB8E00]" />
+            <FaInstagram className="text-white text-xl hover:text-black" />
           </Link>
         </div>
 
@@ -42,14 +42,14 @@ const Headertop = () => {
           <div className="flex items-center space-x-6 text-sm">
             <Link
               to="tel:+919815015212"
-              className="flex items-center space-x-2 hover:text-[#DB8E00]"
+              className="flex items-center space-x-2 hover:text-black"
             >
               <FaPhoneAlt className="text-xl" />
               <span>+91 9815015212</span>
             </Link>
             <Link
               to="mailto:Loonahospital@gmail.com"
-              className="flex items-center space-x-2 hover:text-[#DB8E00]"
+              className="flex items-center space-x-2 hover:text-black"
             >
               <FaEnvelope className="text-xl" />
               <span>Loonahospital@gmail.com</span>
@@ -58,12 +58,10 @@ const Headertop = () => {
               to="https://maps.app.goo.gl/qiHc2LCpLXkAJtdy6"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 hover:text-[#DB8E00]"
+              className="flex items-center space-x-2 hover:text-black"
             >
               <FaMapMarkerAlt className="text-xl" />
-              <span>
-                Sector 15, Panchkula (HR)
-              </span>
+              <span>Sector 15, Panchkula (HR)</span>
             </Link>
           </div>
 
@@ -80,7 +78,7 @@ const Headertop = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook className="text-white text-xl hover:text-blue-600" />
+              <FaFacebook className="text-white text-xl hover:text-pink-600" />
             </Link>
             <Link
               to="https://www.instagram.com/loonahospital/"
@@ -96,7 +94,7 @@ const Headertop = () => {
         <div className="sm:block md:flex lg:hidden items-center justify-center space-x-4">
           <Link
             to="/doctors"
-            className="bg-white text-black px-1.5 py-1 rounded-sm text-sm hover:bg-[#DB8E00] transition-all whitespace-nowrap"
+            className="bg-white text-black px-1.5 py-1 rounded-sm text-sm hover:bg-black transition-all whitespace-nowrap"
           >
             Book Appointment
           </Link>

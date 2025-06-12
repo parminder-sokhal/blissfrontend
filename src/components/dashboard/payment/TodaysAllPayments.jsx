@@ -129,8 +129,7 @@ function TodaysAllPayments() {
             </option>
           ))}
         </select>
-
-        </div>
+      </div>
 
       {/* Table */}
       {loading ? (
@@ -217,7 +216,7 @@ function TodaysAllPayments() {
                           onClick={() =>
                             togglePatientDetails(payment.patient._id)
                           }
-                          className="text-blue-600 hover:underline"
+                          className="text-pink-600 hover:underline"
                         >
                           {expandedPatientId === payment.patient._id
                             ? "Hide"
@@ -235,7 +234,7 @@ function TodaysAllPayments() {
                           onClick={() =>
                             toggleDoctorDetails(payment.doctor._id)
                           }
-                          className="text-blue-600 hover:underline"
+                          className="text-pink-600 hover:underline"
                         >
                           {expandedDoctorId === payment.doctor._id
                             ? "Hide"

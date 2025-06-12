@@ -29,7 +29,6 @@ const sortKeyMap = {
   CreatedAt: "createdAt",
 };
 
-
 function AllAppointments() {
   const [tableRows, setTableRows] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -86,20 +85,19 @@ function AllAppointments() {
   });
 
   const sortedRows = [...filteredRows].sort((a, b) => {
-  const aValue = a[sortConfig.key];
-  const bValue = b[sortConfig.key];
+    const aValue = a[sortConfig.key];
+    const bValue = b[sortConfig.key];
 
-  if (sortConfig.key === "date" || sortConfig.key === "createdAt") {
+    if (sortConfig.key === "date" || sortConfig.key === "createdAt") {
+      return sortConfig.direction === "asc"
+        ? new Date(aValue) - new Date(bValue)
+        : new Date(bValue) - new Date(aValue);
+    }
+
     return sortConfig.direction === "asc"
-      ? new Date(aValue) - new Date(bValue)
-      : new Date(bValue) - new Date(aValue);
-  }
-
-  return sortConfig.direction === "asc"
-    ? String(aValue).localeCompare(String(bValue))
-    : String(bValue).localeCompare(String(aValue));
-});
-
+      ? String(aValue).localeCompare(String(bValue))
+      : String(bValue).localeCompare(String(aValue));
+  });
 
   const indexOfLastRow = currentPage * rowsPerPage;
   const currentRows = sortedRows.slice(
@@ -133,7 +131,7 @@ function AllAppointments() {
           <input
             type="text"
             placeholder="Search appointments"
-            className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />

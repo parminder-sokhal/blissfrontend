@@ -215,7 +215,7 @@ function GetAllOfflinePayments() {
                     <td className="p-2">
                       <button
                         onClick={() => togglePatientDetails(item.patient._id)}
-                        className="text-blue-600 hover:underline"
+                        className="text-pink-600 hover:underline"
                       >
                         {expandedPatientId === item.patient._id
                           ? "Hide"

@@ -53,10 +53,22 @@ const MotivationEnhancementTherapy = () => {
 
             <h2 className="font-semibold text-xl">Key Principles of MET</h2>
             <ul className="list-disc pl-6">
-              <li>Client-Centered: Focuses on the individual's needs and perspectives.</li>
-              <li>Empathy: Therapists use empathic listening to understand client’s feelings and thoughts.</li>
-              <li>Collaboration: Therapist and client identify goals and strategies together.</li>
-              <li>Support for Self-Efficacy: Encouraging belief in one’s ability to change.</li>
+              <li>
+                Client-Centered: Focuses on the individual's needs and
+                perspectives.
+              </li>
+              <li>
+                Empathy: Therapists use empathic listening to understand
+                client’s feelings and thoughts.
+              </li>
+              <li>
+                Collaboration: Therapist and client identify goals and
+                strategies together.
+              </li>
+              <li>
+                Support for Self-Efficacy: Encouraging belief in one’s ability
+                to change.
+              </li>
             </ul>
 
             <h2 className="font-semibold text-xl">Benefits of MET</h2>
@@ -103,7 +115,7 @@ const MotivationEnhancementTherapy = () => {
               {data.sidebarLinks.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-blue-600 hover:text-blue-800 cursor-pointer"
+                  className="flex items-center text-pink-600 hover:text-pink-800 cursor-pointer"
                 >
                   <FaAngleRight className="mr-2" />
                   <Link to={item.link}>{item.title}</Link>

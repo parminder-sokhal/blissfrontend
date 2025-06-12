@@ -101,13 +101,13 @@ const OurFacility = () => {
                         className="w-full h-full object-cover rounded-xl"
                         loading="lazy"
                       />
-                      <div className="absolute bottom-4 right-4 bg-blue-600 text-white text-xl px-3 py-1 rounded">
+                      <div className="absolute bottom-4 right-4 bg-pink-600 text-white text-xl px-3 py-1 rounded">
                         {facility.heading}
                       </div>
                     </div>
 
                     {/* BACK */}
-                    <div className="flip-card-back flex items-center justify-center p-6 bg-blue-100 rounded-xl text-center h-full">
+                    <div className="flip-card-back flex items-center justify-center p-6 bg-pink-100 rounded-xl text-center h-full">
                       <h3 className="text-lg font-semibold text-gray-800 max-w-[200px]">
                         {facility.description}
                       </h3>
@@ -124,14 +124,14 @@ const OurFacility = () => {
           <button
             type="button"
             onClick={handlePrev}
-            className="bg-white hover:bg-blue-100 text-blue-600 p-2 rounded-full shadow-lg transition duration-200"
+            className="bg-white hover:bg-pink-100 text-pink-600 p-2 rounded-full shadow-lg transition duration-200"
           >
             <FaChevronLeft size={22} />
           </button>
           <button
             type="button"
             onClick={handleNext}
-            className="bg-white hover:bg-blue-100 text-blue-600 p-2 rounded-full shadow-lg transition duration-200"
+            className="bg-white hover:bg-pink-100 text-pink-600 p-2 rounded-full shadow-lg transition duration-200"
           >
             <FaChevronRight size={22} />
           </button>

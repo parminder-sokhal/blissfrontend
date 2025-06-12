@@ -30,12 +30,20 @@ const BehaviourTherapy = () => {
 
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="lg:w-3/4 space-y-6 text-gray-700">
-            <h2 className="font-semibold text-xl">What Is Behaviour Therapy?</h2>
+            <h2 className="font-semibold text-xl">
+              What Is Behaviour Therapy?
+            </h2>
             <p>
-              Behaviour Therapy is an evidence-based approach focused on modifying unhealthy behaviours through practical, goal-driven strategies. Rooted in behavioural psychology, it emphasizes current actions and helps clients develop more effective coping mechanisms.
+              Behaviour Therapy is an evidence-based approach focused on
+              modifying unhealthy behaviours through practical, goal-driven
+              strategies. Rooted in behavioural psychology, it emphasizes
+              current actions and helps clients develop more effective coping
+              mechanisms.
             </p>
 
-            <h2 className="font-semibold text-xl">Core Principles of Behaviour Therapy</h2>
+            <h2 className="font-semibold text-xl">
+              Core Principles of Behaviour Therapy
+            </h2>
             <ul className="list-disc pl-6">
               <li>Behaviour is learned—and can be unlearned or changed</li>
               <li>Focus on present-day behaviours</li>
@@ -64,7 +72,9 @@ const BehaviourTherapy = () => {
               <li>Autism spectrum disorders</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">What to Expect in a Session</h2>
+            <h2 className="font-semibold text-xl">
+              What to Expect in a Session
+            </h2>
             <ul className="list-disc pl-6">
               <li>Identify behaviours and triggers</li>
               <li>Set actionable goals</li>
@@ -73,7 +83,9 @@ const BehaviourTherapy = () => {
               <li>Homework to reinforce change</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">Benefits of Behaviour Therapy</h2>
+            <h2 className="font-semibold text-xl">
+              Benefits of Behaviour Therapy
+            </h2>
             <ul className="list-disc pl-6">
               <li>Effective, structured, and practical</li>
               <li>Scientifically validated techniques</li>
@@ -83,12 +95,14 @@ const BehaviourTherapy = () => {
           </div>
 
           <div className="lg:w-1/4 h-1/3 bg-gray-100 py-10 rounded-md shadow px-10">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Other Counselling and Therapy</h2>
+            <h2 className="text-xl font-semibold mb-4 text-gray-800">
+              Other Counselling and Therapy
+            </h2>
             <ul className="space-y-4">
               {data.sidebarLinks.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-blue-600 hover:text-blue-800 cursor-pointer"
+                  className="flex items-center text-pink-600 hover:text-pink-800 cursor-pointer"
                 >
                   <FaAngleRight className="mr-2" />
                   <Link to={item.link}>{item.title}</Link>

@@ -112,7 +112,7 @@ const OurServices = () => {
         <button
           type="button"
           onClick={handlePrev}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white hover:bg-blue-100 text-blue-600 p-2 rounded-full shadow-lg transition duration-200"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white hover:bg-pink-100 text-pink-600 p-2 rounded-full shadow-lg transition duration-200"
         >
           <FaChevronLeft size={22} />
         </button>
@@ -120,7 +120,7 @@ const OurServices = () => {
         <button
           type="button"
           onClick={handleNext}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white hover:bg-blue-100 text-blue-600 p-2 rounded-full shadow-lg transition duration-200"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white hover:bg-pink-100 text-pink-600 p-2 rounded-full shadow-lg transition duration-200"
         >
           <FaChevronRight size={22} />
         </button>

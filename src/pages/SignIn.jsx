@@ -58,7 +58,7 @@ export default function SignIn() {
               id="email"
               placeholder="your@gmail.com"
               onChange={handleChange}
-              className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+              className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-pink-500 outline-none"
             />
           </div>
 
@@ -75,7 +75,7 @@ export default function SignIn() {
                 id="password"
                 placeholder="********"
                 onChange={handleChange}
-                className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-pink-500 outline-none"
               />
               <span
                 onClick={() => setPasswordVisible(!passwordVisible)}
@@ -106,7 +106,7 @@ export default function SignIn() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition duration-300"
+            className="w-full bg-pink-600 text-white py-2 rounded-md hover:bg-pink-700 transition duration-300"
           >
             {loading ? "Signing in..." : "Sign In"}
           </button>

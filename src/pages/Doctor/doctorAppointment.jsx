@@ -231,7 +231,7 @@ const DoctorAppointment = () => {
         </h2>
 
         <div className="flex gap-6 items-start">
-          <div className="w-60 rounded-3xl overflow-hidden border-2 border-blue-500 shadow-md">
+          <div className="w-60 rounded-3xl overflow-hidden border-2 border-pink-500 shadow-md">
             <img
               src={doctor?.image?.url || "/images/doctor1.jpeg"}
               alt={doctor?.name}
@@ -252,7 +252,7 @@ const DoctorAppointment = () => {
 
         <div className="border-t pt-4 mt-4 text-gray-700">
           <p className="flex items-center text-2xl gap-4">
-            <FaCalendarAlt className="text-blue-600" />
+            <FaCalendarAlt className="text-pink-600" />
             <p className="text-xl text-gray-700 font-medium">
               {doctor?.visitType},{" "}
               <span className="text-lg font-semibold">
@@ -274,7 +274,7 @@ const DoctorAppointment = () => {
           <button
             type="button"
             onClick={() => setShowModal(true)}
-            className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+            className="bg-pink-600 text-white px-6 py-2 rounded hover:bg-pink-700 transition"
           >
             {patient ? "Edit Patient Details" : "Add New Patient"}{" "}
           </button>
@@ -292,7 +292,7 @@ const DoctorAppointment = () => {
           </div>
         )}
         {longNotification && (
-          <div className="mt-4 p-4 border border-blue-400 bg-blue-50 text-blue-800 rounded shadow">
+          <div className="mt-4 p-4 border border-pink-400 bg-pink-50 text-pink-800 rounded shadow">
             <h3 className="text-lg font-semibold mb-2">
               Appointment Confirmed
             </h3>
@@ -314,7 +314,7 @@ const DoctorAppointment = () => {
         {/* Patient Info Display */}
         {patient && (
           <div className="bg-white rounded-md shadow-neutral-50">
-            <h2 className="text-xl font-bold text-blue-800 mb-4">
+            <h2 className="text-xl font-bold text-pink-800 mb-4">
               Patient Info
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-gray-700 text-base">
@@ -332,7 +332,7 @@ const DoctorAppointment = () => {
               className={`mt-6 w-full py-2 rounded text-white ${
                 doctor?.visitType?.toLowerCase().includes("video")
                   ? "bg-green-600 hover:bg-green-700"
-                  : "bg-blue-600 hover:bg-blue-700"
+                  : "bg-pink-600 hover:bg-pink-700"
               }`}
             >
               {doctor?.visitType?.toLowerCase().includes("video")
@@ -348,7 +348,7 @@ const DoctorAppointment = () => {
         <div className="fixed inset-0 flex items-center backdrop-blur-sm justify-center bg-blur bg-opacity-40 z-50 px-4">
           <div className="bg-white px-10 py-5 rounded-lg shadow-xl w-full max-w-2xl relative">
             <div className="flex justify-between items-start pb-4">
-              <h3 className="text-xl flex font-semibold mb-4 text-blue-700">
+              <h3 className="text-xl flex font-semibold mb-4 text-pink-700">
                 Add Patient Details
               </h3>
               <button
@@ -369,7 +369,7 @@ const DoctorAppointment = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className={`border px-3 py-2 rounded outline-blue-300 ${
+                  className={`border px-3 py-2 rounded outline-pink-300 ${
                     errors.name ? "border-red-500" : ""
                   }`}
                 />
@@ -388,7 +388,7 @@ const DoctorAppointment = () => {
                   name="age"
                   value={formData.age}
                   onChange={handleChange}
-                  className={`border px-3 py-2 rounded outline-blue-300 ${
+                  className={`border px-3 py-2 rounded outline-pink-300 ${
                     errors.age ? "border-red-500" : ""
                   }`}
                 />
@@ -428,7 +428,7 @@ const DoctorAppointment = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   maxLength="10"
-                  className={`border px-3 py-2 rounded outline-blue-300 ${
+                  className={`border px-3 py-2 rounded outline-pink-300 ${
                     errors.phone ? "border-red-500" : ""
                   }`}
                 />
@@ -446,7 +446,7 @@ const DoctorAppointment = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="border px-3 py-2 rounded outline-blue-300"
+                  className="border px-3 py-2 rounded outline-pink-300"
                 />
               </div>
               {/* Address Field */}
@@ -459,7 +459,7 @@ const DoctorAppointment = () => {
                   name="address"
                   value={formData.address}
                   onChange={handleChange}
-                  className={`border px-3 py-2 rounded outline-blue-300 ${
+                  className={`border px-3 py-2 rounded outline-pink-300 ${
                     errors.address ? "border-red-500" : ""
                   }`}
                 />
@@ -472,7 +472,7 @@ const DoctorAppointment = () => {
                 <button
                   type="button"
                   onClick={handleAddPatient}
-                  className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+                  className="bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700 transition"
                 >
                   Add Patient
                 </button>

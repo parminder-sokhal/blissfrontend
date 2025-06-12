@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa"; // Importing phone icon
 import { Link } from "react-router-dom";
-import { useSwipeCarousel } from "../hook/useSwipeCarousel.js"; 
+import { useSwipeCarousel } from "../hook/useSwipeCarousel.js";
 
 const OurApproach = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,10 +54,13 @@ const OurApproach = () => {
       setCurrentIndex(currentIndex - 1);
     }
   };
-  const swipeHandlers = useSwipeCarousel({ onNext: handleNext, onPrev: handlePrev });
+  const swipeHandlers = useSwipeCarousel({
+    onNext: handleNext,
+    onPrev: handlePrev,
+  });
 
   return (
-    <div  className="bg-cover py-15 px-4 bg-[url(/images/bgourapp.jpeg)]">
+    <div className="bg-cover py-15 px-4 bg-[url(/images/bgourapp.jpeg)]">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between">
         {/* Left Section - Centered vertically */}
         <div className="w-full md:w-2/5 flex flex-col justify-center items-start space-y-4 mb-8 md:mb-0 sm:px-10 px-4">
@@ -77,14 +80,14 @@ const OurApproach = () => {
               <div className="flex items-center ">
                 <FaPhoneAlt
                   size={30}
-                  className="text-red-700 hover:text-blue-800"
+                  className="text-red-700 hover:text-pink-800"
                 />
               </div>
               <div to="tel:+1234567890">
-                <span className="text-md text-black hover:text-blue-900 ">
+                <span className="text-md text-black hover:text-pink-900 ">
                   For more information, call
                 </span>
-                <span className="text-lg text-black flex  hover:text-blue-900 transition-colors ">
+                <span className="text-lg text-black flex  hover:text-pink-900 transition-colors ">
                   +91 9815015212
                 </span>
               </div>
@@ -92,7 +95,10 @@ const OurApproach = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-3/5 flex flex-col space-y-8" {...swipeHandlers}>
+        <div
+          className="w-full md:w-3/5 flex flex-col space-y-8"
+          {...swipeHandlers}
+        >
           <div className="flex flex-col md:flex-row ">
             {getItemsToShow().map((item, index) => (
               <div

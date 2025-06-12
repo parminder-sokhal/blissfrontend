@@ -221,7 +221,7 @@ const BipolarDisorder = () => {
               {data.sidebarLinks.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-blue-600 hover:text-blue-800 cursor-pointer"
+                  className="flex items-center text-pink-600 hover:text-pink-800 cursor-pointer"
                 >
                   <FaAngleRight className="mr-2" />
                   <Link to={item.link}>{item.title}</Link>

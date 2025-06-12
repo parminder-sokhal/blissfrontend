@@ -37,24 +37,35 @@ const ErectileDysfunction = () => {
 
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="lg:w-3/4 space-y-6 text-gray-700">
-            <h2 className="font-semibold text-xl">What is Erectile Dysfunction (ED)?</h2>
+            <h2 className="font-semibold text-xl">
+              What is Erectile Dysfunction (ED)?
+            </h2>
             <p>
-              Erectile Dysfunction (ED), commonly referred to as impotence, is a condition where a man consistently struggles to achieve or maintain an erection sufficient for sexual intercourse...
+              Erectile Dysfunction (ED), commonly referred to as impotence, is a
+              condition where a man consistently struggles to achieve or
+              maintain an erection sufficient for sexual intercourse...
             </p>
             <p>
-              At [Your Clinic/Practice Name], we understand how distressing and frustrating erectile dysfunction can be...
+              At [Your Clinic/Practice Name], we understand how distressing and
+              frustrating erectile dysfunction can be...
             </p>
 
-            <h2 className="font-semibold text-xl">Why Choose Our Sexual Wellness Program for Erectile Dysfunction?</h2>
+            <h2 className="font-semibold text-xl">
+              Why Choose Our Sexual Wellness Program for Erectile Dysfunction?
+            </h2>
             <ul className="list-disc pl-6">
               <li>Understand the underlying causes of ED</li>
               <li>Reduce anxiety and stress associated with ED</li>
               <li>Improve communication with your partner</li>
               <li>Regain confidence and self-esteem</li>
-              <li>Enhance sexual satisfaction through techniques and strategies</li>
+              <li>
+                Enhance sexual satisfaction through techniques and strategies
+              </li>
             </ul>
 
-            <h2 className="font-semibold text-xl">What Causes Erectile Dysfunction?</h2>
+            <h2 className="font-semibold text-xl">
+              What Causes Erectile Dysfunction?
+            </h2>
             <h3 className="font-semibold">Physical Causes:</h3>
             <ul className="list-disc pl-6">
               <li>Cardiovascular Disease</li>
@@ -74,45 +85,92 @@ const ErectileDysfunction = () => {
               <li>Past Trauma or Experiences</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">How Our Sexual Wellness Program Helps Treat Erectile Dysfunction</h2>
-            <h3 className="font-semibold text-lg">1. Initial Assessment and Goal Setting</h3>
+            <h2 className="font-semibold text-xl">
+              How Our Sexual Wellness Program Helps Treat Erectile Dysfunction
+            </h2>
+            <h3 className="font-semibold text-lg">
+              1. Initial Assessment and Goal Setting
+            </h3>
             <p>
-              A comprehensive review of your symptoms, history, and goals to tailor a personalized treatment plan.
+              A comprehensive review of your symptoms, history, and goals to
+              tailor a personalized treatment plan.
             </p>
 
-            <h3 className="font-semibold text-lg">2. Education and Awareness</h3>
+            <h3 className="font-semibold text-lg">
+              2. Education and Awareness
+            </h3>
             <p>
-              Learn about the physical and emotional factors affecting arousal and erection to feel empowered in managing ED.
+              Learn about the physical and emotional factors affecting arousal
+              and erection to feel empowered in managing ED.
             </p>
 
-            <h3 className="font-semibold text-lg">3. Therapeutic Techniques for Treating ED</h3>
+            <h3 className="font-semibold text-lg">
+              3. Therapeutic Techniques for Treating ED
+            </h3>
             <ul className="list-disc pl-6">
-              <li><strong>Cognitive Behavioral Therapy (CBT):</strong> Reduce negative thought patterns and performance anxiety.</li>
-              <li><strong>Mindfulness and Relaxation:</strong> Manage stress and remain present during intimacy.</li>
-              <li><strong>Sex Therapy:</strong> Address relationship and intimacy concerns.</li>
-              <li><strong>Pelvic Floor Exercises:</strong> Improve erectile control and blood flow.</li>
-              <li><strong>Lifestyle Modifications:</strong> Improve overall health to support erectile function.</li>
+              <li>
+                <strong>Cognitive Behavioral Therapy (CBT):</strong> Reduce
+                negative thought patterns and performance anxiety.
+              </li>
+              <li>
+                <strong>Mindfulness and Relaxation:</strong> Manage stress and
+                remain present during intimacy.
+              </li>
+              <li>
+                <strong>Sex Therapy:</strong> Address relationship and intimacy
+                concerns.
+              </li>
+              <li>
+                <strong>Pelvic Floor Exercises:</strong> Improve erectile
+                control and blood flow.
+              </li>
+              <li>
+                <strong>Lifestyle Modifications:</strong> Improve overall health
+                to support erectile function.
+              </li>
             </ul>
 
-            <h3 className="font-semibold text-lg">4. Medical Treatments (If Applicable)</h3>
+            <h3 className="font-semibold text-lg">
+              4. Medical Treatments (If Applicable)
+            </h3>
             <ul className="list-disc pl-6">
-              <li><strong>Oral Medications:</strong> Such as Viagra, Cialis, and Levitra.</li>
-              <li><strong>Testosterone Therapy:</strong> If low testosterone is a contributing factor.</li>
-              <li><strong>Vacuum Devices:</strong> To stimulate erection.</li>
-              <li><strong>Penile Injections or Implants:</strong> For more severe, treatment-resistant ED.</li>
+              <li>
+                <strong>Oral Medications:</strong> Such as Viagra, Cialis, and
+                Levitra.
+              </li>
+              <li>
+                <strong>Testosterone Therapy:</strong> If low testosterone is a
+                contributing factor.
+              </li>
+              <li>
+                <strong>Vacuum Devices:</strong> To stimulate erection.
+              </li>
+              <li>
+                <strong>Penile Injections or Implants:</strong> For more severe,
+                treatment-resistant ED.
+              </li>
             </ul>
 
-            <h3 className="font-semibold text-lg">5. Couples Therapy (Optional)</h3>
+            <h3 className="font-semibold text-lg">
+              5. Couples Therapy (Optional)
+            </h3>
             <p>
-              Improve intimacy and emotional connection by working together through sexual and relationship challenges.
+              Improve intimacy and emotional connection by working together
+              through sexual and relationship challenges.
             </p>
 
-            <h3 className="font-semibold text-lg">6. Ongoing Support and Progress Monitoring</h3>
+            <h3 className="font-semibold text-lg">
+              6. Ongoing Support and Progress Monitoring
+            </h3>
             <p>
-              We regularly evaluate your progress and adjust the plan as needed for lasting results and support.
+              We regularly evaluate your progress and adjust the plan as needed
+              for lasting results and support.
             </p>
 
-            <h2 className="font-semibold text-xl">What Are the Benefits of the Sexual Wellness Program for Erectile Dysfunction?</h2>
+            <h2 className="font-semibold text-xl">
+              What Are the Benefits of the Sexual Wellness Program for Erectile
+              Dysfunction?
+            </h2>
             <ul className="list-disc pl-6">
               <li>Improved erectile function</li>
               <li>Reduced anxiety and stress</li>
@@ -131,7 +189,7 @@ const ErectileDysfunction = () => {
               {data.sidebarLinks.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-blue-600 hover:text-blue-800 cursor-pointer"
+                  className="flex items-center text-pink-600 hover:text-pink-800 cursor-pointer"
                 >
                   <FaAngleRight className="mr-2" />
                   <Link to={item.link}>{item.title}</Link>

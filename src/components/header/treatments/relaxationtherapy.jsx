@@ -30,14 +30,21 @@ const RelaxationTherapy = () => {
 
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="lg:w-3/4 space-y-6 text-gray-700">
-            <h2 className="font-semibold text-xl">What Is Relaxation Therapy?</h2>
+            <h2 className="font-semibold text-xl">
+              What Is Relaxation Therapy?
+            </h2>
             <p>
-              Relaxation Therapy uses scientifically supported techniques to help reduce stress, calm the body and mind, and enhance emotional well-being. It's beneficial for anxiety, chronic pain, insomnia, and overall mental health support.
+              Relaxation Therapy uses scientifically supported techniques to
+              help reduce stress, calm the body and mind, and enhance emotional
+              well-being. It's beneficial for anxiety, chronic pain, insomnia,
+              and overall mental health support.
             </p>
 
             <h2 className="font-semibold text-xl">How Does It Work?</h2>
             <p>
-              By activating the parasympathetic nervous system, relaxation therapy counteracts the stress response, improving heart rate, breathing, muscle tension, and emotional balance.
+              By activating the parasympathetic nervous system, relaxation
+              therapy counteracts the stress response, improving heart rate,
+              breathing, muscle tension, and emotional balance.
             </p>
 
             <h2 className="font-semibold text-xl">Core Techniques</h2>
@@ -61,12 +68,19 @@ const RelaxationTherapy = () => {
               <li>High blood pressure and heart conditions</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">What to Expect in a Session</h2>
+            <h2 className="font-semibold text-xl">
+              What to Expect in a Session
+            </h2>
             <p>
-              A therapist will guide you through calming techniques tailored to your needs. Sessions may involve breathing, visualization, or relaxation training, and you’ll learn how to use these methods in daily life.
+              A therapist will guide you through calming techniques tailored to
+              your needs. Sessions may involve breathing, visualization, or
+              relaxation training, and you’ll learn how to use these methods in
+              daily life.
             </p>
 
-            <h2 className="font-semibold text-xl">Benefits of Relaxation Therapy</h2>
+            <h2 className="font-semibold text-xl">
+              Benefits of Relaxation Therapy
+            </h2>
             <ul className="list-disc pl-6">
               <li>Reduces anxiety and depression</li>
               <li>Improves sleep and energy levels</li>
@@ -78,12 +92,14 @@ const RelaxationTherapy = () => {
           </div>
 
           <div className="lg:w-1/4 h-1/3 bg-gray-100 py-10 rounded-md shadow px-10">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Other Counselling and Therapy</h2>
+            <h2 className="text-xl font-semibold mb-4 text-gray-800">
+              Other Counselling and Therapy
+            </h2>
             <ul className="space-y-4">
               {data.sidebarLinks.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-blue-600 hover:text-blue-800 cursor-pointer"
+                  className="flex items-center text-pink-600 hover:text-pink-800 cursor-pointer"
                 >
                   <FaAngleRight className="mr-2" />
                   <Link to={item.link}>{item.title}</Link>

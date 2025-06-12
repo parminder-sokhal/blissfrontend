@@ -3,7 +3,6 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useSwipeCarousel } from "../hook/useSwipeCarousel.js";
 
-
 const SpecialitiesSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesPerScreen, setSlidesPerScreen] = useState(3); // Initially set to 3 for desktop
@@ -135,7 +134,7 @@ const SpecialitiesSlider = () => {
                     loading="lazy"
                   />
                   <button
-                    className="w-full py-3 px-4 bg-blue-600 hover:bg-blue-800 text-white text-lg font-semibold rounded-xl transition-all duration-300 ease-in-out"
+                    className="w-full py-3 px-4 bg-pink-600 hover:bg-pink-800 text-white text-lg font-semibold rounded-xl transition-all duration-300 ease-in-out"
                     onClick={(e) => {
                       e.preventDefault(); // Prevent default anchor behavior
                       window.location.href = slide.href; // Redirect on button click
@@ -153,7 +152,7 @@ const SpecialitiesSlider = () => {
         <button
           type="button"
           onClick={handlePrev}
-          className="carousel-prev absolute left-5 top-1/2 transform -translate-y-1/2 z-10 bg-white text-blue-700 hover:bg-blue-100 p-3 rounded-full shadow-lg"
+          className="carousel-prev absolute left-5 top-1/2 transform -translate-y-1/2 z-10 bg-white text-pink-700 hover:bg-pink-100 p-3 rounded-full shadow-lg"
         >
           <FaChevronLeft size={24} />
           <span className="sr-only">Previous</span>
@@ -162,7 +161,7 @@ const SpecialitiesSlider = () => {
         <button
           type="button"
           onClick={handleNext}
-          className="carousel-next absolute right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white hover:bg-blue-100 text-blue-700 p-3 rounded-full shadow-lg"
+          className="carousel-next absolute right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white hover:bg-pink-100 text-pink-700 p-3 rounded-full shadow-lg"
         >
           <FaChevronRight size={24} />
           <span className="sr-only">Next</span>

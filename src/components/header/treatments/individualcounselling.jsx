@@ -34,13 +34,20 @@ const IndividualCounselling = () => {
               Personalized Support for Growth, Healing, and Change
             </h2>
             <p>
-              Individual counseling—also known as individual therapy or talk therapy—is a one-on-one, confidential process between you and a trained therapist. It’s a space to explore thoughts, emotions, and challenges in a safe, judgment-free environment.
+              Individual counseling—also known as individual therapy or talk
+              therapy—is a one-on-one, confidential process between you and a
+              trained therapist. It’s a space to explore thoughts, emotions, and
+              challenges in a safe, judgment-free environment.
             </p>
             <p>
-              At [Your Practice Name], we believe in your capacity for growth and healing. Our therapists guide and support you through life’s difficulties with empathy and evidence-based strategies.
+              At [Your Practice Name], we believe in your capacity for growth
+              and healing. Our therapists guide and support you through life’s
+              difficulties with empathy and evidence-based strategies.
             </p>
 
-            <h2 className="font-semibold text-xl">What Is Individual Therapy?</h2>
+            <h2 className="font-semibold text-xl">
+              What Is Individual Therapy?
+            </h2>
             <ul className="list-disc pl-6">
               <li>Gain insight into emotions, behaviors, and thoughts</li>
               <li>Develop healthier coping skills</li>
@@ -61,7 +68,9 @@ const IndividualCounselling = () => {
               <li>Chronic illness or pain-related stress</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">Therapeutic Approaches We Use</h2>
+            <h2 className="font-semibold text-xl">
+              Therapeutic Approaches We Use
+            </h2>
             <ul className="list-disc pl-6">
               <li>Cognitive Behavioral Therapy (CBT)</li>
               <li>Dialectical Behavior Therapy (DBT)</li>
@@ -72,7 +81,9 @@ const IndividualCounselling = () => {
               <li>Person-Centered Therapy</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">Why Choose Individual Therapy?</h2>
+            <h2 className="font-semibold text-xl">
+              Why Choose Individual Therapy?
+            </h2>
             <ul className="list-disc pl-6">
               <li>Better emotional regulation and resilience</li>
               <li>Healthier relationships and boundaries</li>
@@ -83,12 +94,14 @@ const IndividualCounselling = () => {
           </div>
 
           <div className="lg:w-1/4 h-1/3 bg-gray-100 py-10 rounded-md shadow px-10">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Other Counselling and Therapy</h2>
+            <h2 className="text-xl font-semibold mb-4 text-gray-800">
+              Other Counselling and Therapy
+            </h2>
             <ul className="space-y-4">
               {data.sidebarLinks.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-blue-600 hover:text-blue-800 cursor-pointer"
+                  className="flex items-center text-pink-600 hover:text-pink-800 cursor-pointer"
                 >
                   <FaAngleRight className="mr-2" />
                   <Link to={item.link}>{item.title}</Link>

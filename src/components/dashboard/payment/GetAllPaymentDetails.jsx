@@ -250,7 +250,7 @@ function GetAllPaymentDetails() {
                           onClick={() =>
                             togglePatientDetails(payment.patient._id)
                           }
-                          className="text-blue-600 hover:underline"
+                          className="text-pink-600 hover:underline"
                         >
                           {expandedPatientId === payment.patient._id
                             ? "Hide"
@@ -260,8 +260,6 @@ function GetAllPaymentDetails() {
                         "N/A"
                       )}
                     </td>
-
-                    
                   </tr>
 
                   {/* Patient Details Row */}

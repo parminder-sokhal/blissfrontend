@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
 const SpecialitiesSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesPerScreen, setSlidesPerScreen] = useState(4);
@@ -325,7 +324,6 @@ const SpecialitiesSlider = () => {
       <div className="flex justify-center items-center mb-6">
         <h2 className="text-4xl font-bold">Specialities</h2>
       </div>
-      
 
       {/* Carousel Component */}
       <div id="centered" className="relative w-full">
@@ -343,7 +341,7 @@ const SpecialitiesSlider = () => {
                 to={slide.href}
                 className="carousel-slide h-60 flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4"
               >
-                <div className="flex flex-col justify-between items-center bg-white rounded-lg hover:bg-blue-200 p-4">
+                <div className="flex flex-col justify-between items-center bg-white rounded-lg hover:bg-pink-200 p-4">
                   <img
                     src={slide.image}
                     alt={`Slide ${slide.id}`}
@@ -362,7 +360,7 @@ const SpecialitiesSlider = () => {
         <button
           type="button"
           onClick={handlePrev}
-          className="carousel-prev absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white text-black hover:text-blue-700 p-2 rounded-full shadow-md"
+          className="carousel-prev absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white text-black hover:text-pink-700 p-2 rounded-full shadow-md"
         >
           <FaChevronLeft size={24} />
           <span className="sr-only">Previous</span>
@@ -371,7 +369,7 @@ const SpecialitiesSlider = () => {
         <button
           type="button"
           onClick={handleNext}
-          className="carousel-next absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white hover:text-blue-700 text-black p-2 rounded-full shadow-md"
+          className="carousel-next absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white hover:text-pink-700 text-black p-2 rounded-full shadow-md"
         >
           <FaChevronRight size={24} />
           <span className="sr-only">Next</span>

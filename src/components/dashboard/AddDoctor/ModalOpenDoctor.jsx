@@ -286,7 +286,7 @@ function ModalOpenDoctor({ open, onClose, doctor, isEditing }) {
               name="file"
               accept="image/*"
               onChange={handleChange}
-              className="w-full text-blue-600 file:mr-4 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+              className="w-full text-pink-600 file:mr-4 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-pink-50 file:text-pink-700 hover:file:bg-pink-100"
             />
             {previewImage && (
               <div className="relative mt-2 w-32 h-32">
@@ -373,7 +373,7 @@ function ModalOpenDoctor({ open, onClose, doctor, isEditing }) {
           <div className="md:col-span-2 flex justify-end mt-4">
             <button
               type="submit"
-              className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+              className="bg-pink-600 text-white px-6 py-2 rounded hover:bg-pink-700"
             >
               {isEditing ? "Update" : "Create"}
             </button>

@@ -35,7 +35,6 @@ export default function Dashboard() {
             </button>
           </div>
           <ul className="flex-1 px-2 overflow-y-auto">
-           
             <SidebarItem
               icon={<FaUserGraduate />}
               text="Get All Online Payment Details"
@@ -58,7 +57,7 @@ export default function Dashboard() {
               <button
                 onClick={() => {
                   dispatch(logout());
-                  navigate("/"); 
+                  navigate("/");
                 }}
                 className={`flex w-full items-center p-2 rounded-md text-sm font-medium transition-colors text-black hover:text-white hover:bg-red-600`}
               >
@@ -92,7 +91,7 @@ function SidebarItem({ icon, text, to, active }) {
       <Link
         to={to}
         className={`flex items-center p-2 rounded-md text-sm font-medium transition-colors ${
-          active ? "bg-blue-500 text-white" : "text-gray-700 hover:bg-blue-100"
+          active ? "bg-pink-500 text-white" : "text-gray-700 hover:bg-pink-100"
         }`}
       >
         {icon}

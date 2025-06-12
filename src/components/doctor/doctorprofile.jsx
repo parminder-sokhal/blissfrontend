@@ -58,7 +58,7 @@ const DoctorProfile = () => {
       <div className="bg-white py-8 px-4 sm:px-10 border-b border-gray-200">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-15">
           {/* Left - Doctor Image */}
-          <div className="w-60  rounded-3xl overflow-hidden border-2 border-blue-500 shadow-md">
+          <div className="w-60  rounded-3xl overflow-hidden border-2 border-pink-500 shadow-md">
             <img
               src={doctor?.image?.url || "/images/doctor1.jpeg"}
               alt={doctor?.name}
@@ -70,7 +70,7 @@ const DoctorProfile = () => {
           <div className="flex flex-col w-full">
             {/* Name, Hospital, Specialization */}
             <div className="space-y-2">
-              <h2 className="text-3xl sm:text-4xl font-bold text-blue-800">
+              <h2 className="text-3xl sm:text-4xl font-bold text-pink-800">
                 {doctor?.name}
               </h2>
               <p className="text-lg sm:text-xl text-gray-700 font-semibold">
@@ -83,10 +83,10 @@ const DoctorProfile = () => {
 
             {/* Experience & Fees Badges */}
             <div className="flex gap-4 mt-4 flex-wrap">
-              <div className="bg-blue-50 border border-blue-200 px-5 py-3 rounded-md shadow-sm flex flex-col items-center w-40 text-center">
-                <span className="text-xl flex font-semibold text-blue-700">
+              <div className="bg-pink-50 border border-pink-200 px-5 py-3 rounded-md shadow-sm flex flex-col items-center w-40 text-center">
+                <span className="text-xl flex font-semibold text-pink-700">
                   {doctor?.experience}
-                  <span className="text-md items-center justify-center flex text-blue-700 ml-1">
+                  <span className="text-md items-center justify-center flex text-pink-700 ml-1">
                     Years
                   </span>
                 </span>
@@ -108,14 +108,14 @@ const DoctorProfile = () => {
         {/* Doctor Details */}
         <div className="lg:w-1/2 space-y-6">
           <div>
-            <div className="flex items-center gap-2 mb-2 text-blue-700">
+            <div className="flex items-center gap-2 mb-2 text-pink-700">
               <FaUserMd /> <h3 className="text-2xl font-semibold">About</h3>
             </div>
             <p className="text-gray-700 text-md">
               {showAbout ? doctor?.about : `${doctor?.about?.slice(0, 150)}...`}
             </p>
             <button
-              className="text-blue-700 text-md mt-2 hover:underline"
+              className="text-pink-700 text-md mt-2 hover:underline"
               onClick={() => setShowAbout(!showAbout)}
             >
               {showAbout ? "Read Less" : "Read More"}
@@ -123,7 +123,7 @@ const DoctorProfile = () => {
           </div>
 
           <div>
-            <div className="flex items-center gap-2 mb-2 text-blue-700">
+            <div className="flex items-center gap-2 mb-2 text-pink-700">
               <FaGraduationCap />
               <h3 className="text-2xl font-semibold">Education</h3>
             </div>
@@ -131,7 +131,7 @@ const DoctorProfile = () => {
           </div>
 
           <div>
-            <div className="flex items-center gap-2 mb-2 text-blue-700">
+            <div className="flex items-center gap-2 mb-2 text-pink-700">
               <FaAward /> <h3 className="text-2xl font-semibold">Member Of</h3>
             </div>
             <p className="text-gray-700 text-md">
@@ -140,7 +140,7 @@ const DoctorProfile = () => {
                 : `${doctor?.awards?.slice(0, 100)}...`}
             </p>
             <button
-              className="text-blue-700 text-sm mt-2 hover:underline"
+              className="text-pink-700 text-sm mt-2 hover:underline"
               onClick={() => setShowAwards(!showAwards)}
             >
               {showAwards ? "Read Less" : "Read More"}
@@ -150,7 +150,7 @@ const DoctorProfile = () => {
 
         {/* Booking Form */}
         <div className="lg:w-1/2 bg-gray-100 p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-bold text-blue-700 mb-4">
+          <h2 className="text-xl font-bold text-pink-700 mb-4">
             Schedule Appointment
           </h2>
           <div className="space-y-4">
@@ -178,8 +178,8 @@ const DoctorProfile = () => {
                 }}
                 className={`w-1/2 py-2 rounded-md border ${
                   visitType === "hospital visit"
-                    ? "bg-blue-700 text-white"
-                    : "border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white"
+                    ? "bg-pink-700 text-white"
+                    : "border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white"
                 }`}
               >
                 Hospital Visit
@@ -191,8 +191,8 @@ const DoctorProfile = () => {
                 }}
                 className={`w-1/2 py-2 rounded-md border ${
                   visitType === "video consultancy"
-                    ? "bg-blue-700 text-white"
-                    : "border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white"
+                    ? "bg-pink-700 text-white"
+                    : "border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white"
                 }`}
               >
                 Video Consultancy
@@ -210,9 +210,9 @@ const DoctorProfile = () => {
                   onClick={() => setSelectedTimeSlot(time)}
                   className={`px-3 py-1 border ${
                     selectedTimeSlot === time
-                      ? "bg-blue-700 text-white"
-                      : "text-blue-700 hover:bg-blue-700 hover:text-white"
-                  } border-blue-700 rounded-md text-sm transition`}
+                      ? "bg-pink-700 text-white"
+                      : "text-pink-700 hover:bg-pink-700 hover:text-white"
+                  } border-pink-700 rounded-md text-sm transition`}
                 >
                   {time}
                 </button>
@@ -224,7 +224,7 @@ const DoctorProfile = () => {
               disabled={!selectedTimeSlot}
               className={`mt-4 w-full ${
                 selectedTimeSlot
-                  ? "bg-blue-700 hover:bg-blue-800"
+                  ? "bg-pink-700 hover:bg-pink-800"
                   : "bg-gray-400 cursor-not-allowed"
               } text-white py-2 rounded-md transition`}
             >
