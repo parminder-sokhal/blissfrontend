@@ -10,51 +10,45 @@ const BlissService = () => {
   const slides = [
     {
       id: 1,
-      description: "Psychiatry",
+      description: "Obstetric and Gynaecology",
       image: "/pictures/psychiatry.jpeg",
       href: "/depression",
     },
     {
       id: 2,
-      description: " Counselling and therapy",
+      description: "Oncology",
       image: "/pictures/counsellingTherapy.jpeg",
       href: "/counselling-and-therapy",
     },
     {
       id: 3,
-      description: " Mental health issues",
+      description: "General surgery",
       image: "/pictures/mentalHealth.jpeg",
       href: "/mental-health-children",
     },
     {
       id: 4,
-      description: "De-addiction programme",
+      description: "General medicine",
       image: "/pictures/Deaddiction.jpeg",
       href: "/De-addictionProgramme",
     },
     {
       id: 5,
-      description: "sexual wellness program",
+      description: "Urology",
       image: "/pictures/sexualWellness.jpeg",
       href: "/sexual-wellness-program",
     },
     {
       id: 6,
-      description: "Headache clinic",
+      description: "Orthopaedic",
       image: "/pictures/headAche.jpeg",
       href: "/headache-clinic",
     },
     {
       id: 7,
-      description: "Epilepsy clinic",
+      description: "Onco surgery",
       image: "/pictures/epilepsyClinic.jpeg",
       href: "/epilepsy-clinic",
-    },
-    {
-      id: 8,
-      description: " Sleep clinic ",
-      image: "/pictures/sleepClinic.jpeg",
-      href: "/sleep-clinic",
     },
   ];
 
@@ -103,7 +97,7 @@ const BlissService = () => {
   return (
     <div className="container mx-auto my-10 lg:px-40 sm:px-14 md:px-18 mt-35">
       <div className="flex justify-between items-center mb-4 px-5">
-        <h2 className="text-4xl text-black">Our Treatments</h2>
+        <h2 className="text-4xl text-black">Our Services</h2>
       </div>
 
       {/* Carousel Component */}

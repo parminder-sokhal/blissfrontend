@@ -108,7 +108,7 @@ const Footer = () => {
                     <FaFacebook className="text-white text-xl hover:text-pink-600 hover:bg-white rounded-3xl" />
                   </Link>
                   <Link
-                    to="https://www.instagram.com/loonahospital/"
+                    to="https://www.instagram.com/the_blisshospital?igsh=ejJmMjExb21mcDdp"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -125,7 +125,7 @@ const Footer = () => {
                   className="flex items-center space-x-2 hover:text-black"
                 >
                   <FaPhoneAlt className="text-lg" />
-                  <span>+91 9815490081</span>
+                  <span>01722923333</span>
                 </Link>
               </div>
             </div>
@@ -135,25 +135,23 @@ const Footer = () => {
               <div className="flex flex-col space-y-2 gap-4">
                 <h3 className="text-2xl font-semibold">Contact Info</h3>
                 <Link
-                  to="https://maps.app.goo.gl/qiHc2LCpLXkAJtdy6"
+                  to="https://maps.app.goo.gl/AR1WvaZ6PNzR9Fos7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 hover:text-black"
                 >
                   <FaMapMarkerAlt className="text-lg" />
                   <span>
-                    At the back of community centre, <br />
-                    behind raghunath mandir Parking area, <br />
-                    Sector 15, Panchkula, Haryana, India
+                    The Bliss Hospital, Sector 20, Panchkula, Haryana 134117
                   </span>
                 </Link>
 
                 <Link
-                  to="tel:+919815015212"
+                  to="tel:+919872334233"
                   className="flex items-center space-x-2 hover:text-black"
                 >
                   <FaPhoneAlt className="text-lg" />
-                  <span>+91 9815015212</span>
+                  <span>+91 9872334233</span>
                 </Link>
                 <Link
                   to="mailto:Loonahospital@gmail.com"

@@ -17,7 +17,7 @@ const Headertop = () => {
         {/* Left Section: Mobile View */}
         <div className="flex items-center space-x-6 text-sm sm:block md:flex lg:hidden">
           <Link
-            to="tel:+919815015212"
+            to="tel:+919872334233"
             className="flex items-center space-x-2 hover:text-black"
           >
             <FaPhoneAlt className="text-xl" />
@@ -29,7 +29,7 @@ const Headertop = () => {
             <FaEnvelope className="text-xl" />
           </Link>
           <Link
-            to="https://www.instagram.com/loonahospital/"
+            to="https://www.instagram.com/the_blisshospital?igsh=ejJmMjExb21mcDdp"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,11 +41,11 @@ const Headertop = () => {
         <div className="container mx-auto items-center justify-around space-x-4 hidden lg:flex">
           <div className="flex items-center space-x-6 text-sm">
             <Link
-              to="tel:+919815015212"
+              to="tel:+919872334233"
               className="flex items-center space-x-2 hover:text-black"
             >
               <FaPhoneAlt className="text-xl" />
-              <span>+91 9815015212</span>
+              <span>+91 9872334233</span>
             </Link>
             <Link
               to="mailto:Loonahospital@gmail.com"
@@ -55,13 +55,13 @@ const Headertop = () => {
               <span>Loonahospital@gmail.com</span>
             </Link>
             <Link
-              to="https://maps.app.goo.gl/qiHc2LCpLXkAJtdy6"
+              to="https://maps.app.goo.gl/AR1WvaZ6PNzR9Fos7"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 hover:text-black"
             >
               <FaMapMarkerAlt className="text-xl" />
-              <span>Sector 15, Panchkula (HR)</span>
+              <span>Sector 20, Panchkula, Haryana 134117</span>
             </Link>
           </div>
 
@@ -81,7 +81,7 @@ const Headertop = () => {
               <FaFacebook className="text-white text-xl hover:text-pink-600" />
             </Link>
             <Link
-              to="https://www.instagram.com/loonahospital/"
+              to="https://www.instagram.com/the_blisshospital?igsh=ejJmMjExb21mcDdp"
               target="_blank"
               rel="noopener noreferrer"
             >
