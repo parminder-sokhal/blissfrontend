@@ -3,7 +3,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useSwipeCarousel } from "../hook/useSwipeCarousel";
 
-const OurServices = () => {
+const BlissTreatments = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesPerScreen, setSlidesPerScreen] = useState(3);
 
@@ -129,4 +129,4 @@ const OurServices = () => {
   );
 };
 
-export default OurServices;
+export default BlissTreatments;
