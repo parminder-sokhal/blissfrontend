@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-pink-600 text-white ">
+      <footer className="bg-pink-500 text-white ">
         <div className="container mx-auto  lg:px-20 px-10 py-15">
           <div className="flex flex-col gap-4 sm:flex-row md:flex-row lg:flex-row justify-center space-y-8 sm:space-y-0 lg:space-y-0 sm:space-x-0 md:space-x-8 lg:space-x-8">
             {/* 1st div - Specialty and Treatments */}
