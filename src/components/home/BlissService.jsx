@@ -3,7 +3,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useSwipeCarousel } from "../hook/useSwipeCarousel.js";
 
-const SpecialitiesSlider = () => {
+const BlissService = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesPerScreen, setSlidesPerScreen] = useState(3); // Initially set to 3 for desktop
 
@@ -171,4 +171,4 @@ const SpecialitiesSlider = () => {
   );
 };
 
-export default SpecialitiesSlider;
+export default BlissService;
