@@ -13,7 +13,7 @@ const patientStories = [
     description:
       "Lakshmi Pai entrusted us with her journey, and for that, we are immensely grateful. Under the meticulous care of Dr. Gayatri Kamath at Fortis Hospitals, her medical experience was profoundly guided.",
     treatedBy: "Dr. Gayatri Kamath",
-    hospital: "Loona Hospital, Panchkula",
+    hospital: "DEMO Hospital, Panchkula",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const patientStories = [
     description:
       "John's journey to recovery was made smoother thanks to our attentive care team. His resilience and positive attitude helped him heal faster.",
     treatedBy: "Dr. Asha Mehta",
-    hospital: "Loona Hospital, Panchkula",
+    hospital: "DEMO Hospital, Panchkula",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const patientStories = [
     description:
       "Lakshmi Pai entrusted us with her journey, and for that, we are immensely grateful. Under the meticulous care of Dr. Gayatri Kamath at Fortis Hospitals, her medical experience was profoundly guided.",
     treatedBy: "Dr. Gayatri Kamath",
-    hospital: "Loona Hospital, Panchkula",
+    hospital: "DEMO Hospital, Panchkula",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const patientStories = [
     description:
       "John's journey to recovery was made smoother thanks to our attentive care team. His resilience and positive attitude helped him heal faster.",
     treatedBy: "Dr. Asha Mehta",
-    hospital: "Loona Hospital, Panchkula",
+    hospital: "DEMO Hospital, Panchkula",
   },
 ];
 

@@ -23,7 +23,7 @@ const Headertop = () => {
             <FaPhoneAlt className="text-xl" />
           </Link>
           <Link
-            to="mailto:Loonahospital@gmail.com"
+            to="mailto:blisshospital@gmail.com"
             className="flex items-center space-x-2 hover:text-black"
           >
             <FaEnvelope className="text-xl" />
@@ -48,11 +48,11 @@ const Headertop = () => {
               <span>+91 9872334233</span>
             </Link>
             <Link
-              to="mailto:Loonahospital@gmail.com"
+              to="mailto:blisshospital@gmail.com"
               className="flex items-center space-x-2 hover:text-black"
             >
               <FaEnvelope className="text-xl" />
-              <span>Loonahospital@gmail.com</span>
+              <span>blisshospital@gmail.com</span>
             </Link>
             <Link
               to="https://maps.app.goo.gl/AR1WvaZ6PNzR9Fos7"
@@ -67,14 +67,14 @@ const Headertop = () => {
 
           <div className="flex items-center space-x-4">
             <Link
-              to="https://www.youtube.com/@loonahospital"
+              to="https://www.youtube.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaYoutube className="text-white text-xl hover:text-red-600" />
             </Link>
             <Link
-              to="https://www.facebook.com/drneerajloona"
+              to="https://www.facebook.com/"
               target="_blank"
               rel="noopener noreferrer"
             >

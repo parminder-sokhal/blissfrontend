@@ -16,15 +16,10 @@ const AboutHeading = () => {
         </p>
 
         <h3 className="text-3xl font-bold text-pink-600 mb-4">
-          Welcome to Loona Hospital
+          Welcome to DEMO Hospital
         </h3>
         <p className="text-gray-600 text-lg leading-relaxed mb-12">
-          At Loona Hospital, we prioritize mental health above all else. Our
-          dedicated psychiatry hospital is committed to providing compassionate
-          care and comprehensive treatment for individuals facing a wide range
-          of mental health challenges. With a focus on creating a supportive and
-          healing environment, we aim to empower our patients on their journey
-          patients toward mental wellness.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi cumque reprehenderit tenetur ut nemo quia, fugit earum quasi deleniti minus ipsa quo corporis, doloribus quisquam est soluta quis iusto iste accusantium aperiam eius ab molestiae fugiat commodi! Corrupti pariatur nulla id harum dolorem, cupiditate, impedit eius dicta a velit nihil.
         </p>
 
         <h3 className="text-3xl font-bold text-pink-600 mb-4">
@@ -87,20 +82,14 @@ const AboutHeading = () => {
 
         <h3 className="text-3xl font-bold text-pink-600 mb-4">Recognitions</h3>
         <p className="text-gray-600 text-lg leading-relaxed mb-12">
-          Loona Hospital has been recognized for its commitment to mental health
-          care. We are honored to have received an award from the honorable Dr.
-          Balbir Singh, Health Minister of Punjab, acknowledging our efforts in
-          promoting mental wellness in the community.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste itaque optio velit exercitationem nobis. Aliquid, quo est non veniam error, nostrum, rem reiciendis iste amet delectus voluptatibus. Reiciendis adipisci animi, dignissimos aliquam autem repudiandae rerum totam suscipit dolorem perferendis laudantium.
         </p>
 
         <h3 className="text-3xl font-bold text-pink-600 mb-4">
           Your Journey to Wellness
         </h3>
         <p className="text-gray-600 text-lg leading-relaxed mb-4">
-          At Loona Hospital, we understand that seeking help for mental health
-          challenges can be daunting. Our team is here to support you every step
-          of the way, ensuring that you feel safe, understood, and empowered
-          throughout your treatment journey.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur laborum unde cum quis voluptas eius sapiente sed excepturi temporibus aut, provident, quos dolore, quibusdam harum nisi rerum ipsa voluptates vero recusandae sint illum. Animi, provident sequi labore ut delectus quisquam magni unde sapiente fugit corporis distinctio a repudiandae alias voluptas?
         </p>
         <p className="text-gray-600 text-lg leading-relaxed mb-8">
           Whether you are dealing with anxiety, depression, addiction, or any

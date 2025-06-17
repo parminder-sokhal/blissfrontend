@@ -24,16 +24,40 @@ const Footer = () => {
                   to="/psychiatric-care"
                   className="text-md hover:text-black"
                 >
-                  Psychiatric Care
+                  Obstetric and gynaecology
                 </Link>
                 <Link to="/deaddiction" className="text-sm hover:text-black">
-                  De-addiction Programs
+                  Oncology
                 </Link>
                 <Link
                   to="/sexual-wellness"
                   className="text-md hover:text-black"
                 >
-                  Sexual Wellness Services
+                  General surgery 
+                </Link>
+                <Link
+                  to="#"
+                  className="text-md hover:text-black"
+                >
+                  General medicine
+                </Link>
+                <Link
+                  to="#"
+                  className="text-md hover:text-black"
+                >
+                  Urology
+                </Link>
+                <Link
+                  to="#"
+                  className="text-md hover:text-black"
+                >
+                  Orthopaedic
+                </Link>
+                <Link
+                  to="#"
+                  className="text-md hover:text-black"
+                >
+                  Onco surgery
                 </Link>
               </div>
               {/* Treatments Links */}
@@ -94,14 +118,14 @@ const Footer = () => {
                 <h3 className="text-2xl font-semibold">Social Media</h3>
                 <div className="flex justify-center space-x-4">
                   <Link
-                    to="https://www.youtube.com/@loonahospital"
+                    to="https://www.youtube.com/l"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FaYoutube className="text-white text-xl hover:text-red-600" />
                   </Link>
                   <Link
-                    to="https://www.facebook.com/drneerajloona"
+                    to="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -154,23 +178,19 @@ const Footer = () => {
                   <span>+91 9872334233</span>
                 </Link>
                 <Link
-                  to="mailto:Loonahospital@gmail.com"
+                  to="mailto:blisshospital@gmail.com"
                   className="flex items-center space-x-2 hover:text-black"
                 >
                   <FaEnvelope className="text-lg" />
-                  <span>Loonahospital@gmail.com</span>
+                  <span>blisshospital@gmail.com</span>
                 </Link>
               </div>
 
               <div className="space-y-2 py-5">
                 <h3 className="text-xl font-semibold">About Hospital</h3>
                 <p className="text-sm w-4/5 hover:text-black">
-                  Loona Hospital is a dedicated mental health and wellness
-                  center offering expert care in psychiatry, sexual wellness,
-                  and de-addiction. Our experienced team provides personalized
-                  treatment in a safe, supportive environment—helping you heal,
-                  grow, and thrive
-                </p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, iste facilis velit dolor quam doloremque minus ratione id corrupti. Impedit, repellat commodi consectetur ad ab explicabo! Cum doloribus omnis in dolores nam iste tempora error quam, labore voluptatibus! Corporis veniam amet accusantium vero temporibus ut alias omnis veritatis enim minima!
+                  </p>
               </div>
             </div>
           </div>
@@ -179,10 +199,10 @@ const Footer = () => {
         </div>
         <div className="flex w-full text-center justify-center bg-white text-black">
           <p className="sm:text-sm px-4 py-2">
-            Loona Hospital© 2025 All Rights Reserved. | Designed & Developed
+            DEMO Hospital© 2025 All Rights Reserved. | Designed & Developed
             by:&nbsp;
             <Link to="/dashboard" className="hover:text-gray-700">
-              Loona Hospital
+              DEMO Hospital
             </Link>
           </p>
         </div>
