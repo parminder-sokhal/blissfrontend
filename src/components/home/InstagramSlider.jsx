@@ -7,17 +7,17 @@ const InstagramPosts = () => {
     {
       id: 1,
       image: "/images/insta1.jpg", // This is a fallback image (for visual consistency)
-      href: "https://www.instagram.com/reel/CfEYPJaIA_f/?hl=en", // Reel URL
+      href: "https://www.instagram.com/reel/DKwLVtlRQ5B/?utm_source=ig_web_copy_link", // Reel URL
     },
     {
       id: 2,
       image: "/images/insta2.jpg", // This is a fallback image (for visual consistency)
-      href: "https://www.instagram.com/reel/CQySPD3HGmQ/?hl=en", // Reel URL
+      href: "https://www.instagram.com/reel/DKwLVtlRQ5B/?utm_source=ig_web_copy_link", // Reel URL
     },
     {
       id: 3,
       image: "/images/insta3.jpg", // This is a fallback image (for visual consistency)
-      href: "https://www.instagram.com/reel/C4oiRnhADfI/?hl=en", // Reel URL
+      href: "https://www.instagram.com/reel/DKwLVtlRQ5B/?utm_source=ig_web_copy_link", // Reel URL
     },
   ];
 

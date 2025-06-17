@@ -8,14 +8,15 @@ const PhotoGallery = () => {
 
   // Corrected URLs for Google Drive
   const photos = [
-    "/images/gallery.jpeg",
-    "/images/gallery1.jpeg",
-    "/images/gallery2.jpeg",
-    "/images/gallery3.jpeg",
-    "/images/gallery4.jpeg",
-    "/images/gallery9.jpeg",
-    "/images/gallery6.jpeg",
-    "/images/gallery8.jpeg",
+    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
+    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
+    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
+    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
+    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
+    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
+    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
+    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
+    
   ];
 
   const handleOpen = (index) => {
@@ -43,7 +44,7 @@ const PhotoGallery = () => {
     onPrev: handlePrev,
   });
   return (
-    <div className="bg-fixed bg-[url(/images/Treatmentbg.png)]">
+    <div className="bg-fixed bg-no-repeat bg-cover bg-[url(https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=)]">
       <div className="container mx-auto lg:px-20 px-15 py-20 " {...handlers}>
         <div className="text-center flex flex-col justify-between mb-8">
           <h1 className="text-4xl justify-start flex text-black">

@@ -6,23 +6,23 @@ function insta() {
     {
       id: 1,
       image: "/images/insta1.jpg", // This is a fallback image (for visual consistency)
-      href: "https://www.instagram.com/reel/CfEYPJaIA_f/?hl=en", // Reel URL
+      href: "https://www.instagram.com/reel/DKwLVtlRQ5B/?utm_source=ig_web_copy_link", // Reel URL
     },
     {
       id: 2,
       image: "/images/insta2.jpg", // This is a fallback image (for visual consistency)
-      href: "https://www.instagram.com/reel/CQySPD3HGmQ/?hl=en", // Reel URL
+      href: "https://www.instagram.com/reel/DKwLVtlRQ5B/?utm_source=ig_web_copy_link", // Reel URL
     },
     {
       id: 3,
       image: "/images/insta3.jpg", // This is a fallback image (for visual consistency)
-      href: "https://www.instagram.com/reel/C4oiRnhADfI/?hl=en", // Reel URL
+      href: "https://www.instagram.com/reel/DKwLVtlRQ5B/?utm_source=ig_web_copy_link", // Reel URL
     },
   ];
 
   return (
     <>
-      <div className="flex justify-center  w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('/images/Treatmentbg.png')]">
+      <div className="flex justify-center  w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgX9fSd50dP-IPvYVvflCjDb6H6nmIsCCZA&s')]">
         <span className="flex justify-center items-center sm:text-8xl text-3xl font-semibold text-white">
           Instagram Highlights
         </span>
@@ -40,7 +40,7 @@ function insta() {
               >
                 {/* Instagram post (iframe for Reels) */}
                 <Link to={post.href} target="_blank" rel="noopener noreferrer">
-                  <div className="w-full  h-170 overflow-hidden">
+                  <div className="w-full  h-180 overflow-hidden">
                     <iframe
                       src={`https://www.instagram.com/p/${post.href.split("/")[4]}/embed`}
                       frameBorder="0"

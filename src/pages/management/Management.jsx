@@ -4,22 +4,22 @@ const managementData = [
   {
     name: "Mr. xyz xyzxyz - Founder of DEMO Hospital",
     description: `Founder of ROAR, Mr. Madhav Singh is fully dedicated to the therapeutic and facility management at DEMO Hospital. With over 14 years of experience helping individuals recover from addiction, he has changed countless lives through the Roar Addiction and Rehabilitation Centre, Asola, New Delhi.`,
-    image: "/images/doctor2.jpeg",
+    image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
   },
   {
     name: "Dr. Rina Kapoor - Chief Psychiatrist",
     description: `With 20+ years of experience in psychiatry, Dr. Rina Kapoor is committed to personalized mental health care. She specializes in both adolescent and adult mental wellness, and leads the psychiatric team at DEMO Hospital.`,
-    image: "/images/doctor3.jpeg",
+    image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
   },
   {
     name: "Mr. xyz xyzxyz - Founder of DEMO Hospital",
     description: `Founder of ROAR, Mr. Madhav Singh is fully dedicated to the therapeutic and facility management at DEMO Hospital. With over 14 years of experience helping individuals recover from addiction, he has changed countless lives through the Roar Addiction and Rehabilitation Centre, Asola, New Delhi.`,
-    image: "/images/doctor2.jpeg",
+    image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
   },
   {
     name: "Dr. Rina Kapoor - Chief Psychiatrist",
     description: `With 20+ years of experience in psychiatry, Dr. Rina Kapoor is committed to personalized mental health care. She specializes in both adolescent and adult mental wellness, and leads the psychiatric team at DEMO Hospital.`,
-    image: "/images/doctor3.jpeg",
+    image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
   },
 ];
 
@@ -27,7 +27,7 @@ const Management = () => {
   return (
     <>
       {/* Header Section */}
-      <div className="flex justify-center items-center mt-34 w-full h-60 sm:h-80 bg-cover bg-no-repeat bg-center bg-[url('/images/Treatmentbg.png')]">
+      <div className="flex justify-center items-center mt-34 w-full h-60 sm:h-80 bg-cover bg-no-repeat bg-center bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgX9fSd50dP-IPvYVvflCjDb6H6nmIsCCZA&s')]">
         <h1 className="text-white text-4xl sm:text-6xl font-bold tracking-wide drop-shadow-md">
           Meet Our Team
         </h1>

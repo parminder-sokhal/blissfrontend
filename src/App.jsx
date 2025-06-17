@@ -12,7 +12,7 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/about.jsx";
 import Footer from "./pages/footer/footer.jsx";
 import Doctors from "./pages/Doctor/meetOurDoctor.jsx";
-import TreatmentRoutes from "./pages/home/treatment.jsx";
+// import TreatmentRoutes from "./pages/home/treatment.jsx";
 import Media from "./pages/header/media.jsx";
 import DoctorProfile from "./components/doctor/doctorprofile.jsx";
 import DoctorAppointment from "./pages/Doctor/doctorAppointment.jsx";
@@ -51,7 +51,7 @@ function LayoutWrapper() {
           </Route>
         </Route>
 
-        {TreatmentRoutes}
+        {/* {TreatmentRoutes} */}
         {Media}
       </Routes>
 

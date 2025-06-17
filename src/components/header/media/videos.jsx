@@ -52,7 +52,7 @@ const getYoutubeThumbnail = (embedUrl) => {
   return `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 };
 
-function videos() {
+function Videos() {
   const [activeVideos, setActiveVideos] = useState({});
   
     const handlePlay = (id) => {
@@ -61,7 +61,7 @@ function videos() {
   
     return (
         <>
-        <div className="flex justify-center  w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('/images/Treatmentbg.png')]">
+        <div className="flex justify-center  w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgX9fSd50dP-IPvYVvflCjDb6H6nmIsCCZA&s')]">
         <span className="flex justify-center items-center sm:text-8xl text-5xl font-semibold text-white">Video Gallery </span>
       </div>
       <div className="flex flex-col mx-auto lg:px-60 gap-10 px-6 py-10">
@@ -145,4 +145,4 @@ function videos() {
     );
 }
 
-export default videos
+export default Videos

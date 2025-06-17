@@ -33,30 +33,18 @@ const Footer = () => {
                   to="/sexual-wellness"
                   className="text-md hover:text-black"
                 >
-                  General surgery 
+                  General surgery
                 </Link>
-                <Link
-                  to="#"
-                  className="text-md hover:text-black"
-                >
+                <Link to="#" className="text-md hover:text-black">
                   General medicine
                 </Link>
-                <Link
-                  to="#"
-                  className="text-md hover:text-black"
-                >
+                <Link to="#" className="text-md hover:text-black">
                   Urology
                 </Link>
-                <Link
-                  to="#"
-                  className="text-md hover:text-black"
-                >
+                <Link to="#" className="text-md hover:text-black">
                   Orthopaedic
                 </Link>
-                <Link
-                  to="#"
-                  className="text-md hover:text-black"
-                >
+                <Link to="#" className="text-md hover:text-black">
                   Onco surgery
                 </Link>
               </div>
@@ -189,8 +177,14 @@ const Footer = () => {
               <div className="space-y-2 py-5">
                 <h3 className="text-xl font-semibold">About Hospital</h3>
                 <p className="text-sm w-4/5 hover:text-black">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, iste facilis velit dolor quam doloremque minus ratione id corrupti. Impedit, repellat commodi consectetur ad ab explicabo! Cum doloribus omnis in dolores nam iste tempora error quam, labore voluptatibus! Corporis veniam amet accusantium vero temporibus ut alias omnis veritatis enim minima!
-                  </p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  iste facilis velit dolor quam doloremque minus ratione id
+                  corrupti. Impedit, repellat commodi consectetur ad ab
+                  explicabo! Cum doloribus omnis in dolores nam iste tempora
+                  error quam, labore voluptatibus! Corporis veniam amet
+                  accusantium vero temporibus ut alias omnis veritatis enim
+                  minima!
+                </p>
               </div>
             </div>
           </div>
@@ -199,11 +193,16 @@ const Footer = () => {
         </div>
         <div className="flex w-full text-center justify-center bg-white text-black">
           <p className="sm:text-sm px-4 py-2">
-            DEMO Hospital© 2025 All Rights Reserved. | Designed & Developed
+            Bliss Hospital© 2025 All Rights Reserved. | Designed & Developed
             by:&nbsp;
-            <Link to="/dashboard" className="hover:text-gray-700">
-              DEMO Hospital
-            </Link>
+            <a
+              href="https://quantivisiontech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-700"
+            >
+              Quantivision Tech
+            </a>
           </p>
         </div>
       </footer>

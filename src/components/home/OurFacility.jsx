@@ -13,26 +13,26 @@ const OurFacility = () => {
       id: 1,
       heading: "Therapy",
       description: "Modern Therapy Rooms",
-      image: "/images/DSC01694.jpg",
+      image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
     },
     {
       id: 2,
       heading: "Equipment",
       description: "State-of-the-Art Equipment",
-      image: "/images/DSC01697.jpg",
+      image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
     },
     {
       id: 3,
       heading: "Lounge",
       description: "Relaxation Lounges",
-      image: "/images/DSC01698.jpg",
+      image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
     },
 
     {
       id: 4,
       heading: "Lounge",
       description: "Relaxation Lounges",
-      image: "/images/DSC01710.jpg",
+      image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
     },
   ];
 

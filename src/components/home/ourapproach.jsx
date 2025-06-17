@@ -10,25 +10,25 @@ const OurApproach = () => {
     {
       title: "Motivational Enhance Therapy",
       description:
-        "Motivational Enhancement Therapy (MET) is a client-centered counseling approach that helps individuals strengthen their motivation and commitment to change.",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum magni maxime quasi quis soluta vitae.",
       image: "/pictures/motivationaltherapy.jpeg",
     },
     {
       title: "Yoga & Meditation",
       description:
-        "Yoga and meditation therapy combines physical postures, breath control, and mindfulness practices to promote relaxation, reduce stress, and enhance overall mental well-being.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo id minus quidem distinctio ipsam rem laboriosam amet libero autem.",
       image: "/pictures/Yoga.jpeg",
     },
     {
       title: "Gym ",
       description:
-        "Gym therapy involves structured physical exercise in a gym setting to improve mental health, boost mood, and enhance overall well-being through physical activity and social interaction.",
+        "DEMO mental health, boost mood, and enhance overall well-being through physical activity and social interaction.",
       image: "/pictures/gym.jpeg",
     },
     {
       title: "Recreational activities",
       description:
-        "Recreational activities engage individuals in enjoyable pastimes to promote relaxation, social interaction, and mental well-being while reducing stress and enhancing overall life satisfaction.",
+        "DEMO pastimes to promote relaxation, social interaction, and mental well-being while reducing stress and enhancing overall life satisfaction.",
       image: "/pictures/recreational.jpeg",
     },
   ];
@@ -67,10 +67,7 @@ const OurApproach = () => {
           <h2 className="text-3xl text-black">Our Approach</h2>
           <p className="text-lg text-black text-start flex items-center ">
             Transform Your Life Today!
-            <br /> Are you or a loved one struggling with mental health issues,
-            addiction, or sexual wellness challenges? Our specialized hospital
-            is here to help you reclaim your life and achieve lasting
-            well-being.
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ducimus consequuntur pariatur numquam. Sequi cupiditate dolores perferendis facere quaerat fugit suscipit harum quis, voluptate inventore eligendi magni nostrum commodi delectus quia a saepe cum incidunt nihil repellendus quibusdam? Accusamus, magnam.
           </p>
           <div className="flex items-center flex-row space-x-2">
             <Link

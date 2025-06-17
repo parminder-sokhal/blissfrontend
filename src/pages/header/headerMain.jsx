@@ -42,9 +42,9 @@ function HeaderMain() {
     setIsDropdownNavbarOpen(true);
   };
 
-  const handleDropdownLeave = () => {
-    setIsDropdownOpen(false);
-  };
+  // const handleDropdownLeave = () => {
+  //   setIsDropdownOpen(false);
+  // };
 
   const handleNavbarDropdownLeave = () => {
     setIsDropdownNavbarOpen(false);
