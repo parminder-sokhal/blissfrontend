@@ -183,7 +183,7 @@ const Footer = () => {
                   explicabo! Cum doloribus omnis in dolores nam iste tempora
                   error quam, labore voluptatibus! Corporis veniam amet
                   accusantium vero temporibus ut alias omnis veritatis enim
-                  minima!
+                  minima! xyz
                 </p>
               </div>
             </div>
