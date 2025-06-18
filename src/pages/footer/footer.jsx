@@ -193,7 +193,10 @@ const Footer = () => {
         </div>
         <div className="flex w-full text-center justify-center bg-white text-black">
           <p className="sm:text-sm px-4 py-2">
-            Bliss Hospital© 2025 All Rights Reserved. | Designed & Developed
+            <Link to="/dashboard" className="hover:text-gray-700">
+             Bliss Hospital&nbsp;
+            </Link>
+            © 2025 All Rights Reserved. | Designed & Developed
             by:&nbsp;
             <a
               href="https://quantivisiontech.com"
