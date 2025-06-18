@@ -18,7 +18,7 @@ const DoctorProfile = () => {
     return new Date().toISOString().split("T")[0];
   });
   const [selectedTimeSlot, setSelectedTimeSlot] = useState("");
-  const [visitType, setVisitType] = useState("hospital visit");
+  const [visitType, setVisitType] = useState("Video Call");
 
   useEffect(() => {
     dispatch(getDoctorById(id));
@@ -169,42 +169,10 @@ const DoctorProfile = () => {
               Available Time Slots:
             </div>
 
-            {/* Slot Type Toggle Buttons */}
-            <div className="flex mb-4 gap-2">
-              <button
-                onClick={() => {
-                  setSelectedTimeSlot("");
-                  setVisitType("hospital visit");
-                }}
-                className={`w-1/2 py-2 rounded-md border ${
-                  visitType === "hospital visit"
-                    ? "bg-pink-700 text-white"
-                    : "border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white"
-                }`}
-              >
-                Hospital Visit
-              </button>
-              <button
-                onClick={() => {
-                  setSelectedTimeSlot("");
-                  setVisitType("video consultancy");
-                }}
-                className={`w-1/2 py-2 rounded-md border ${
-                  visitType === "video consultancy"
-                    ? "bg-pink-700 text-white"
-                    : "border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white"
-                }`}
-              >
-                Video Consultancy
-              </button>
-            </div>
-
             {/* Time Slots Based on Selected Type */}
+            {/* Time Slots for Video Call only */}
             <div className="flex flex-wrap gap-2">
-              {(visitType === "hospital visit"
-                ? doctor?.hospitalSlots
-                : doctor?.videoSlots
-              )?.map((time, i) => (
+              {doctor?.videoSlots?.map((time, i) => (
                 <button
                   key={i}
                   onClick={() => setSelectedTimeSlot(time)}

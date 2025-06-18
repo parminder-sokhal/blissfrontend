@@ -308,7 +308,7 @@ function ModalOpenDoctor({ open, onClose, doctor, isEditing }) {
               </div>
             )}
           </div>
-          <div className="md:col-span-1">
+          {/* <div className="md:col-span-1">
             <label className="block mb-1 font-medium">Hospital Slots</label>
             <Select
               isMulti
@@ -321,9 +321,9 @@ function ModalOpenDoctor({ open, onClose, doctor, isEditing }) {
                 handleSelectChange("hospitalSlots", selected)
               }
             />
-          </div>
+          </div> */}
 
-          <div className="md:col-span-1">
+          <div className="md:col-span-2">
             <label className="block mb-1 font-medium">Video Slots</label>
             <Select
               isMulti

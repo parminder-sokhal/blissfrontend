@@ -89,13 +89,7 @@ const DoctorAppointment = () => {
       return;
     }
 
-    const normalizeVisitType = (type) => {
-      if (!type) return "Hospital Visit";
-      const formatted = type.trim().toLowerCase();
-      return formatted.includes("video") ? "Video Call" : "Hospital Visit";
-    };
-
-    const consultationMode = normalizeVisitType(doctor?.visitType);
+    const consultationMode = "Video Call";
 
     const appointmentData = {
       name: patient.name,
@@ -254,7 +248,7 @@ const DoctorAppointment = () => {
           <p className="flex items-center text-2xl gap-4">
             <FaCalendarAlt className="text-pink-600" />
             <p className="text-xl text-gray-700 font-medium">
-              {doctor?.visitType},{" "}
+              Available on:{" "}
               <span className="text-lg font-semibold">
                 {doctor?.availableDate}
               </span>
@@ -329,15 +323,9 @@ const DoctorAppointment = () => {
             </div>
             <button
               onClick={handlePayNow}
-              className={`mt-6 w-full py-2 rounded text-white ${
-                doctor?.visitType?.toLowerCase().includes("video")
-                  ? "bg-green-600 hover:bg-green-700"
-                  : "bg-pink-600 hover:bg-pink-700"
-              }`}
+              className="mt-6 w-full py-2 rounded text-white bg-green-600 hover:bg-green-700"
             >
-              {doctor?.visitType?.toLowerCase().includes("video")
-                ? "Pay Now"
-                : "Pay at Hospital"}
+              Pay Now
             </button>
           </div>
         )}

@@ -116,7 +116,7 @@ function GetAllPaymentDetails() {
           </select>
 
           {/* Consultation Mode Filter */}
-          <select
+          {/* <select
             value={filters.consultationMode}
             onChange={(e) =>
               setFilters({ ...filters, consultationMode: e.target.value })
@@ -135,7 +135,7 @@ function GetAllPaymentDetails() {
                 {mode}
               </option>
             ))}
-          </select>
+          </select> */}
 
           {/* Gender Filter */}
           <select
@@ -182,7 +182,6 @@ function GetAllPaymentDetails() {
                 <th className="p-2">Patient Details</th>
                 <th className="p-2">Doctor</th>
                 <th className="p-2">Time</th>
-                <th className="p-2">Mode</th>
                 <th className="p-2">Amount</th>
                 <th className="p-2">Status</th>
                 <th className="p-2">Created At</th>
@@ -221,10 +220,7 @@ function GetAllPaymentDetails() {
                       </div>
                     </td>
                     <td className="p-2">{payment.doctor?.name}</td>
-                    <td className="p-2">{payment.appointment?.timeSlot}</td>
-                    <td className="p-2">
-                      {payment.appointment?.consultationMode || "N/A"}
-                    </td>
+                    <td className="p-2">{payment.appointment?.timeSlot}</td>                    
                     <td className="p-2">₹{payment.amount}</td>
                     <td className="p-2 capitalize">
                       <span
