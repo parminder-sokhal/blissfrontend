@@ -12,8 +12,7 @@ const VideoPlayHeader = () => {
         className="w-full h-full object-cover"
       >
         <source
-          // src="https://www.dropbox.com/scl/fi/6nrif2ivlzc1shm2a6fst/bgvideo.mp4?rlkey=1majbp4e125q8olv89e0zvzbt&st=f12sztmx&raw=1"
-          src="http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v"
+          src="https://www.dropbox.com/scl/fi/wsz3knvdrewq3n08nzxlr/blisshospital.mp4?rlkey=67bycg7e83h1xfictg0ivx9wt&st=1zggd2d2&dl=0"
           type="video/mp4"
         />
         Your browser does not support the video tag.
