@@ -11,28 +11,28 @@ const OurFacility = () => {
   const facilities = [
     {
       id: 1,
-      heading: "Therapy",
-      description: "Modern Therapy Rooms",
-      image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
+      heading: "OT",
+      description: "Precision and safety in surgery",
+      image: "../img/OT.jpeg",
     },
     {
       id: 2,
-      heading: "Equipment",
-      description: "State-of-the-Art Equipment",
-      image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
+      heading: "NICU",
+      description: "Specialized care for our tiniest patients.",
+      image: "../img/NICU.jpeg",
     },
     {
       id: 3,
-      heading: "Lounge",
-      description: "Relaxation Lounges",
-      image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
+      heading: "ICU",
+      description: "Critical care for life-saving support",
+      image: "../img/ICU.jpeg",
     },
 
     {
       id: 4,
-      heading: "Lounge",
-      description: "Relaxation Lounges",
-      image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
+      heading: "LAB",
+      description: "Innovative research and precise testing",
+      image: "../img/LAB.jpeg",
     },
   ];
 

@@ -2,23 +2,23 @@ import React from "react";
 
 // Certificates data array
 const certificateData = [
+  // {
+  //   image: "/pictures/JCI.jpg",
+  //   heading: "JCI",
+  //   subheading: "Joint Commission International",
+  // },
   {
-    image: "/pictures/JCI.jpg",
-    heading: "JCI",
-    subheading: "Joint Commission International",
-  },
-  {
-    image: "/pictures/NABH.jpg",
+    image: "/img/NABH.jpeg",
     heading: "NABH",
     subheading:
       "National Accreditation Board for Hospitals & Healthcare Providers",
   },
-  {
-    image: "/pictures/NABL.jpg",
-    heading: "NABL",
-    subheading:
-      "National Accreditation Board for Testing and Calibration Laboratories",
-  },
+  // {
+  //   image: "/pictures/NABL.jpg",
+  //   heading: "NABL",
+  //   subheading:
+  //     "National Accreditation Board for Testing and Calibration Laboratories",
+  // },
 ];
 
 const Certificates = () => {

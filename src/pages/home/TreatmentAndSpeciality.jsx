@@ -54,7 +54,11 @@ import EpilepsyClinic from '../../components/header/treatments/EpilepsyClinic.js
 import Seizure from '../../components/header/treatments/seizure.jsx';
 import DeaddictionProgramme from '../../components/header/treatments/De-addictionProgramme.jsx';
 
-const TreatmentRoutes = (
+//Speciality
+
+import ObstetricGynaecology from '../../components/header/Speciality/ObstetricGynaecology.jsx'
+
+const TreatmentAndSpeciality = (
   <>
     {/* Existing routes */}
     <Route path="/depression" element={<DepressionPage />} />
@@ -111,7 +115,11 @@ const TreatmentRoutes = (
     
     <Route path="/epilepsy-clinic" element={<EpilepsyClinic />} />
     <Route path="/seizure" element={<Seizure />} />
+
+    {/* Speciality */}
+    <Route path="/ObstetricGynaecology" element={<ObstetricGynaecology />} />
+    
   </>
 );
 
-export default TreatmentRoutes;
+export default TreatmentAndSpeciality;
