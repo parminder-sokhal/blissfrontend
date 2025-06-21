@@ -52,7 +52,7 @@ const Headertop = () => {
               className="flex items-center space-x-2 hover:text-black"
             >
               <FaEnvelope className="text-xl" />
-              <span>blisshospital@gmail.com</span>
+              <span>blisshospital20@gmail.com</span>
             </Link>
             <Link
               to="https://maps.app.goo.gl/AR1WvaZ6PNzR9Fos7"
