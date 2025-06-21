@@ -16,13 +16,13 @@ function HeaderMain() {
     });
   };
 
-  const toggleSpecialityDropdown = () => {
-    setIsSpecialityDropdownOpen((prev) => {
-      const newState = !prev;
-      if (newState) setIsDropdownOpen(false);
-      return newState;
-    });
-  };
+  // const toggleSpecialityDropdown = () => {
+  //   setIsSpecialityDropdownOpen((prev) => {
+  //     const newState = !prev;
+  //     if (newState) setIsDropdownOpen(false);
+  //     return newState;
+  //   });
+  // };
 
   const toggleNavbarDropdown = () => {
     setIsDropdownNavbarOpen(!isDropdownNavbarOpen);
@@ -48,9 +48,9 @@ function HeaderMain() {
     };
   }, []);
 
-  const handleDropdownHover = () => {
-    setIsDropdownOpen(true);
-  };
+  // const handleDropdownHover = () => {
+  //   setIsDropdownOpen(true);
+  // };
 
   const handleNavbarDropdownHover = () => {
     setIsDropdownNavbarOpen(true);
