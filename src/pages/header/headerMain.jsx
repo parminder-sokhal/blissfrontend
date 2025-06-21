@@ -689,13 +689,56 @@ const handleNavbarDropdownHoverservices = () => {
                 </button>
               </li>
               <li>
-                <Link
-                  to="/deaddiction"
-                  onClick={toggleMobileMenu}
-                  className="block py-2 px-3 text-black hover:bg-gray-100"
+                <button
+                  onClick={toggleNavbarDropdownservices}
+                  className="flex justify-between w-full py-2 px-3 text-black hover:bg-gray-100"
                 >
                   Services
-                </Link>
+                  <svg
+                    className={`w-2.5 h-2.5 ms-2.5 transition-transform duration-200 ${isDropdownNavbarOpenservices ? "rotate-180" : ""}`}
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </button>
+                <div
+                  onClick={toggleMobileMenu}
+                  className={`z-10 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 mt-2 ${isDropdownNavbarOpenservices ? "block" : "hidden"}`}
+                >
+                  <ul className="py-2 text-sm text-gray-700">
+                    <li>
+                      <Link
+                        to="/psychiatric-care"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Psychiatric Care
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/deaddiction"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        De-addiction Programs
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/sexual-wellness"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Sexual Wellness Services
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li>
                 <button
