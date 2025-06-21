@@ -57,6 +57,14 @@ import DeaddictionProgramme from '../../components/header/treatments/De-addictio
 //Speciality
 
 import ObstetricGynaecology from '../../components/header/Speciality/ObstetricGynaecology.jsx'
+import Oncology from '../../components/header/Speciality/Oncology.jsx';
+import GeneralSurgery from '../../components/header/Speciality/GeneralSurgery.jsx';
+import GeneralMedicine from '../../components/header/Speciality/GeneralMedicine.jsx';
+import Urology from '../../components/header/Speciality/Urology.jsx';
+import Orthopaedic from '../../components/header/Speciality/Orthopaedic.jsx';
+import OncoSurgery from '../../components/header/Speciality/OncoSurgery.jsx';
+
+
 
 const TreatmentAndSpeciality = (
   <>
@@ -118,6 +126,12 @@ const TreatmentAndSpeciality = (
 
     {/* Speciality */}
     <Route path="/ObstetricGynaecology" element={<ObstetricGynaecology />} />
+    <Route path="/Oncology" element={<Oncology />} />
+    <Route path="/GeneralSurgery" element={<GeneralSurgery />} />
+    <Route path="/GeneralMedicine" element={<GeneralMedicine />} />
+    <Route path="/Urology" element={<Urology />} />
+    <Route path="/Orthopaedic" element={<Orthopaedic />} />
+    <Route path="/OncoSurgery" element={<OncoSurgery />} />
     
   </>
 );
