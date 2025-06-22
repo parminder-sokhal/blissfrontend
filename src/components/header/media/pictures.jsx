@@ -11,31 +11,28 @@ function Pictures() {
     "/img/photo_6240115743811291757_y.jpg",
     "/img/photo_6240115743811291758_y.jpg",
     "/img/photo_6240115743811291759_y.jpg",
-    "/img/photo_6240115743811291760_y.jpg",
+    // "/img/photo_6240115743811291760_y.jpg",
     "/img/photo_6240115743811291761_y.jpg",
     "/img/photo_6240115743811291762_y.jpg",
     "/img/photo_6240115743811291763_y.jpg",
-    "/img/photo_6240115743811291764_y.jpg",
-    "/img/photo_6240115743811291765_y.jpg",
-    "/img/photo_6240115743811291766_y.jpg",
+    // "/img/photo_6240115743811291764_y.jpg",
+    // "/img/photo_6240115743811291765_y.jpg",
+    // "/img/photo_6240115743811291766_y.jpg",
     "/img/photo_6240115743811291767_y.jpg",
-    "/img/photo_6240115743811291768_y.jpg",
+    // "/img/photo_6240115743811291768_y.jpg",
     "/img/photo_6240115743811291769_y.jpg",
-    "/img/photo_6240115743811291770_y.jpg",
-    "/img/photo_6240115743811291771_y.jpg",
-    "/img/photo_6240115743811291772_y.jpg",
+    // "/img/photo_6240115743811291770_y.jpg",
+    // "/img/photo_6240115743811291771_y.jpg",
+    // "/img/photo_6240115743811291772_y.jpg",
     "/img/photo_6240115743811291773_y.jpg",
     "/img/photo_6240115743811291774_y.jpg",
-    "/img/photo_6240115743811291775_y.jpg",
-    "/img/photo_6240115743811291776_y.jpg",
+    // "/img/photo_6240115743811291775_y.jpg",
+    // "/img/photo_6240115743811291776_y.jpg",
     "/img/photo_6240115743811291777_y.jpg",
-    "/img/photo_6240115743811291778_y.jpg",
-    "/img/photo_6240115743811291779_y.jpg",
+    // "/img/photo_6240115743811291778_y.jpg",
+    // "/img/photo_6240115743811291779_y.jpg",
     "/img/photo_6240115743811291780_y.jpg",
-    "/img/photo_6240115743811291781_y.jpg",
-
-    
-    
+    // "/img/photo_6240115743811291781_y.jpg",   
   ];
 
   const handleOpen = (index) => {
@@ -70,7 +67,7 @@ const handlers = useSwipeCarousel({
       <div className="container mx-auto lg:px-30 px-15 py-20 " {...handlers}>
         <div className="text-center flex flex-col justify-between mb-8">
           <h1 className="sm:text-6xl text-2xl justify-start flex text-black">
-            DEMO
+            Bliss Hospital
           </h1>
           
         </div>

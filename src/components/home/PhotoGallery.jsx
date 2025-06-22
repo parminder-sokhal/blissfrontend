@@ -8,15 +8,18 @@ const PhotoGallery = () => {
 
   // Corrected URLs for Google Drive
   const photos = [
-    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
-    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
-    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
-    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
-    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
-    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
-    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
-    "https://www.shutterstock.com/image-photo/demo-text-message-magnifying-glass-600nw-2491336635.jpg",
-    
+    "/img/photo_6240115743811291757_y.jpg",
+    "/img/photo_6240115743811291758_y.jpg",
+    "/img/photo_6240115743811291759_y.jpg",
+    "/img/photo_6240115743811291761_y.jpg",
+    "/img/photo_6240115743811291762_y.jpg",
+    "/img/photo_6240115743811291763_y.jpg",
+    "/img/photo_6240115743811291767_y.jpg",
+    "/img/photo_6240115743811291769_y.jpg",
+    "/img/photo_6240115743811291773_y.jpg",
+    "/img/photo_6240115743811291774_y.jpg",
+    "/img/photo_6240115743811291777_y.jpg",
+    "/img/photo_6240115743811291780_y.jpg",    
   ];
 
   const handleOpen = (index) => {
