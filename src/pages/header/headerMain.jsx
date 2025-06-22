@@ -137,7 +137,7 @@ const handleNavbarDropdownHoverservices = () => {
                   onClick={toggleNavbarDropdownservices}
                   className="flex items-center justify-between w-full py-2 px-3 text-black hover:bg-gray-100 md:hover:bg-transparent md:p-0"
                 >
-                  Services
+                  Speciality
                   <svg
                     className={`w-2.5 h-2.5 ms-2.5 transition-transform duration-200 ${isDropdownNavbarOpenservices ? "rotate-180" : ""}`}
                     fill="none"
@@ -161,27 +161,59 @@ const handleNavbarDropdownHoverservices = () => {
                   <ul className="py-2 text-sm text-black">
                     <li>
                       <Link
-                        to="/psychiatric-care"
+                        to="/ObstetricGynaecology"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
-                       Psychiatric Care
+                       Obstetric And Gynaecology
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/deaddiction"
+                        to="/Oncology"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
-                        De-addiction Programs
+                        Oncology
                       </Link>
                     </li>
 
                     <li>
                       <Link
-                        to="/sexual-wellness"
+                        to="/GeneralSurgery"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
-                        Sexual Wellness Services
+                        General surgery
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/GeneralMedicine"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        General medicine 
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/Urology"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Urology
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/Orthopaedic"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Orthopaedic
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/OncoSurgery"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Onco surgery
                       </Link>
                     </li>
                   </ul>
@@ -661,7 +693,7 @@ const handleNavbarDropdownHoverservices = () => {
                   onClick={toggleNavbarDropdownservices}
                   className="flex justify-between w-full py-2 px-3 text-black hover:bg-gray-100"
                 >
-                  Services
+                  Speciality
                   <svg
                     className={`w-2.5 h-2.5 ms-2.5 transition-transform duration-200 ${isDropdownNavbarOpenservices ? "rotate-180" : ""}`}
                     fill="none"
@@ -683,26 +715,58 @@ const handleNavbarDropdownHoverservices = () => {
                   <ul className="py-2 text-sm text-gray-700">
                     <li>
                       <Link
-                        to="/psychiatric-care"
+                        to="/ObstetricGynaecology"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
-                        Psychiatric Care
+                        Obstetrics and Gynecology
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/deaddiction"
+                        to="/Oncology"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
-                        De-addiction Programs
+                        Oncology
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/sexual-wellness"
+                        to="/GeneralSurgery"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
-                        Sexual Wellness Services
+                        General Surgery
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/GeneralMedicine"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        General Medicine
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/Urology"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Urology
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/Orthopaedic"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Orthopaedic
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/OncoSurgery"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Onco Surgery
                       </Link>
                     </li>
                   </ul>
