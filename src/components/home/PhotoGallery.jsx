@@ -51,7 +51,7 @@ const PhotoGallery = () => {
       <div className="container mx-auto lg:px-20 px-15 py-20 " {...handlers}>
         <div className="text-center flex flex-col justify-between mb-8">
           <h1 className="text-4xl justify-start flex text-black">
-            DEMO
+            Bliss Hospital
           </h1>
           <h2 className="text-2xl justify-start flex text-gray-800">
             Image Gallery
