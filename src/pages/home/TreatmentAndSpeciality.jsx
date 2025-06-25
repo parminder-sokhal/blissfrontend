@@ -36,7 +36,7 @@ import RelapsePreventionTherapy from '../../components/header/treatments/relapse
 import MotivationEnhancementByHypnosis from '../../components/header/treatments/motivationenhancementbyhypnosis.jsx';
 import SexualWellnessProgram from '../../components/header/treatments/SexualWellnessProgram.jsx';
 import PrematureEjaculation from '../../components/header/treatments/prematureejaculation.jsx';
-import ErectileDysfunction from '../../components/header/treatments/erectiledysfunction.jsx';
+import ErectileDysfunction from '../../components/header/treatments/ErectileDysfunction.jsx';
 import ReducedOrHighLibido from '../../components/header/treatments/reducedorhighlibido.jsx';
 import Anorgasmia from '../../components/header/treatments/anorgasmia.jsx';
 import DHATSyndrome from '../../components/header/treatments/DHATsyndrome.jsx';
