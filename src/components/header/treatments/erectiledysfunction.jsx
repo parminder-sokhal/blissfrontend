@@ -31,10 +31,9 @@ const ErectileDysfunction = () => {
         </h1>
 
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* ✅ Main Content */}
           <div className="lg:w-3/4 space-y-6 text-gray-700">
             <p>
-              Erectile dysfunction (ED) is the inability to achieve or maintain an erection sufficient for satisfactory sexual performance. It can be caused by physical, psychological, or a combination of factors. Effective management of ED involves a comprehensive approach tailored to the individual.
+              Erectile Dysfunction (ED) is the inability to achieve or maintain an erection sufficient for satisfactory sexual performance. It can be caused by physical, psychological, or a combination of factors. Effective management of ED involves a comprehensive approach tailored to the individual.
             </p>
 
             <h2 className="text-xl font-semibold mt-4">1. Diagnosis</h2>
