@@ -328,277 +328,444 @@ const handleNavbarDropdownHoverservices = () => {
           {isDropdownOpen && (
             <div className="hidden md:block mt-2 absolute left-0 w-full bg-white z-40">
               <div className="grid px-40 py-5 mx-auto text-gray-900 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 ">
+                {/* General Medicine */}
                 <ul>
                   <li>
                     <Link
-                      to="/psychiatry"
+                      to="/GeneralMedicineT"
                       className="font-semibold text-md  hover:text-pink-700"
                     >
-                      Psychiatry treatment
+                      General Medicine
                     </Link>
                     <Link
-                      to="/depression"
+                      to="/MedicationForChronic"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Depression
+                      Medications for Chronic Illnesses 
                     </Link>
                     <Link
-                      to="/anxiety"
+                      to="/IVfluids"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Anxiety
+                      IV Fluids and Electrolyte Management
                     </Link>
                     <Link
-                      to="/bipolar-disorder"
+                      to="/BloodTransfusion"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Bipolar Disorder
+                      Blood Transfusions
                     </Link>
                     <Link
-                      to="/schizophrenia"
+                      to="/AntibioticTherapy"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Schizophrenia
+                      Antibiotic Therapy for Infections
                     </Link>
                     <Link
-                      to="/ocd"
+                      to="/NonInvasiveDiagnostic"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      OCD
+                      Non-Invasive Diagnostic Procedures
+                    </Link>
+                    <Link
+                      to="/ManagementInfections"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Management of Infectious Diseases
+                    </Link>
+                    <Link
+                      to="/LifestyleCounselling"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Lifestyle Counselling
+                    </Link>
+                    <Link
+                      to="/Vaccinations"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Vaccinations and Immunizations
+                    </Link>
+                    <Link
+                      to="/PoisoningAndDrug"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Management of Poisoning and Drug Overdose
                     </Link>
                   </li>
                 </ul>
 
-                {/* Counselling and Therapy */}
+                {/* Oncology */}
                 <ul>
                   <li>
                     <Link
-                      to="/counselling-and-therapy"
+                      to="/OncologyT"
                       className="font-semibold text-md  hover:text-pink-700"
                     >
-                      Counselling and Therapy
+                      Oncology
                     </Link>
                     <Link
-                      to="/cbt"
+                      to="/Chemotherapy"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      CBT
+                      Chemotherapy
                     </Link>
                     <Link
-                      to="/dbt"
+                      to="/RadiationTherapy"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      DBT
+                      Radiation Therapy
                     </Link>
                     <Link
-                      to="/individual-counselling"
+                      to="/SurgicalOncology"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Individual Counselling
+                      Surgical Oncology Procedures
                     </Link>
                     <Link
-                      to="/stress-management"
+                      to="/TargetedTherapy"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Stress Management
+                      Targeted Therapy
                     </Link>
                     <Link
-                      to="/behaviour-therapy"
+                      to="/Immunotherapy"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Behaviour Therapy
+                      Immunotherapy
                     </Link>
                     <Link
-                      to="/relaxation-therapy"
+                      to="/BoneMarrow"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Relaxation Therapy
+                      Bone marrow or stem cell transplant
                     </Link>
                     <Link
-                      to="/social-skills-training"
+                      to="/PalliativeCare"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Social Skills Training
+                      Palliative care and pain management
+                    </Link>
+                    <Link
+                      to="/HormoneTherapy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Hormone therapy
+                    </Link>
+                    <Link
+                      to="/OncologicalImagingBiopsy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Oncological imaging and biopsy services
                     </Link>
                   </li>
                 </ul>
 
-                {/* Children Mental Health */}
+                {/* Gynaecology and Obstetrics */}
+
                 <ul>
                   <li>
                     <Link
-                      to="/mental-health-children"
+                      to="/ObstetricsAndGynaecologyT"
                       className="font-semibold text-md  hover:text-pink-700"
                     >
-                      Mental Health Issues and Children
+                       Obstetrics And Gynaecology
+                    </Link>
+
+                    <Link
+                      to="/Obstetrics"
+                      className="font-semibold block p-1 text-md"
+                    >
+                      Obstetrics
                     </Link>
                     <Link
-                      to="/adhd"
+                      to="/AntenatalAndPostnatal"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      ADHD
+                      Antenatal And Postnatal Care
                     </Link>
                     <Link
-                      to="/autism"
+                      to="/NormalVaginalDelivery"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Autism
+                       Normal Vaginal Delivery
                     </Link>
                     <Link
-                      to="/incontinence"
+                      to="/CaesareanSection"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Incontinence
+                       Caesarean Section
                     </Link>
                     <Link
-                      to="/behaviour-issues"
+                      to="/ManagementHighRiskPregnancy"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Behaviour Issues
+                       Management Of High-Risk Pregnancy
                     </Link>
                     <Link
-                      to="/conduct-disorder"
+                      to="/Ultrasound"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Conduct Disorder
+                       Ultrasound And Fetal Monitoring
                     </Link>
                     <Link
-                      to="/learning-disability"
+                      to="/EpiduralAnaesthesia"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Learning Disability
+                       Epidural Anaesthesia During Labor
+                    </Link>
+                    
+                    <Link
+                      to="/Gynaecology"
+                      className="font-semibold block p-1 text-md"
+                    >
+                      Gynaecology
+                    </Link>
+
+                    <Link
+                      to="/HormonalTherapy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Hormonal Therapy 
+                    </Link>
+                    <Link
+                      to="/PapSmears"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Pap Smears And Cervical Biopsies
+                    </Link>
+                    <Link
+                      to="/Hysterectomy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Hysterectomy
+                    </Link>
+                    <Link
+                      to="/DilationAndCurettage"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Dilation And Curettage 
+                    </Link>
+                    <Link
+                      to="/TreatmentForSTI"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Treatment For STIs
+                    </Link>
+                    <Link
+                      to="/InfertilityTreatment"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Infertility Treatment 
+                    </Link>
+                    <Link
+                      to="/LaparoscopyAndHysteroscopy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Laparoscopy And Hysteroscopy 
                     </Link>
                   </li>
                 </ul>
 
-                {/* De-addiction Programme */}
+                {/* General Surgery*/}
                 <ul>
                   <li>
                     <Link
-                      to="/De-addictionProgramme"
+                      to="/GeneralSurgeryT"
                       className="font-semibold text-md  hover:text-pink-700"
                     >
-                      De-addiction Programme
+                      General Surgery
                     </Link>
                     <Link
-                      to="/motivation-enhancement"
+                      to="/Appendectomy"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Motivation Enhancement Therapy
+                      Appendectomy
                     </Link>
                     <Link
-                      to="/relapse-prevention"
+                      to="/HerniaRepair"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Relapse Prevention Therapy
+                      Hernia Repair
                     </Link>
                     <Link
-                      to="/individual-counselling"
+                      to="/GallbladderSurgery"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Individual Counselling
+                      Gallbladder Surgery
                     </Link>
                     <Link
-                      to="/motivation-by-hypnosis"
+                      to="/ThyroidSurgery"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Motivation Enhancement By Hypnosis
+                      Thyroid Surgery
+                    </Link>
+                    <Link
+                      to="/BreastSurgery"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Breast Surgery 
+                    </Link>
+                    <Link
+                      to="/Haemorrhoidectomy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                     Haemorrhoidectomy
+                    </Link>
+                    <Link
+                      to="/ColonAndRectalSurgery"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Colon and Rectal surgery
+                    </Link>
+                    <Link
+                      to="/TraumaSurgery"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Trauma Surgery
+                    </Link>
+                    <Link
+                      to="/WoundCareDrainage"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Wound care and abscess drainage
                     </Link>
                   </li>
                 </ul>
 
-                {/* Sexual Wellness */}
+                {/* Neurology */}
                 <ul>
                   <li>
                     <Link
-                      to="/sexual-wellness-program"
+                      to="/NeurologyT"
                       className="font-semibold text-md  hover:text-pink-700"
                     >
-                      Sexual Wellness Program
+                      Neurology
                     </Link>
                     <Link
-                      to="/premature-ejaculation"
+                      to="/StrokeManagement"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Premature Ejaculation
+                      Stroke Management 
                     </Link>
                     <Link
-                      to="/erectile-dysfunction"
+                      to="/AntiEpilepticDrugs"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Erectile Dysfunction
+                      Anti-Epileptic Drugs
                     </Link>
                     <Link
-                      to="/reduced-high-libido"
+                      to="/MultipleSclerosis"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Reduced Or High Libido
+                      Multiple Sclerosis Management
                     </Link>
                     <Link
-                      to="/anorgasmia"
+                      to="/MigraineChronicHeadache"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Anorgasmia
+                      Migraine And Chronic Headache Management
                     </Link>
                     <Link
-                      to="/dhat-syndrome"
+                      to="/ParkinsonDisease"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      DHAT Syndrome
+                      Parkinson’s disease treatment
+                    </Link>
+                    <Link
+                      to="/NeuropathyAndMyopathy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Neuropathy And Myopathy Treatment
+                    </Link>
+                    <Link
+                      to="/Neuroimaging"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Neuroimaging
+                    </Link>
+                    <Link
+                      to="/LumbarPuncture"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Lumbar Puncture
+                    </Link>
+                    <Link
+                      to="/BotoxTherapy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Botox Therapy for Neurological Disorders
                     </Link>
                   </li>
                 </ul>
 
-                {/* Sleep Clinic */}
+                {/* Urology */}
                 <ul>
                   <li>
                     <Link
-                      to="/sleep-clinic"
+                      to="/UrologyT"
                       className="font-semibold text-md  hover:text-pink-700"
                     >
-                      Sleep Clinic
+                       Urology
                     </Link>
                     <Link
-                      to="/insomnia"
+                      to="/KidneyStoneTreatment"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Insomnia
+                      Kidney Stone Treatment
                     </Link>
                     <Link
-                      to="/disturbed-sleep"
+                      to="/ProstateSurgery"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Disturbed Sleep
+                      Prostate Surgery 
                     </Link>
                     <Link
-                      to="/non-refreshing-sleep"
+                      to="/UrinaryTractInfection"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Non-Refreshing Sleep
+                      Urinary Tract Infection Treatment
                     </Link>
                     <Link
-                      to="/sleep-talking"
+                      to="/BladderCancer"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Sleep Talking
+                      Bladder Cancer Management
                     </Link>
                     <Link
-                      to="/sleep-walking"
+                      to="/MaleInfertility"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Sleep Walking
+                      Male Infertility Treatment
                     </Link>
                     <Link
-                      to="/nightmares"
+                      to="/ErectileDysfunction"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Nightmares
+                      Erectile Dysfunction Management
+                    </Link>
+                    <Link
+                      to="/Cystoscopy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Cystoscopy
+                    </Link>
+                    <Link
+                      to="/Vasectomy"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Vasectomy And Vasectomy Reversal
+                    </Link>
+                    <Link
+                      to="/ReconstructiveUrological"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Reconstructive Urological Surgery
                     </Link>
                   </li>
                 </ul>
 
                 {/* Headache Clinic */}
-                <ul>
+                {/* <ul>
                   <li>
                     <Link
                       to="/headache-clinic"
@@ -619,10 +786,10 @@ const handleNavbarDropdownHoverservices = () => {
                       Tension Headache
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
 
                 {/* Epilepsy Clinic */}
-                <ul>
+                {/* <ul>
                   <li>
                     <Link
                       to="/epilepsy-clinic"
@@ -637,7 +804,7 @@ const handleNavbarDropdownHoverservices = () => {
                       Seizure
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           )}
