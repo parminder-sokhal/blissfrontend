@@ -64,10 +64,9 @@ const OurApproach = () => {
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between">
         {/* Left Section - Centered vertically */}
         <div className="w-full md:w-2/5 flex flex-col justify-center items-start space-y-4 mb-8 md:mb-0 sm:px-10 px-4">
-          <h2 className="text-3xl text-black">Our Approach</h2>
+          <h2 className="text-3xl text-black">Our Vision</h2>
           <p className="text-lg text-black text-start flex items-center ">
-            Transform Your Life Today!
-            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ducimus consequuntur pariatur numquam. Sequi cupiditate dolores perferendis facere quaerat fugit suscipit harum quis, voluptate inventore eligendi magni nostrum commodi delectus quia a saepe cum incidunt nihil repellendus quibusdam? Accusamus, magnam.
+            Our Vision is to be a beacon of hope and healing in the healthcare landscape, recognized for our commitment to excellence, innovation, and compassionate care. We aim to continuously enhance our services and facilities, ensuring that we remain a trusted choice for patients and their families.
           </p>
           <div className="flex items-center flex-row space-x-2">
             <Link

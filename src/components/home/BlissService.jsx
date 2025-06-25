@@ -11,44 +11,44 @@ const BlissService = () => {
     {
       id: 1,
       description: "Obstetric and Gynaecology",
-      image: "/pictures/psychiatry.jpeg",
-      href: "/depression",
+      image: "/img/ObstetricsAndGynecology.jpeg",
+      href: "/ObstetricGynaecology",
     },
     {
       id: 2,
       description: "Oncology",
-      image: "/pictures/counsellingTherapy.jpeg",
-      href: "/counselling-and-therapy",
+      image: "/img/Oncology.jpeg",
+      href: "/Oncology",
     },
     {
       id: 3,
       description: "General surgery",
-      image: "/pictures/mentalHealth.jpeg",
-      href: "/mental-health-children",
+      image: "/img/GeneralSurgery.jpeg",
+      href: "/GeneralSurgery",
     },
     {
       id: 4,
       description: "General medicine",
-      image: "/pictures/Deaddiction.jpeg",
-      href: "/De-addictionProgramme",
+      image: "/img/GeneralMedicine.jpeg",
+      href: "/GeneralMedicine",
     },
     {
       id: 5,
       description: "Urology",
-      image: "/pictures/sexualWellness.jpeg",
-      href: "/sexual-wellness-program",
+      image: "/img/Urology.jpeg",
+      href: "/Urology",
     },
     {
       id: 6,
       description: "Orthopaedic",
-      image: "/pictures/headAche.jpeg",
-      href: "/headache-clinic",
+      image: "/img/Orthopaedics.jpeg",
+      href: "/Orthopaedic",
     },
     {
       id: 7,
       description: "Onco surgery",
-      image: "/pictures/epilepsyClinic.jpeg",
-      href: "/epilepsy-clinic",
+      image: "/img/OncoSurgery.jpeg",
+      href: "/OncoSurgery",
     },
   ];
 
@@ -97,7 +97,7 @@ const BlissService = () => {
   return (
     <div className="container mx-auto my-10 lg:px-40 sm:px-14 md:px-18 mt-35">
       <div className="flex justify-between items-center mb-4 px-5">
-        <h2 className="text-4xl text-black">Our Services</h2>
+        <h2 className="text-4xl text-black">Speciality</h2>
       </div>
 
       {/* Carousel Component */}

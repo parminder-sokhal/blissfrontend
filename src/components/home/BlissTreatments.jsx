@@ -10,19 +10,37 @@ const BlissTreatments = () => {
   const slides = [
     {
       id: 1,
-      description: "Psychiatric Care",
+      description: "General Medicine",
       image: "/pictures/psychiatrycare.jpeg",
       href: "/psychiatric-care",
     },
     {
       id: 2,
-      description: "Sexual Wellness Services",
+      description: "Oncology",
       image: "/pictures/sexualWellness.jpeg",
       href: "/sexual-wellness",
     },
     {
       id: 3,
-      description: "Expert De-addiction Programs",
+      description: "Gynaecology and Obstetrics",
+      image: "/pictures/Deaddiction.jpeg",
+      href: "/deaddiction",
+    },
+    {
+      id: 4,
+      description: "General Surgery",
+      image: "/pictures/Deaddiction.jpeg",
+      href: "/deaddiction",
+    },
+    {
+      id: 5,
+      description: "Neurology",
+      image: "/pictures/Deaddiction.jpeg",
+      href: "/deaddiction",
+    },
+    {
+      id: 6,
+      description: "Urology",
       image: "/pictures/Deaddiction.jpeg",
       href: "/deaddiction",
     },
