@@ -27,7 +27,7 @@ const Management = () => {
   return (
     <>
       {/* Header Section */}
-      <div className="flex justify-center items-center mt-34 w-full h-60 sm:h-80 bg-cover bg-no-repeat bg-center bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgX9fSd50dP-IPvYVvflCjDb6H6nmIsCCZA&s')]">
+      <div className="flex justify-center items-center mt-34 w-full h-60 sm:h-80 bg-cover bg-no-repeat bg-center bg-[url('/img/photo_6240115743811291767_y.jpg')]">
         <h1 className="text-white text-4xl sm:text-6xl font-bold tracking-wide drop-shadow-md">
           Meet Our Team
         </h1>

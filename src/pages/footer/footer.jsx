@@ -19,32 +19,36 @@ const Footer = () => {
             <div className="flex justify-around gap-15 w-1/3 sm:flex-col md:flex-row lg:flex-row space-y-8 sm:space-y-0 transform hover:scale-105 transition duration-300 ease-in-out">
               {/* Speciality Links */}
               <div className="flex flex-col space-y-2 w-full">
-                <h3 className="text-2xl font-semibold">Services</h3>
+                <h3 className="text-2xl font-semibold">Speciality</h3>
                 <Link
-                  to="/psychiatric-care"
+                  to="/ObstetricGynaecology"
                   className="text-md hover:text-black"
                 >
                   Obstetric and gynaecology
                 </Link>
-                <Link to="/deaddiction" className="text-sm hover:text-black">
+                <Link to="/Oncology" className="text-sm hover:text-black">
                   Oncology
                 </Link>
                 <Link
-                  to="/sexual-wellness"
+                  to="/GeneralSurgery"
                   className="text-md hover:text-black"
                 >
                   General surgery
                 </Link>
-                <Link to="#" className="text-md hover:text-black">
+                <Link to="/GeneralMedicine"
+                 className="text-md hover:text-black">
                   General medicine
                 </Link>
-                <Link to="#" className="text-md hover:text-black">
+                <Link to="/Urology"
+                 className="text-md hover:text-black">
                   Urology
                 </Link>
-                <Link to="#" className="text-md hover:text-black">
+                <Link to="/Orthopaedic"
+                 className="text-md hover:text-black">
                   Orthopaedic
                 </Link>
-                <Link to="#" className="text-md hover:text-black">
+                <Link to="/OncoSurgery"
+                 className="text-md hover:text-black">
                   Onco surgery
                 </Link>
               </div>
@@ -52,43 +56,35 @@ const Footer = () => {
               <div className="flex flex-col space-y-2 w-full">
                 <h3 className="text-2xl font-semibold">Treatments</h3>
                 <Link to="/psychiatry" className="text-md hover:text-black">
-                  Psychiatry
+                  General Medicine
                 </Link>
                 <Link
                   to="/counselling-and-therapy"
                   className="text-md hover:text-black"
                 >
-                  Counselling and therapy
+                  Oncology
                 </Link>
                 <Link
                   to="/mental-health-children"
                   className="text-md hover:text-black"
                 >
-                  Mental health issues and children
+                  Gynaecology and Obstetrics
                 </Link>
-                <Link to="/deaddiction" className="text-md hover:text-black">
-                  De-addiction programme
+                <Link to="/deaddiction"
+                 className="text-md hover:text-black">
+                  General Surgery
                 </Link>
                 <Link
                   to="/sexual-wellness-program"
                   className="text-md hover:text-black"
                 >
-                  sexual wellness program
+                  Neurology
                 </Link>
                 <Link
                   to="/headache-clinic"
                   className="text-md hover:text-black"
                 >
-                  Headache clinic
-                </Link>
-                <Link
-                  to="/epilepsy-clinic"
-                  className="text-md hover:text-black"
-                >
-                  Epilepsy clinic
-                </Link>
-                <Link to="/sleep-clinic" className="text-md hover:text-black">
-                  Sleep clinic
+                  Urology
                 </Link>
               </div>
             </div>
@@ -105,20 +101,20 @@ const Footer = () => {
               <div className="space-y-2">
                 <h3 className="text-2xl font-semibold">Social Media</h3>
                 <div className="flex justify-center space-x-4">
-                  <Link
+                  {/* <Link
                     to="https://www.youtube.com/l"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FaYoutube className="text-white text-xl hover:text-red-600" />
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     to="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FaFacebook className="text-white text-xl hover:text-pink-600 hover:bg-white rounded-3xl" />
-                  </Link>
+                  </Link> */}
                   <Link
                     to="https://www.instagram.com/the_blisshospital?igsh=ejJmMjExb21mcDdp"
                     target="_blank"
@@ -170,20 +166,14 @@ const Footer = () => {
                   className="flex items-center space-x-2 hover:text-black"
                 >
                   <FaEnvelope className="text-lg" />
-                  <span>blisshospital@gmail.com</span>
+                  <span>blisshospital20@gmail.com</span>
                 </Link>
               </div>
 
               <div className="space-y-2 py-5">
                 <h3 className="text-xl font-semibold">About Hospital</h3>
                 <p className="text-sm w-4/5 hover:text-black">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
-                  iste facilis velit dolor quam doloremque minus ratione id
-                  corrupti. Impedit, repellat commodi consectetur ad ab
-                  explicabo! Cum doloribus omnis in dolores nam iste tempora
-                  error quam, labore voluptatibus! Corporis veniam amet
-                  accusantium vero temporibus ut alias omnis veritatis enim
-                  minima! xyz
+                  To be a beacon of hope and healing in the healthcare landscape. As a hospital, we are committed to excellence, innovation, and compassionate care—continuously enhancing our services and facilities to remain a trusted choice for patients and their families.
                 </p>
               </div>
             </div>
