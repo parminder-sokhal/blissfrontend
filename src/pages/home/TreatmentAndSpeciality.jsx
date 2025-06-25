@@ -3,57 +3,6 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
-
-// Existing pages
-import DepressionPage from '../../components/header/treatments/DepressionPage.jsx';
-import Psychiatry from '../../components/header/treatments/Psychiatry.jsx';
-import Anxiety from '../../components/header/treatments/Anxiety.jsx';
-import BipolarDisorder from '../../components/header/treatments/BipolarDisorder.jsx';
-import Schizophrenia from '../../components/header/treatments/Schizophrenia.jsx';
-import OCD from '../../components/header/treatments/OCD.jsx';
-import DeaddictionPrograms from '../../components/header/treatments/DeaddictionPrograms.jsx';
-import SexualWellnessServices from '../../components/header/treatments/SexualWellnessServices.jsx';
-import PsychiatricCare from '../../components/header/treatments/PsychiatricCare.jsx';
-
-// New imports
-import CounsellingandTherapy from '../../components/header/treatments/CounsellingandTherapy.jsx';
-import CBT from '../../components/header/treatments/CBT.jsx';
-import DBT from '../../components/header/treatments/DBT.jsx';
-import IndividualCounselling from '../../components/header/treatments/individualcounselling.jsx';
-import StressManagement from '../../components/header/treatments/stressmanagement.jsx';
-import BehaviourTherapy from '../../components/header/treatments/behaviourtherapy.jsx';
-import RelaxationTherapy from '../../components/header/treatments/relaxationtherapy.jsx';
-import SocialSkillsTraining from '../../components/header/treatments/socialskillstraining.jsx';
-import MentalHealthIssuesandChildren from '../../components/header/treatments/MentalHealthIssuesandChildren.jsx';
-import ADHD from '../../components/header/treatments/ADHD.jsx';
-import Autism from '../../components/header/treatments/autism.jsx';
-import Incontinence from '../../components/header/treatments/incontinence.jsx';
-import BehaviourIssues from '../../components/header/treatments/behaviourissues.jsx';
-import ConductDisorder from '../../components/header/treatments/conductdisorder.jsx';
-import LearningDisability from '../../components/header/treatments/learningdisability.jsx';
-import MotivationEnhancementTherapy from '../../components/header/treatments/motivationenhancementtherapy.jsx';
-import RelapsePreventionTherapy from '../../components/header/treatments/relapsepreventiontherapy.jsx';
-import MotivationEnhancementByHypnosis from '../../components/header/treatments/motivationenhancementbyhypnosis.jsx';
-import SexualWellnessProgram from '../../components/header/treatments/SexualWellnessProgram.jsx';
-import PrematureEjaculation from '../../components/header/treatments/prematureejaculation.jsx';
-import ErectileDysfunction from '../../components/header/treatments/erectiledysfunction.jsx';
-import ReducedOrHighLibido from '../../components/header/treatments/reducedorhighlibido.jsx';
-import Anorgasmia from '../../components/header/treatments/anorgasmia.jsx';
-import DHATSyndrome from '../../components/header/treatments/DHATsyndrome.jsx';
-import SleepClinic from '../../components/header/treatments/SleepClinic.jsx';
-import Insomnia from '../../components/header/treatments/insomnia.jsx';
-import DisturbedSleep from '../../components/header/treatments/disturbedsleep.jsx';
-import NonRefreshingSleep from '../../components/header/treatments/non-refreshingsleep.jsx';
-import SleepTalking from '../../components/header/treatments/sleeptalking.jsx';
-import SleepWalking from '../../components/header/treatments/sleepwalking.jsx';
-import Nightmares from '../../components/header/treatments/nightmares.jsx';
-import HeadacheClinic from '../../components/header/treatments/HeadacheClinic.jsx';
-import Migraine from '../../components/header/treatments/migraine.jsx';
-import TensionHeadache from '../../components/header/treatments/tensionheadache.jsx';
-import EpilepsyClinic from '../../components/header/treatments/EpilepsyClinic.jsx';
-import Seizure from '../../components/header/treatments/seizure.jsx';
-import DeaddictionProgramme from '../../components/header/treatments/De-addictionProgramme.jsx';
-
 //Speciality
 
 import ObstetricGynaecology from '../../components/header/Speciality/ObstetricGynaecology.jsx'
@@ -64,66 +13,96 @@ import Urology from '../../components/header/Speciality/Urology.jsx';
 import Orthopaedic from '../../components/header/Speciality/Orthopaedic.jsx';
 import OncoSurgery from '../../components/header/Speciality/OncoSurgery.jsx';
 
+// Bliss Treatments
+
+// General Medicine
+import GeneralMedicineT from '../../components/header/treatments/GeneralMedicineT.jsx';
+import MedicationForChronic from '../../components/header/treatments/MedicationForChronic.jsx';
+import IVfluids from '../../components/header/treatments/IVfluids.jsx';
+import BloodTransfusion from '../../components/header/treatments/BloodTransfusion.jsx';
+import AntibioticTherapy from '../../components/header/treatments/AntibioticTherapy.jsx';
+import NonInvasiveDiagnostic from '../../components/header/treatments/NonInvasiveDiagnostic.jsx';
+import ManagementInfections from '../../components/header/treatments/ManagementInfections.jsx';
+import LifestyleCounselling from '../../components/header/treatments/LifestyleCounselling.jsx';
+import Vaccinations from '../../components/header/treatments/Vaccinations.jsx';
+import PoisoningAndDrug from '../../components/header/treatments/PoisoningAndDrug.jsx';
+
+
+// Oncology
+import OncologyT from '../../components/header/treatments/OncologyT.jsx';
+import Chemotherapy from '../../components/header/treatments/Chemotherapy.jsx';
+import RadiationTherapy from '../../components/header/treatments/RadiationTherapy.jsx';
+import SurgicalOncology from '../../components/header/treatments/SurgicalOncology.jsx';
+import TargetedTherapy from '../../components/header/treatments/TargetedTherapy.jsx';
+import Immunotherapy from '../../components/header/treatments/Immunotherapy.jsx';
+import BoneMarrow from '../../components/header/treatments/BoneMarrow.jsx';
+import PalliativeCare from '../../components/header/treatments/PalliativeCare.jsx';
+import HormoneTherapy from '../../components/header/treatments/HormoneTherapy.jsx';
+import OncologicalImagingBiopsy from '../../components/header/treatments/OncologicalImagingBiopsy.jsx';
+
+// Gynaecology and Obstetrics
+import ObstetricsAndGynaecologyT from '../../components/header/treatments/ObstetricsAndGynaecologyT.jsx';
+
+// Obstetrics
+import Obstetrics from '../../components/header/treatments/Obstetrics.jsx';
+
+import AntenatalAndPostnatal from '../../components/header/treatments/AntenatalAndPostnatal.jsx';
+import NormalVaginalDelivery from '../../components/header/treatments/NormalVaginalDelivery.jsx';
+import CaesareanSection from '../../components/header/treatments/CaesareanSection.jsx';
+import ManagementHighRiskPregnancy from '../../components/header/treatments/ManagementHighRiskPregnancy.jsx';
+import Ultrasound from '../../components/header/treatments/Ultrasound.jsx';
+import EpiduralAnaesthesia from '../../components/header/treatments/EpiduralAnaesthesia.jsx';
+
+// Gynaecology
+import Gynaecology from '../../components/header/treatments/Gynaecology.jsx';
+
+import HormonalTherapy from '../../components/header/treatments/HormonalTherapy.jsx';
+import PapSmears from '../../components/header/treatments/PapSmears.jsx';
+import Hysterectomy from '../../components/header/treatments/Hysterectomy.jsx';
+import DilationAndCurettage from '../../components/header/treatments/DilationAndCurettage.jsx';
+import TreatmentForSTI from '../../components/header/treatments/TreatmentForSTI.jsx';
+import InfertilityTreatment from '../../components/header/treatments/InfertilityTreatment.jsx';
+import LaparoscopyAndHysteroscopy from '../../components/header/treatments/LaparoscopyAndHysteroscopy.jsx';
+
+// General Surgery
+import GeneralSurgeryT from '../../components/header/treatments/GeneralSurgeryT.jsx';
+import Appendectomy from '../../components/header/treatments/Appendectomy.jsx';
+import HerniaRepair from '../../components/header/treatments/HerniaRepair.jsx';
+import GallbladderSurgery from '../../components/header/treatments/GallbladderSurgery.jsx';
+import ThyroidSurgery from '../../components/header/treatments/ThyroidSurgery.jsx';
+import BreastSurgery from '../../components/header/treatments/BreastSurgery.jsx';
+import Haemorrhoidectomy from '../../components/header/treatments/Haemorrhoidectomy.jsx';
+import ColonAndRectalSurgery from '../../components/header/treatments/ColonAndRectalSurgery.jsx';
+import TraumaSurgery from '../../components/header/treatments/TraumaSurgery.jsx';
+import WoundCareDrainage from '../../components/header/treatments/WoundCareDrainage.jsx';
+
+// Neurology
+import NeurologyT from '../../components/header/treatments/NeurologyT.jsx';
+import StrokeManagement from '../../components/header/treatments/StrokeManagement.jsx';
+import AntiEpilepticDrugs from '../../components/header/treatments/AntiEpilepticDrugs.jsx';
+import MultipleSclerosis from '../../components/header/treatments/MultipleSclerosis.jsx';
+import MigraineChronicHeadache from '../../components/header/treatments/MigraineChronicHeadache.jsx';
+import ParkinsonDisease from '../../components/header/treatments/ParkinsonDisease.jsx';
+import NeuropathyAndMyopathy from '../../components/header/treatments/NeuropathyAndMyopathy.jsx';
+import Neuroimaging from '../../components/header/treatments/Neuroimaging.jsx';
+import LumbarPuncture from '../../components/header/treatments/LumbarPuncture.jsx';
+import BotoxTherapy from '../../components/header/treatments/BotoxTherapy.jsx';
+
+// Urology
+import UrologyT from '../../components/header/treatments/UrologyT.jsx';
+import KidneyStoneTreatment from '../../components/header/treatments/KidneyStoneTreatment.jsx';
+import ProstateSurgery from '../../components/header/treatments/ProstateSurgery.jsx';
+import UrinaryTractInfection from '../../components/header/treatments/UrinaryTractInfection.jsx';
+import BladderCancer from '../../components/header/treatments/BladderCancer.jsx';
+import MaleInfertility from '../../components/header/treatments/MaleInfertility.jsx';
+import ErectileDysfunction from '../../components/header/treatments/ErectileDysfunction.jsx';
+import Cystoscopy from '../../components/header/treatments/Cystoscopy.jsx';
+import Vasectomy from '../../components/header/treatments/Vasectomy.jsx';
+import ReconstructiveUrological from '../../components/header/treatments/ReconstructiveUrological.jsx';
 
 
 const TreatmentAndSpeciality = (
   <>
-    {/* Existing routes */}
-    <Route path="/depression" element={<DepressionPage />} />
-    <Route path="/psychiatry" element={<Psychiatry />} />
-    <Route path="/anxiety" element={<Anxiety />} />
-    <Route path="/bipolar-disorder" element={<BipolarDisorder />} />
-    <Route path="/schizophrenia" element={<Schizophrenia />} />
-    <Route path="/ocd" element={<OCD />} />
-    <Route path="/De-addictionProgramme" element={<DeaddictionProgramme />} />
-    <Route path="/deaddiction" element={<DeaddictionPrograms />} />
-    <Route path="/sexual-wellness" element={<SexualWellnessServices />} />
-    <Route path="/psychiatric-care" element={<PsychiatricCare />} />
-
-    {/* New routes */}
-    <Route path="/counselling-and-therapy" element={<CounsellingandTherapy />} />
-    <Route path="/cbt" element={<CBT />} />
-    <Route path="/dbt" element={<DBT />} />
-    <Route path="/individual-counselling" element={<IndividualCounselling />} />
-    <Route path="/stress-management" element={<StressManagement />} />
-    <Route path="/behaviour-therapy" element={<BehaviourTherapy />} />
-    <Route path="/relaxation-therapy" element={<RelaxationTherapy />} />
-    <Route path="/social-skills-training" element={<SocialSkillsTraining />} />
-
-    <Route path="/mental-health-children" element={<MentalHealthIssuesandChildren />} />
-    <Route path="/adhd" element={<ADHD />} />
-    <Route path="/autism" element={<Autism />} />
-    <Route path="/incontinence" element={<Incontinence />} />
-    <Route path="/behaviour-issues" element={<BehaviourIssues />} />
-    <Route path="/conduct-disorder" element={<ConductDisorder />} />
-    <Route path="/learning-disability" element={<LearningDisability />} />
-    
-    <Route path="/motivation-enhancement" element={<MotivationEnhancementTherapy />} />
-    <Route path="/relapse-prevention" element={<RelapsePreventionTherapy />} />
-    <Route path="/motivation-by-hypnosis" element={<MotivationEnhancementByHypnosis />} />
-    <Route path="/sexual-wellness-program" element={<SexualWellnessProgram />} />
-
-    <Route path="/premature-ejaculation" element={<PrematureEjaculation />} />
-    <Route path="/erectile-dysfunction" element={<ErectileDysfunction />} />
-    <Route path="/reduced-high-libido" element={<ReducedOrHighLibido />} />
-    <Route path="/anorgasmia" element={<Anorgasmia />} />
-    <Route path="/dhat-syndrome" element={<DHATSyndrome />} />
-
-    <Route path="/sleep-clinic" element={<SleepClinic />} />
-    <Route path="/insomnia" element={<Insomnia />} />
-    <Route path="/disturbed-sleep" element={<DisturbedSleep />} />
-    <Route path="/non-refreshing-sleep" element={<NonRefreshingSleep />} />
-    <Route path="/sleep-talking" element={<SleepTalking />} />
-    <Route path="/sleep-walking" element={<SleepWalking />} />
-    <Route path="/nightmares" element={<Nightmares />} />
-
-    <Route path="/headache-clinic" element={<HeadacheClinic />} />
-    <Route path="/migraine" element={<Migraine />} />
-    <Route path="/tension-headache" element={<TensionHeadache />} />
-    
-    <Route path="/epilepsy-clinic" element={<EpilepsyClinic />} />
-    <Route path="/seizure" element={<Seizure />} />
-
     {/* Speciality */}
     <Route path="/ObstetricGynaecology" element={<ObstetricGynaecology />} />
     <Route path="/Oncology" element={<Oncology />} />
@@ -133,6 +112,96 @@ const TreatmentAndSpeciality = (
     <Route path="/Orthopaedic" element={<Orthopaedic />} />
     <Route path="/OncoSurgery" element={<OncoSurgery />} />
     
+    {/* Bliss Treatments */}
+
+    {/* General Medicine */}
+    <Route path="/GeneralMedicineT" element={<GeneralMedicineT />} />
+    <Route path="/MedicationForChronic" element={<MedicationForChronic />} />
+    <Route path="/IVfluids" element={<IVfluids />} />
+    <Route path="/BloodTransfusion" element={<BloodTransfusion />} />
+    <Route path="/AntibioticTherapy" element={<AntibioticTherapy />} />
+    <Route path="/NonInvasiveDiagnostic" element={<NonInvasiveDiagnostic />} />
+    <Route path="/ManagementInfections" element={<ManagementInfections />} />
+    <Route path="/LifestyleCounselling" element={<LifestyleCounselling />} />
+    <Route path="/Vaccinations" element={<Vaccinations />} />
+    <Route path="/PoisoningAndDrug" element={<PoisoningAndDrug />} />
+
+    {/* Oncology */}
+
+    <Route path="/OncologyT" element={<OncologyT />} />
+    <Route path="/Chemotherapy" element={<Chemotherapy />} />
+    <Route path="/RadiationTherapy" element={<RadiationTherapy />} />
+    <Route path="/SurgicalOncology" element={<SurgicalOncology />} />
+    <Route path="/TargetedTherapy" element={<TargetedTherapy />} />
+    <Route path="/Immunotherapy" element={<Immunotherapy />} />
+    <Route path="/BoneMarrow" element={<BoneMarrow />} />
+    <Route path="/PalliativeCare" element={<PalliativeCare />} />
+    <Route path="/HormoneTherapy" element={<HormoneTherapy />} />
+    <Route path="/OncologicalImagingBiopsy" element={<OncologicalImagingBiopsy />} />
+
+    {/* Gynaecology and Obstetrics */}
+    <Route path="/ObstetricsAndGynaecologyT" element={<ObstetricsAndGynaecologyT />} />
+
+    {/* Obstetrics */}
+    <Route path="/Obstetrics" element={<Obstetrics />} />
+
+    <Route path="/AntenatalAndPostnatal" element={<AntenatalAndPostnatal />} />
+    <Route path="/NormalVaginalDelivery" element={<NormalVaginalDelivery />} />
+    <Route path="/CaesareanSection" element={<CaesareanSection />} />
+    <Route path="/ManagementHighRiskPregnancy" element={<ManagementHighRiskPregnancy />} />
+    <Route path="/Ultrasound" element={<Ultrasound />} />
+    <Route path="/EpiduralAnaesthesia" element={<EpiduralAnaesthesia />} />
+
+
+    {/* Gynaecology */}
+    <Route path="/Gynaecology" element={<Gynaecology />} />
+
+    <Route path="/HormonalTherapy" element={<HormonalTherapy />} />
+    <Route path="/PapSmears" element={<PapSmears />} />
+    <Route path="/Hysterectomy" element={<Hysterectomy />} />
+    <Route path="/DilationAndCurettage" element={<DilationAndCurettage />} />
+    <Route path="/TreatmentForSTI" element={<TreatmentForSTI />} />
+    <Route path="/InfertilityTreatment" element={<InfertilityTreatment />} />
+    <Route path="/LaparoscopyAndHysteroscopy" element={<LaparoscopyAndHysteroscopy />} />
+
+    {/* General Surgery */}
+
+    <Route path="/GeneralSurgeryT" element={<GeneralSurgeryT />} />
+    <Route path="/Appendectomy" element={<Appendectomy />} />
+    <Route path="/HerniaRepair" element={<HerniaRepair />} />
+    <Route path="/GallbladderSurgery" element={<GallbladderSurgery />} />
+    <Route path="/ThyroidSurgery" element={<ThyroidSurgery />} />
+    <Route path="/BreastSurgery" element={<BreastSurgery />} />
+    <Route path="/Haemorrhoidectomy" element={<Haemorrhoidectomy />} />
+    <Route path="/ColonAndRectalSurgery" element={<ColonAndRectalSurgery />} />
+    <Route path="/TraumaSurgery" element={<TraumaSurgery />} />
+    <Route path="/WoundCareDrainage" element={<WoundCareDrainage />} />
+
+    {/* Neurology */}
+    
+    <Route path="/NeurologyT" element={<NeurologyT />} />
+    <Route path="/StrokeManagement" element={<StrokeManagement />} />
+    <Route path="/AntiEpilepticDrugs" element={<AntiEpilepticDrugs />} />
+    <Route path="/MultipleSclerosis" element={<MultipleSclerosis />} />
+    <Route path="/MigraineChronicHeadache" element={<MigraineChronicHeadache />} />
+    <Route path="/ParkinsonDisease" element={<ParkinsonDisease />} />
+    <Route path="/NeuropathyAndMyopathy" element={<NeuropathyAndMyopathy />} />
+    <Route path="/Neuroimaging" element={<Neuroimaging />} />
+    <Route path="/LumbarPuncture" element={<LumbarPuncture />} />
+    <Route path="/BotoxTherapy" element={<BotoxTherapy />} />
+
+    {/* Urology */}
+    <Route path="/UrologyT" element={<UrologyT />} />
+    <Route path="/KidneyStoneTreatment" element={<KidneyStoneTreatment />} />
+    <Route path="/ProstateSurgery" element={<ProstateSurgery />} />
+    <Route path="/UrinaryTractInfection" element={<UrinaryTractInfection />} />
+    <Route path="/BladderCancer" element={<BladderCancer />} />
+    <Route path="/MaleInfertility" element={<MaleInfertility />} />
+    <Route path="/ErectileDysfunction" element={<ErectileDysfunction />} />
+    <Route path="/Cystoscopy" element={<Cystoscopy />} />
+    <Route path="/Vasectomy" element={<Vasectomy />} />
+    <Route path="/ReconstructiveUrological" element={<ReconstructiveUrological />} />
+
   </>
 );
 

@@ -3,22 +3,17 @@ import { FaAngleRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const data = {
-  bgImage: "/pictures/erectiledysfunction.jpeg", // Replace with your actual image path if different
+  bgImage: "/pictures/ErectileDysfunction.jpeg", // Replace with actual image path
   sidebarLinks: [
-    {
-      title: "Premature Ejaculation",
-      link: "/Premature-Ejaculation",
-    },
-    { title: "Erectile Dysfunction", link: "/Erectile-Dysfunction" },
-    { title: "Reduced Or High Libido", link: "/reduced-high-libido" },
-    {
-      title: "Anorgasmia",
-      link: "/Anorgasmia",
-    },
-    {
-      title: "DHAT Syndrome",
-      link: "/DHAT-Syndrome",
-    },
+    { title: "Kidney Stone Treatment", link: "/KidneyStoneTreatment" },
+    { title: "Prostate Surgery", link: "/ProstateSurgery" },
+    { title: "Urinary Tract Infection Treatment", link: "/UrinaryTractInfection" },
+    { title: "Bladder Cancer Management", link: "/BladderCancer" },
+    { title: "Male Infertility Treatment", link: "/MaleInfertility" },
+    { title: "Erectile Dysfunction Management", link: "/ErectileDysfunction" },
+    { title: "Cystoscopy", link: "/Cystoscopy" },
+    { title: "Vasectomy And Vasectomy Reversal", link: "/Vasectomy" },
+    { title: "Reconstructive Urological Surgery", link: "/ReconstructiveUrological" },
   ],
 };
 
@@ -32,158 +27,75 @@ const ErectileDysfunction = () => {
 
       <div className="px-10 lg:px-40 py-10">
         <h1 className="text-3xl font-bold mb-8 text-gray-800">
-          Sexual Wellness Program for Erectile Dysfunction
+          Erectile Dysfunction Management
         </h1>
 
         <div className="flex flex-col lg:flex-row gap-8">
+          {/* ✅ Main Content */}
           <div className="lg:w-3/4 space-y-6 text-gray-700">
-            <h2 className="font-semibold text-xl">
-              What is Erectile Dysfunction (ED)?
-            </h2>
             <p>
-              Erectile Dysfunction (ED), commonly referred to as impotence, is a
-              condition where a man consistently struggles to achieve or
-              maintain an erection sufficient for sexual intercourse...
-            </p>
-            <p>
-              At [Your Clinic/Practice Name], we understand how distressing and
-              frustrating erectile dysfunction can be...
+              Erectile dysfunction (ED) is the inability to achieve or maintain an erection sufficient for satisfactory sexual performance. It can be caused by physical, psychological, or a combination of factors. Effective management of ED involves a comprehensive approach tailored to the individual.
             </p>
 
-            <h2 className="font-semibold text-xl">
-              Why Choose Our Sexual Wellness Program for Erectile Dysfunction?
-            </h2>
-            <ul className="list-disc pl-6">
-              <li>Understand the underlying causes of ED</li>
-              <li>Reduce anxiety and stress associated with ED</li>
-              <li>Improve communication with your partner</li>
-              <li>Regain confidence and self-esteem</li>
-              <li>
-                Enhance sexual satisfaction through techniques and strategies
-              </li>
+            <h2 className="text-xl font-semibold mt-4">1. Diagnosis</h2>
+            <ul className="list-disc pl-6 space-y-1">
+              <li><strong>Medical History:</strong> Discussion of health conditions, medications, and lifestyle.</li>
+              <li><strong>Physical Examination:</strong> Check for anatomical or physiological issues.</li>
+              <li><strong>Laboratory Tests:</strong> Hormone levels, cholesterol, and blood sugar testing.</li>
+              <li><strong>Psychological Assessment:</strong> Identifying stress, anxiety, or depression.</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">
-              What Causes Erectile Dysfunction?
-            </h2>
-            <h3 className="font-semibold">Physical Causes:</h3>
-            <ul className="list-disc pl-6">
-              <li>Cardiovascular Disease</li>
-              <li>Diabetes</li>
-              <li>Hormonal Imbalances</li>
-              <li>Obesity</li>
-              <li>Medications</li>
-              <li>Neurological Conditions</li>
+            <h2 className="text-xl font-semibold mt-4">2. Lifestyle Modifications</h2>
+            <ul className="list-disc pl-6 space-y-1">
+              <li><strong>Healthy Diet:</strong> Emphasis on fruits, vegetables, and whole grains.</li>
+              <li><strong>Exercise:</strong> Regular physical activity improves blood flow and health.</li>
+              <li><strong>Weight Management:</strong> Essential for overall sexual and cardiovascular health.</li>
+              <li><strong>Quitting Smoking:</strong> Improves circulation and erectile function.</li>
+              <li><strong>Limiting Alcohol:</strong> Helps restore normal sexual performance.</li>
             </ul>
 
-            <h3 className="font-semibold">Psychological Causes:</h3>
-            <ul className="list-disc pl-6">
-              <li>Performance Anxiety</li>
-              <li>Depression</li>
-              <li>Stress and Anxiety</li>
-              <li>Relationship Issues</li>
-              <li>Past Trauma or Experiences</li>
+            <h2 className="text-xl font-semibold mt-4">3. Psychological Counseling</h2>
+            <p>Counseling is effective for men with ED related to psychological causes.</p>
+            <ul className="list-disc pl-6 space-y-1">
+              <li><strong>Cognitive Behavioral Therapy (CBT):</strong> Addresses negative thoughts and behaviors.</li>
+              <li><strong>Couples Therapy:</strong> Encourages open communication and intimacy.</li>
             </ul>
 
-            <h2 className="font-semibold text-xl">
-              How Our Sexual Wellness Program Helps Treat Erectile Dysfunction
-            </h2>
-            <h3 className="font-semibold text-lg">
-              1. Initial Assessment and Goal Setting
-            </h3>
+            <h2 className="text-xl font-semibold mt-4">4. Medical Treatments</h2>
+            <ul className="list-disc pl-6 space-y-1">
+              <li><strong>Oral Medications (PDE5 inhibitors):</strong></li>
+              <ul className="list-disc pl-6 space-y-1">
+                <li>Sildenafil (Viagra)</li>
+                <li>Tadalafil (Cialis)</li>
+                <li>Vardenafil (Levitra)</li>
+                <li>Avanafil (Stendra)</li>
+              </ul>
+              <li><strong>Self-Injection Therapy:</strong> Alprostadil injections directly into the penis.</li>
+              <li><strong>Urethral Suppositories:</strong> Alprostadil inserted into the urethra.</li>
+              <li><strong>Vacuum Erection Devices (VED):</strong> Creates an erection using vacuum pressure.</li>
+            </ul>
+
+            <h2 className="text-xl font-semibold mt-4">5. Surgical Options</h2>
+            <ul className="list-disc pl-6 space-y-1">
+              <li><strong>Penile Implants:</strong> Surgically inserted devices to allow erections.</li>
+              <li><strong>Vascular Surgery:</strong> Improves blood supply to the penis.</li>
+            </ul>
+
+            <h2 className="text-xl font-semibold mt-4">6. Hormone Therapy</h2>
             <p>
-              A comprehensive review of your symptoms, history, and goals to
-              tailor a personalized treatment plan.
+              If low testosterone is a factor, hormone replacement therapy (HRT) may be considered under medical supervision.
             </p>
 
-            <h3 className="font-semibold text-lg">
-              2. Education and Awareness
-            </h3>
+            <h2 className="text-xl font-semibold mt-4">Conclusion</h2>
             <p>
-              Learn about the physical and emotional factors affecting arousal
-              and erection to feel empowered in managing ED.
+              Erectile dysfunction is a common condition that can often be successfully managed with a combination of therapies. Early consultation with a healthcare professional leads to better outcomes, improved confidence, and overall well-being.
             </p>
-
-            <h3 className="font-semibold text-lg">
-              3. Therapeutic Techniques for Treating ED
-            </h3>
-            <ul className="list-disc pl-6">
-              <li>
-                <strong>Cognitive Behavioral Therapy (CBT):</strong> Reduce
-                negative thought patterns and performance anxiety.
-              </li>
-              <li>
-                <strong>Mindfulness and Relaxation:</strong> Manage stress and
-                remain present during intimacy.
-              </li>
-              <li>
-                <strong>Sex Therapy:</strong> Address relationship and intimacy
-                concerns.
-              </li>
-              <li>
-                <strong>Pelvic Floor Exercises:</strong> Improve erectile
-                control and blood flow.
-              </li>
-              <li>
-                <strong>Lifestyle Modifications:</strong> Improve overall health
-                to support erectile function.
-              </li>
-            </ul>
-
-            <h3 className="font-semibold text-lg">
-              4. Medical Treatments (If Applicable)
-            </h3>
-            <ul className="list-disc pl-6">
-              <li>
-                <strong>Oral Medications:</strong> Such as Viagra, Cialis, and
-                Levitra.
-              </li>
-              <li>
-                <strong>Testosterone Therapy:</strong> If low testosterone is a
-                contributing factor.
-              </li>
-              <li>
-                <strong>Vacuum Devices:</strong> To stimulate erection.
-              </li>
-              <li>
-                <strong>Penile Injections or Implants:</strong> For more severe,
-                treatment-resistant ED.
-              </li>
-            </ul>
-
-            <h3 className="font-semibold text-lg">
-              5. Couples Therapy (Optional)
-            </h3>
-            <p>
-              Improve intimacy and emotional connection by working together
-              through sexual and relationship challenges.
-            </p>
-
-            <h3 className="font-semibold text-lg">
-              6. Ongoing Support and Progress Monitoring
-            </h3>
-            <p>
-              We regularly evaluate your progress and adjust the plan as needed
-              for lasting results and support.
-            </p>
-
-            <h2 className="font-semibold text-xl">
-              What Are the Benefits of the Sexual Wellness Program for Erectile
-              Dysfunction?
-            </h2>
-            <ul className="list-disc pl-6">
-              <li>Improved erectile function</li>
-              <li>Reduced anxiety and stress</li>
-              <li>Enhanced sexual satisfaction</li>
-              <li>Stronger emotional intimacy</li>
-              <li>Increased confidence and well-being</li>
-              <li>Better overall health through lifestyle improvement</li>
-            </ul>
           </div>
 
+          {/* ✅ Sidebar */}
           <div className="lg:w-1/4 h-1/3 bg-gray-100 py-10 rounded-md shadow px-10">
             <h2 className="text-xl font-semibold mb-4 text-gray-800">
-              Sexual Wellness Program
+              Urology Services
             </h2>
             <ul className="space-y-4">
               {data.sidebarLinks.map((item, index) => (
