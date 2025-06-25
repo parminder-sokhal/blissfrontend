@@ -95,7 +95,6 @@ import ProstateSurgery from '../../components/header/treatments/ProstateSurgery.
 import UrinaryTractInfection from '../../components/header/treatments/UrinaryTractInfection.jsx';
 import BladderCancer from '../../components/header/treatments/BladderCancer.jsx';
 import MaleInfertility from '../../components/header/treatments/MaleInfertility.jsx';
-import ErectileDysfunction from '../../components/header/treatments/ErectileDysfunction.jsx';
 import Cystoscopy from '../../components/header/treatments/Cystoscopy.jsx';
 import Vasectomy from '../../components/header/treatments/Vasectomy.jsx';
 import ReconstructiveUrological from '../../components/header/treatments/ReconstructiveUrological.jsx';
@@ -197,7 +196,6 @@ const TreatmentAndSpeciality = (
     <Route path="/UrinaryTractInfection" element={<UrinaryTractInfection />} />
     <Route path="/BladderCancer" element={<BladderCancer />} />
     <Route path="/MaleInfertility" element={<MaleInfertility />} />
-    <Route path="/ErectileDysfunction" element={<ErectileDysfunction />} />
     <Route path="/Cystoscopy" element={<Cystoscopy />} />
     <Route path="/Vasectomy" element={<Vasectomy />} />
     <Route path="/ReconstructiveUrological" element={<ReconstructiveUrological />} />
