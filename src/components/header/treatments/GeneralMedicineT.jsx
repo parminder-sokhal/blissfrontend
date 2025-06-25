@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const data = {
-  bgImage: "/pictures/ADHD.jpeg", // Replace with actual image path
+  bgImage: "/img/GeneralMedicineT.jpeg", // Replace with actual image path
   sidebarLinks: [
     { title: "Medications for chronic illnesses", link: "/MedicationForChronic" },
     { title: "IV fluids and electrolyte management", link: "/IVfluids" },

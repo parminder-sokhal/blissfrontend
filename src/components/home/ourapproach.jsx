@@ -19,18 +19,18 @@ const OurApproach = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo id minus quidem distinctio ipsam rem laboriosam amet libero autem.",
       image: "/pictures/Yoga.jpeg",
     },
-    {
-      title: "Gym ",
-      description:
-        "DEMO mental health, boost mood, and enhance overall well-being through physical activity and social interaction.",
-      image: "/pictures/gym.jpeg",
-    },
-    {
-      title: "Recreational activities",
-      description:
-        "DEMO pastimes to promote relaxation, social interaction, and mental well-being while reducing stress and enhancing overall life satisfaction.",
-      image: "/pictures/recreational.jpeg",
-    },
+    // {
+    //   title: "Gym ",
+    //   description:
+    //     "DEMO mental health, boost mood, and enhance overall well-being through physical activity and social interaction.",
+    //   image: "/pictures/gym.jpeg",
+    // },
+    // {
+    //   title: "Recreational activities",
+    //   description:
+    //     "DEMO pastimes to promote relaxation, social interaction, and mental well-being while reducing stress and enhancing overall life satisfaction.",
+    //   image: "/pictures/recreational.jpeg",
+    // },
   ];
 
   const itemsPerPage = 2;

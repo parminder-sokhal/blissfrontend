@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const data = {
-  bgImage: "/pictures/appendectomy.jpeg", // Update this path to match your actual image
+  bgImage: "/img/Appendectomy.jpeg", // Update this path to match your actual image
   sidebarLinks: [
     { title: "Appendectomy", link: "/Appendectomy" },
     { title: "Hernia Repair", link: "/HerniaRepair" },

@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const data = {
-  bgImage: "/pictures/ADHD.jpeg", // Replace with your actual image path if needed
+  bgImage: "/img/LumbarPuncture.jpeg", // Replace with your actual image path if needed
   sidebarLinks: [
     { title: "Stroke Management", link: "/StrokeManagement" },
     { title: "Anti-Epileptic Drugs", link: "/AntiEpilepticDrugs" },

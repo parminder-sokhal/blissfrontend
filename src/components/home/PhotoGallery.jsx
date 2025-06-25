@@ -47,7 +47,7 @@ const PhotoGallery = () => {
     onPrev: handlePrev,
   });
   return (
-    <div className="bg-fixed bg-no-repeat bg-cover bg-[url(https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=)]">
+    <div className="bg-fixed bg-no-repeat bg-cover bg-[url('/img/blissbg.jpeg')]">
       <div className="container mx-auto lg:px-20 px-15 py-20 " {...handlers}>
         <div className="text-center flex flex-col justify-between mb-8">
           <h1 className="text-4xl justify-start flex text-black">
