@@ -23,11 +23,11 @@ const VideoPlayHeader = () => {
           to="tel:+919872334233"
           className="flex items-center text-white space-x-2"
         >
-          <div className="icon text-red-700 hover:text-pink-700 hover:bg-red-700 bg-pink-500 rounded-full p-2 shadow-lg flex justify-center items-center">
+          <div className="icon text-red-700 hover:text-pink-700  rounded-full p-2 shadow-lg flex justify-center items-center">
             <FaPhoneAlt size={30} />
           </div>
           <div className="call lg:text-2xl sm:text-xl md:text-xl text-black hover:text-pink-700 font-semibold text-center flex flex-col gap-1 items-center">
-            <span className="bg-white px-1 py-1 rounded-sm">
+            <span className="font-bold px-1 py-1 rounded-sm">
               {"+91 9872334233"}
             </span>
           </div>
