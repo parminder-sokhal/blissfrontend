@@ -283,6 +283,14 @@ const handleNavbarDropdownHoverservices = () => {
                   Management
                 </Link>
               </li> */}
+              <li>
+                <Link
+                  to="/careers"
+                  className="block py-2 px-3 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-800 md:p-0"
+                >
+                  Careers
+                </Link>
+              </li>
             </ul>
           </div>
 

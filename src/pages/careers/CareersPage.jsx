@@ -102,111 +102,119 @@ const CareersPage = () => {
   }, [submitted, loading, error]);
 
   return (
-    <div className="container mx-auto my-10 lg:px-30 max-w-2xl sm:px-14 md:px-18 px-10 mt-40">
-      <h1 className="text-2xl font-bold my-6 text-center">
+    <>
+      <div className="flex justify-center  w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgX9fSd50dP-IPvYVvflCjDb6H6nmIsCCZA&s')]">
+        <span className="flex justify-center items-center sm:text-8xl text-6xl font-semibold text-white">
+          Careers
+        </span>
+      </div>
+
+      
+      <h1 className="sm:text-5xl text-4xl font-bold my-6 text-center">
         Apply for a Career at Bliss Hospital
       </h1>
+      <div className="container mx-auto my-10 lg:px-30 max-w-2xl sm:px-14 md:px-18 px-10 ">
+        {showSuccess && (
+          <div className="text-green-600 mb-4 text-center font-semibold">
+            🎉 You have successfully applied! We will contact you soon.
+          </div>
+        )}
+        {error && (
+          <div className="text-red-600 mb-4 text-center font-semibold">
+            ❌ {error}
+          </div>
+        )}
 
-      {showSuccess && (
-        <div className="text-green-600 mb-4 text-center font-semibold">
-          🎉 You have successfully applied! We will contact you soon.
-        </div>
-      )}
-      {error && (
-        <div className="text-red-600 mb-4 text-center font-semibold">
-          ❌ {error}
-        </div>
-      )}
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label className="block font-medium">Name</label>
+            <input
+              name="name"
+              type="text"
+              value={formData.name}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border rounded"
+              placeholder="Your Name"
+            />
+            {formErrors.name && (
+              <p className="text-red-500 text-sm">{formErrors.name}</p>
+            )}
+          </div>
 
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label className="block font-medium">Name</label>
-          <input
-            name="name"
-            type="text"
-            value={formData.name}
-            onChange={handleChange}
-            className="w-full px-3 py-2 border rounded"
-            placeholder="Your Name"
-          />
-          {formErrors.name && (
-            <p className="text-red-500 text-sm">{formErrors.name}</p>
-          )}
-        </div>
+          <div>
+            <label className="block font-medium">Position </label>
+            <input
+              name="position"
+              type="text"
+              value={formData.position}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border rounded"
+              placeholder="Doctor, Nurse, etc."
+            />
+            {formErrors.position && (
+              <p className="text-red-500 text-sm">{formErrors.position}</p>
+            )}
+          </div>
 
-        <div>
-          <label className="block font-medium">Position </label>
-          <input
-            name="position"
-            type="text"
-            value={formData.position}
-            onChange={handleChange}
-            className="w-full px-3 py-2 border rounded"
-            placeholder="Doctor, Nurse, etc."
-          />
-          {formErrors.position && (
-            <p className="text-red-500 text-sm">{formErrors.position}</p>
-          )}
-        </div>
+          <div>
+            <label className="block font-medium">Email</label>
+            <input
+              name="email"
+              type="email"
+              value={formData.contact.email}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border rounded"
+              placeholder="example@domain.com"
+            />
+            {formErrors.email && (
+              <p className="text-red-500 text-sm">{formErrors.email}</p>
+            )}
+          </div>
 
-        <div>
-          <label className="block font-medium">Email</label>
-          <input
-            name="email"
-            type="email"
-            value={formData.contact.email}
-            onChange={handleChange}
-            className="w-full px-3 py-2 border rounded"
-            placeholder="example@domain.com"
-          />
-          {formErrors.email && (
-            <p className="text-red-500 text-sm">{formErrors.email}</p>
-          )}
-        </div>
+          <div>
+            <label className="block font-medium">Phone Number</label>
+            <input
+              name="phone"
+              type="tel"
+              value={formData.contact.phone}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border rounded"
+              placeholder="10 digit phone number"
+            />
+            {formErrors.phone && (
+              <p className="text-red-500 text-sm">{formErrors.phone}</p>
+            )}
+          </div>
 
-        <div>
-          <label className="block font-medium">Phone Number</label>
-          <input
-            name="phone"
-            type="tel"
-            value={formData.contact.phone}
-            onChange={handleChange}
-            className="w-full px-3 py-2 border rounded"
-            placeholder="10 digit phone number"
-          />
-          {formErrors.phone && (
-            <p className="text-red-500 text-sm">{formErrors.phone}</p>
-          )}
-        </div>
+          <div>
+            <label className="block font-medium">Resume Link</label>
+            <label className="text-sm text-gray-700 mb-1">
+              Please provide a public link to your resume (e.g., Google Drive,
+              Dropbox).
+            </label>
+            <input
+              name="resumeLink"
+              type="url"
+              value={formData.resumeLink}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border rounded"
+              placeholder="https://drive.google.com/..."
+            />
+            {formErrors.resumeLink && (
+              <p className="text-red-500 text-sm">{formErrors.resumeLink}</p>
+            )}
+          </div>
 
-        <div>
-          <label className="block font-medium">Resume Link</label>
-          <label className="text-sm text-gray-700 mb-1">
-            Please provide a public link to your resume (e.g., Google Drive,
-            Dropbox).
-          </label>
-          <input
-            name="resumeLink"
-            type="url"
-            value={formData.resumeLink}
-            onChange={handleChange}
-            className="w-full px-3 py-2 border rounded"
-            placeholder="https://drive.google.com/..."
-          />
-          {formErrors.resumeLink && (
-            <p className="text-red-500 text-sm">{formErrors.resumeLink}</p>
-          )}
-        </div>
-
-        <button
-          type="submit"
-          disabled={loading}
-          className="w-full bg-pink-600 text-white py-2 rounded hover:bg-pink-700 transition"
-        >
-          {loading ? "Submitting..." : "Submit Application"}
-        </button>
-      </form>
-    </div>
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full bg-pink-600 text-white py-2 rounded hover:bg-pink-700 transition"
+          >
+            {loading ? "Submitting..." : "Submit Application"}
+          </button>
+        </form>
+      </div>
+    </>
   );
 };
 
