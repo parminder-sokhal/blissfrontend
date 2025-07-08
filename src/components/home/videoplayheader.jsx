@@ -17,6 +17,7 @@ const VideoPlayHeader = () => {
         />
         Your browser does not support the video tag.
       </video>
+      
 
       <div className="absolute top-1/2 right-12 transform -translate-y-1/2 translate-x-1/2 rotate-90 flex justify-around items-center">
         <Link

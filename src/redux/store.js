@@ -4,6 +4,7 @@ import appointmentSlice from "./reducers/appointmentSlice.js";
 import userSlice from "./reducers/userSlice.js";
 import paymentSlice from "./reducers/paymentSlice.js";
 import CareerSlice from "./reducers/careerSlice.js";
+import linksSclice from "./reducers/linksSlice.js";
 
 const store = configureStore({
   reducer: {
@@ -12,6 +13,7 @@ const store = configureStore({
     user: userSlice,
     payment: paymentSlice,
     career: CareerSlice,
+    links: linksSclice,
   },
 });
 
