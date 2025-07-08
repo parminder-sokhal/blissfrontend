@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const data = {
-  bgImage: "/pictures/ADHD.jpeg", // Replace with your actual image path if different
+  bgImage: "/img/Vasectomy.jpeg", // Replace with your actual image path if different
   sidebarLinks: [
     { title: "Kidney Stone Treatment", link: "/KidneyStoneTreatment" },
     { title: "Prostate Surgery", link: "/ProstateSurgery" },

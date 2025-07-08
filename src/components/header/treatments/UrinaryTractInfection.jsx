@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const data = {
-  bgImage: "/pictures/UrologyBanner.jpeg", // Update the path as needed
+  bgImage: "/img/UrinaryTractInfection.jpeg", // Update the path as needed
   sidebarLinks: [
     { title: "Kidney Stone Treatment", link: "/KidneyStoneTreatment" },
     { title: "Prostate Surgery", link: "/ProstateSurgery" },

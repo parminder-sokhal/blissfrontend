@@ -23,6 +23,8 @@ import AddDoctor from "./components/dashboard/AddDoctor/AddDoctor.jsx";
 import GetAllPaymentDetails from "./components/dashboard/payment/GetAllPaymentDetails.jsx";
 import GetAllOfflinePayments from "./components/dashboard/payment/GetAllOfflinePayments.jsx";
 import Management from "./pages/management/Management.jsx";
+import Careers from "./components/dashboard/careers/Careers.jsx";
+import CareersPage from "./pages/careers/CareersPage.jsx";
 
 function LayoutWrapper() {
   const location = useLocation();
@@ -41,6 +43,8 @@ function LayoutWrapper() {
         <Route path="/doctor/:id" element={<DoctorProfile />} />
         <Route path="/appointment" element={<DoctorAppointment />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/careers" element={<CareersPage />} />
+
 
         {/* Private dashboard route with nested child routes */}
         <Route element={<PrivateRoute />}>
@@ -48,6 +52,7 @@ function LayoutWrapper() {
             <Route path="AddDoctor" element={<AddDoctor />} />
             <Route path="GetAllPaymentDetails" element={<GetAllPaymentDetails />} />
             <Route path="GetAllOfflinePayments" element={<GetAllOfflinePayments />} />
+            <Route path="Careers" element={<Careers />} />
           </Route>
         </Route>
 

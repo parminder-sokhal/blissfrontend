@@ -8,29 +8,29 @@ const OurApproach = () => {
 
   const data = [
     {
-      title: "Motivational Enhance Therapy",
+      title: "Learning And Development Training",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum magni maxime quasi quis soluta vitae.",
-      image: "/pictures/motivationaltherapy.jpeg",
+        "Learning and development training involves structured programs aimed at enhancing employees' skills, knowledge, and competencies to improve individual and organizational performance.",
+      image: "/img/LearningAndDevelopment.jpeg",
     },
     {
-      title: "Yoga & Meditation",
+      title: "Team Building Activities",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo id minus quidem distinctio ipsam rem laboriosam amet libero autem.",
-      image: "/pictures/Yoga.jpeg",
+        "Team building activities are engaging exercises designed to enhance collaboration, communication, and trust among team members, fostering a positive work environment.",
+      image: "/img/TeamBuildingActivities.jpeg",
     },
-    {
-      title: "Gym ",
-      description:
-        "DEMO mental health, boost mood, and enhance overall well-being through physical activity and social interaction.",
-      image: "/pictures/gym.jpeg",
-    },
-    {
-      title: "Recreational activities",
-      description:
-        "DEMO pastimes to promote relaxation, social interaction, and mental well-being while reducing stress and enhancing overall life satisfaction.",
-      image: "/pictures/recreational.jpeg",
-    },
+    // {
+    //   title: "Gym ",
+    //   description:
+    //     "DEMO mental health, boost mood, and enhance overall well-being through physical activity and social interaction.",
+    //   image: "/pictures/gym.jpeg",
+    // },
+    // {
+    //   title: "Recreational activities",
+    //   description:
+    //     "DEMO pastimes to promote relaxation, social interaction, and mental well-being while reducing stress and enhancing overall life satisfaction.",
+    //   image: "/pictures/recreational.jpeg",
+    // },
   ];
 
   const itemsPerPage = 2;
@@ -64,7 +64,7 @@ const OurApproach = () => {
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between">
         {/* Left Section - Centered vertically */}
         <div className="w-full md:w-2/5 flex flex-col justify-center items-start space-y-4 mb-8 md:mb-0 sm:px-10 px-4">
-          <h2 className="text-3xl text-black">Our Vision</h2>
+          <h2 className="text-3xl text-black font-bold">Our Vision</h2>
           <p className="text-lg text-black text-start flex items-center ">
             Our Vision is to be a beacon of hope and healing in the healthcare landscape, recognized for our commitment to excellence, innovation, and compassionate care. We aim to continuously enhance our services and facilities, ensuring that we remain a trusted choice for patients and their families.
           </p>
@@ -124,7 +124,7 @@ const OurApproach = () => {
             ))}
           </div>
 
-          <div className="flex justify-center space-x-2">
+          {/* <div className="flex justify-center space-x-2">
             {[...Array(pagesCount)].map((_, index) => (
               <button
                 key={index}
@@ -134,7 +134,7 @@ const OurApproach = () => {
                 }`}
               ></button>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
