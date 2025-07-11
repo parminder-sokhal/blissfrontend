@@ -26,7 +26,7 @@ import GetAllOfflinePayments from "./components/dashboard/payment/GetAllOfflineP
 import Management from "./pages/management/Management.jsx";
 import Careers from "./components/dashboard/careers/Careers.jsx";
 import CareersPage from "./pages/careers/CareersPage.jsx";
-import AddLinks from "./components/dashboard/links/AddLinks.jsx";
+import AddLinks from "./components/dashboard/Links/AddLinks.jsx";
 
 function LayoutWrapper() {
   const location = useLocation();
