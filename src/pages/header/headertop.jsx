@@ -96,7 +96,7 @@ const Headertop = () => {
             to="/doctors"
             className="bg-white text-black px-1.5 py-1 rounded-sm text-sm hover:bg-black transition-all whitespace-nowrap"
           >
-            OPD Timing
+            OPD Availability
           </Link>
         </div>
       </div>

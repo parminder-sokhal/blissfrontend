@@ -15,7 +15,7 @@ import Doctors from "./pages/Doctor/meetOurDoctor.jsx";
 import TreatmentAndSpeciality from "./pages/home/TreatmentAndSpeciality.jsx";
 import Media from "./pages/header/media.jsx";
 import DoctorProfile from "./components/doctor/doctorprofile.jsx";
-import DoctorAppointment from "./pages/Doctor/doctorAppointment.jsx";
+// import DoctorAppointment from "./pages/Doctor/doctorAppointment.jsx";
 import PrivateRoute from "./components/privateRoute/PrivateRoute.jsx";
 import Dashboard from "./pages/dashboard/dashboard.jsx";
 import WelcomeDashboard from "./pages/dashboard/WelcomeDashboard.jsx";
@@ -43,7 +43,8 @@ function LayoutWrapper() {
         <Route path="/management" element={<Management />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/doctor/:id" element={<DoctorProfile />} />
-        <Route path="/appointment" element={<DoctorAppointment />} />
+        {/* <Route path="/appointment" element={<DoctorAppointment />} /> */}
+
         <Route path="/signin" element={<SignIn />} />
         <Route path="/careers" element={<CareersPage />} />
 

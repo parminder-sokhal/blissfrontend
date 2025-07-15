@@ -132,7 +132,8 @@ const DoctorProfile = () => {
 
           <div>
             <div className="flex items-center gap-2 mb-2 text-pink-700">
-              <FaAward /> <h3 className="text-2xl font-semibold">Achievements</h3>
+              <FaAward />{" "}
+              <h3 className="text-2xl font-semibold">Achievements</h3>
             </div>
             <p className="text-gray-700 text-md">
               {showAwards
@@ -151,31 +152,19 @@ const DoctorProfile = () => {
         {/* Booking Form */}
         <div className="lg:w-1/2 bg-gray-100 p-6 rounded-lg shadow-md">
           <h2 className="text-xl font-bold text-pink-700 mb-4">
-            Schedule Appointment
+            OPD Availability Timing
           </h2>
+
           <div className="space-y-4">
             <div className="text-sm font-semibold text-gray-700">
-              Select Date:
-            </div>
-            <input
-              type="date"
-              min={new Date().toISOString().split("T")[0]}
-              value={selectedDate}
-              onChange={(e) => setSelectedDate(e.target.value)}
-              className="w-full border border-gray-300 px-3 py-2 rounded-md"
-            />
-
-            <div className="text-sm font-semibold text-gray-700 mt-4">
               Available Time Slots:
             </div>
 
-            {/* Time Slots Based on Selected Type */}
-            {/* Time Slots for Video Call only */}
+            {/* Time Slots */}
             <div className="flex flex-wrap gap-2">
               {doctor?.videoSlots?.map((time, i) => (
                 <button
                   key={i}
-                  onClick={() => setSelectedTimeSlot(time)}
                   className={`px-3 py-1 border ${
                     selectedTimeSlot === time
                       ? "bg-pink-700 text-white"
@@ -186,18 +175,6 @@ const DoctorProfile = () => {
                 </button>
               ))}
             </div>
-
-            <button
-              onClick={handleBookNow}
-              disabled={!selectedTimeSlot}
-              className={`mt-4 w-full ${
-                selectedTimeSlot
-                  ? "bg-pink-700 hover:bg-pink-800"
-                  : "bg-gray-400 cursor-not-allowed"
-              } text-white py-2 rounded-md transition`}
-            >
-              Book Appointment
-            </button>
           </div>
         </div>
       </div>
