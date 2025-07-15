@@ -98,7 +98,7 @@ import MaleInfertility from '../../components/header/treatments/MaleInfertility.
 import Cystoscopy from '../../components/header/treatments/Cystoscopy.jsx';
 import Vasectomy from '../../components/header/treatments/Vasectomy.jsx';
 import ReconstructiveUrological from '../../components/header/treatments/ReconstructiveUrological.jsx';
-
+import ErectileFunction from '../../components/header/treatments/ErectileFunction.jsx';
 
 const TreatmentAndSpeciality = (
   <>
@@ -199,6 +199,7 @@ const TreatmentAndSpeciality = (
     <Route path="/Cystoscopy" element={<Cystoscopy />} />
     <Route path="/Vasectomy" element={<Vasectomy />} />
     <Route path="/ReconstructiveUrological" element={<ReconstructiveUrological />} />
+    <Route path="/ErectileDysfunction" element={<ErectileFunction />} />
 
   </>
 );

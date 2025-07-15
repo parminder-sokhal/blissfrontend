@@ -16,7 +16,7 @@ const Hysterectomy = () => (
   <div className="w-full min-h-screen bg-white font-sans">
     <div
       className="w-full mt-34 h-120 bg-cover bg-no-repeat bg-center"
-      style={{ backgroundImage: "url(/pictures/ADHD.jpeg)" }}
+      style={{ backgroundImage: "url(/img/Hysterectomy.jpeg)" }}
     ></div>
 
     <div className="px-6 lg:px-40 py-10">

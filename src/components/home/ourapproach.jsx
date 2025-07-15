@@ -41,9 +41,9 @@ const OurApproach = () => {
     return data.slice(startIndex, startIndex + itemsPerPage); // Slice the array to show only two items
   };
 
-  const handlePagination = (index) => {
-    setCurrentIndex(index);
-  };
+  // const handlePagination = (index) => {
+  //   setCurrentIndex(index);
+  // };
   const handleNext = () => {
     if (currentIndex < pagesCount - 1) {
       setCurrentIndex(currentIndex + 1);
