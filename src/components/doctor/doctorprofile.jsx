@@ -18,7 +18,7 @@ const DoctorProfile = () => {
     return new Date().toISOString().split("T")[0];
   });
   const [selectedTimeSlot, setSelectedTimeSlot] = useState("");
-  const [visitType, setVisitType] = useState("Video Call");
+  const [visitType] = useState("Video Call");
 
   useEffect(() => {
     dispatch(getDoctorById(id));
@@ -132,7 +132,7 @@ const DoctorProfile = () => {
 
           <div>
             <div className="flex items-center gap-2 mb-2 text-pink-700">
-              <FaAward /> <h3 className="text-2xl font-semibold">Member Of</h3>
+              <FaAward /> <h3 className="text-2xl font-semibold">Achievements</h3>
             </div>
             <p className="text-gray-700 text-md">
               {showAwards
