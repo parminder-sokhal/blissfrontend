@@ -5,18 +5,20 @@ const VideoPlayHeader = () => {
   return (
     <header className="relative w-full h-[400px] sm:h-[480px]  md:h-[600px] lg:h-[720px] top-20">
       <video
-        autoPlay
-        loop
-        playsInline
-        muted
-        className="w-full h-full object-cover"
-      >
-        <source
-          src="https://www.dropbox.com/scl/fi/wsz3knvdrewq3n08nzxlr/blisshospital.mp4?rlkey=67bycg7e83h1xfictg0ivx9wt&st=1zggd2d2&dl=1"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
+  autoPlay
+  loop
+  playsInline
+  muted
+  preload="auto"
+  className="w-full h-full object-cover"
+>
+  <source
+    src="https://www.dropbox.com/scl/fi/wsz3knvdrewq3n08nzxlr/blisshospital.mp4?rlkey=67bycg7e83h1xfictg0ivx9wt&st=1zggd2d2&dl=1"
+    type="video/mp4"
+  />
+  Your browser does not support the video tag.
+</video>
+
       
 
       <div className="absolute top-1/2 right-12 transform -translate-y-1/2 translate-x-1/2 rotate-90 flex justify-around items-center">

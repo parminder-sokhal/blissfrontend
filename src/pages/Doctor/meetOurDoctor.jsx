@@ -99,7 +99,7 @@ const MeetOutDoctors = () => {
                   onClick={() => navigate(`/doctor/${doctor._id}`)}
                   className="flex-grow text-sm text-center py-2 bg-green-500 text-white rounded-sm"
                 >
-                  Book an Appointment
+                  Check Availability
                 </button>
               </div>
             </div>
