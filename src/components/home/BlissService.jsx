@@ -17,7 +17,7 @@ const BlissService = () => {
     {
       id: 2,
       description: "Oncology",
-      image: "/img/Oncology.jpeg",
+      image: "/img/OncologyN.jpeg",
       href: "/Oncology",
     },
     {
@@ -29,7 +29,7 @@ const BlissService = () => {
     {
       id: 4,
       description: "General medicine",
-      image: "/img/GeneralMedicine.jpeg",
+      image: "/img/GMedicine.jpeg",
       href: "/GeneralMedicine",
     },
     {
@@ -41,7 +41,7 @@ const BlissService = () => {
     {
       id: 6,
       description: "Orthopaedic",
-      image: "/img/Orthopaedics.jpeg",
+      image: "/img/Orthopedist.jpeg",
       href: "/Orthopaedic",
     },
     {
