@@ -126,7 +126,7 @@ const Doctors = () => {
                           onClick={() => navigate(`/doctor/${doctor._id}`)}
                           className="w-1/2 text-sm text-center py-2 bg-green-600 text-white  hover:bg-green-700 transition-all"
                         >
-                          Book Appointment
+                          Check Availability
                         </button>
                       </div>
                     </div>

@@ -152,22 +152,6 @@ const AboutHeading = () => {
             Our luxurious suite rooms are designed for patients who desire an elevated experience, featuring additional comforts and personalized services.
           </li>
         </ul>
-
-        {/* <h3 className="text-3xl font-bold text-pink-600 mb-4">
-          Memberships and Affiliations
-        </h3>
-        <ul className="list-disc pl-6 text-gray-700 text-lg leading-relaxed mb-12">
-          <li>Indian Association for Sexology</li>
-          <li>
-            International Association of Sexual Medicine Practitioners
-            (IASMP-MM)
-          </li>
-          <li>Indian Psychiatric Society (IPS)</li>
-          <li>Indian Association of Private Psychiatry (IAPP)</li>
-          <li>Indian Medical Association (IMA)</li>
-          <li>Indian Psychiatric Society, North Zone</li>
-        </ul> */}
-
         <h3 className="text-3xl font-bold text-pink-600 mb-4">Our Team</h3>
         <p className="text-gray-600 text-lg leading-relaxed mb-12">
           Our hospital is home to a team of highly qualified and experienced healthcare professionals, including doctors, nurses, and support staff, all dedicated to providing exceptional care. Our multidisciplinary approach ensures that patients receive comprehensive treatment plans tailored to their individual needs. Continuous training and professional development are integral to our team's philosophy, enabling us to stay at the forefront of medical advancements.

@@ -12,37 +12,37 @@ const BlissTreatments = () => {
       id: 1,
       description: "General Medicine",
       image: "/img/GMedicine.jpeg",
-      href: "/psychiatric-care",
+      href: "/GeneralMedicineT",
     },
     {
       id: 2,
       description: "Oncology",
       image: "/img/OncologyN.jpeg",
-      href: "/sexual-wellness",
+      href: "/Oncology",
     },
     {
       id: 3,
       description: "Gynaecology and Obstetrics",
       image: "/img/OncologicalImagingBiopsy1.jpeg",
-      href: "/deaddiction",
+      href: "/ObstetricsAndGynaecologyT",
     },
     {
       id: 4,
       description: "General Surgery",
       image: "/img/GeneralSurgeryT.jpeg",
-      href: "/deaddiction",
+      href: "/GeneralSurgery",
     },
     {
       id: 5,
       description: "Neurology",
       image: "/img/NeurologyT.jpeg",
-      href: "/deaddiction",
+      href: "/NeurologyT",
     },
     {
       id: 6,
       description: "Urology",
       image: "/img/Urology.jpeg",
-      href: "/deaddiction",
+      href: "/Urology",
     },
   ];
 

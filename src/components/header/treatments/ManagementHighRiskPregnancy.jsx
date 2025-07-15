@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const data = {
-  bgImage: "/pictures/ADHD.jpeg", // Adjust image path if needed
+  bgImage: "/img/ManagementHighRiskPregnancy.jpeg", // Adjust image path if needed
   sidebarLinks: [
     { title: "Antenatal And Postnatal Care", link: "/AntenatalAndPostnatal" },
     { title: "Normal Vaginal Delivery", link: "/NormalVaginalDelivery" },
