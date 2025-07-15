@@ -11,13 +11,13 @@ const BlissTreatments = () => {
     {
       id: 1,
       description: "General Medicine",
-      image: "/img/GeneralMedicineT.jpeg",
+      image: "/img/GMedicine.jpeg",
       href: "/psychiatric-care",
     },
     {
       id: 2,
       description: "Oncology",
-      image: "/img/OncologyT.jpeg",
+      image: "/img/OncologyN.jpeg",
       href: "/sexual-wellness",
     },
     {
