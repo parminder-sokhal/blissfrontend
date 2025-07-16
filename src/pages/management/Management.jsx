@@ -2,24 +2,28 @@ import React from "react";
 
 const managementData = [
   {
-    name: "Mr. xyz xyzxyz - Founder of DEMO Hospital",
-    description: `Founder of ROAR, Mr. Madhav Singh is fully dedicated to the therapeutic and facility management at DEMO Hospital. With over 14 years of experience helping individuals recover from addiction, he has changed countless lives through the Roar Addiction and Rehabilitation Centre, Asola, New Delhi.`,
-    image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
+    name: "Dr. Vinod Mimbran ",
+    poisition: "Managing Director | Bliss Hospital",
+    description: `Dr. Vinod Mimbran is a distinguished Radiation Oncologist with extensive experience in the field. As the Managing Director of Bliss Hospital, he is committed to providing exceptional patient care and advancing innovative treatment options in oncology. His leadership and expertise ensure the highest standards of medical excellence at our facility.`,
+    image: "/img/Vinod.jpeg",
   },
   {
-    name: "Dr. Rina Kapoor - Chief Psychiatrist",
-    description: `With 20+ years of experience in psychiatry, Dr. Rina Kapoor is committed to personalized mental health care. She specializes in both adolescent and adult mental wellness, and leads the psychiatric team at DEMO Hospital.`,
-    image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
+    name: "Dr. Rajni Parihar",
+    poisition: "Managing Director | Bliss Hospital",
+    description: `Dr. Rajni Parihar is a distinguished MD in Gynaecology and serves as the Managing Director of Bliss Hospital. With extensive experience in women's health, she is dedicated to providing exceptional medical care and leading innovative practices within the hospital.`,
+    image: "/img/Rajni.jpeg",
   },
   {
-    name: "Mr. xyz xyzxyz - Founder of DEMO Hospital",
-    description: `Founder of ROAR, Mr. Madhav Singh is fully dedicated to the therapeutic and facility management at DEMO Hospital. With over 14 years of experience helping individuals recover from addiction, he has changed countless lives through the Roar Addiction and Rehabilitation Centre, Asola, New Delhi.`,
-    image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
+    name: "Ishant Bhardwaj",
+    poisition: "Unit Head | Bliss Hospital",
+    description: `With over 16 years of experience in healthcare management, Ishant Bhardwaj leads our team at Bliss Hospital. His extensive expertise in hospital operations and patient care ensures the highest standards of service and efficiency. Ishant is committed to fostering a collaborative environment that prioritizes both staff and patient well-being.`,
+    image: "/img/",
   },
   {
-    name: "Dr. Rina Kapoor - Chief Psychiatrist",
-    description: `With 20+ years of experience in psychiatry, Dr. Rina Kapoor is committed to personalized mental health care. She specializes in both adolescent and adult mental wellness, and leads the psychiatric team at DEMO Hospital.`,
-    image: "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
+    name: "Deepali Parmar",
+    poisition: "Operations Manager | Bliss Hospital",
+    description: `With over 5 years of experience in hospital operations, Deepali Parmar has been instrumental in enhancing efficiency and patient care at Bliss Hospital. She holds an MBA in Hospital and Healthcare Management, equipping her with the expertise to drive operational excellence and implement strategic initiatives in a healthcare setting.`,
+    image: "/img/Deepali.jpeg",
   },
 ];
 
@@ -27,7 +31,7 @@ const Management = () => {
   return (
     <>
       {/* Header Section */}
-      <div className="flex justify-center items-center mt-34 w-full h-60 sm:h-80 bg-cover bg-no-repeat bg-center bg-[url('/img/photo_6240115743811291767_y.jpg')]">
+      <div className="flex justify-center items-center mt-34 w-full h-60 sm:h-140 bg-cover bg-no-repeat bg-center bg-[url('/img/photo_6240115743811291761_y.jpg')]">
         <h1 className="text-white text-4xl sm:text-6xl font-bold tracking-wide drop-shadow-md">
           Meet Our Team
         </h1>
@@ -61,6 +65,9 @@ const Management = () => {
                   <h3 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4">
                     {member.name}
                   </h3>
+                  <p className="text-gray-700 text-lg font-bold leading-relaxed my-2">
+                    {member.poisition}
+                  </p>
                   <p className="text-gray-700 text-lg leading-relaxed">
                     {member.description}
                   </p>

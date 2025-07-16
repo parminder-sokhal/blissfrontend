@@ -12,13 +12,13 @@ const OurFacility = () => {
     {
       id: 1,
       heading: "OT",
-      description: "Precision and safety in surgery",
+      description: "Fully equipped with advanced life-support systems—Philips ventilators, CPAP, BiPAP, and D-FAB—our ICU offers top-tier monitoring and critical care.",
       image: "../img/OT.jpeg",
     },
     {
       id: 2,
       heading: "NICU",
-      description: "Specialized care for our tiniest patients.",
+      description: "Our NICU features SLE ventilators, bubble CPAP, phototherapy units, and Phoenix warmers to provide advanced, life-saving newborn care.",
       image: "../img/NICU.jpeg",
     },
     {
@@ -108,7 +108,7 @@ const OurFacility = () => {
 
                     {/* BACK */}
                     <div className="flip-card-back flex items-center justify-center p-6 bg-pink-100 rounded-xl text-center h-full">
-                      <h3 className="text-lg font-semibold text-gray-800 max-w-[200px]">
+                      <h3 className="text-lg font-semibold text-gray-800 max-w-[400px]">
                         {facility.description}
                       </h3>
                     </div>
