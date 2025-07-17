@@ -35,12 +35,12 @@ export default function Dashboard() {
             </button>
           </div>
           <ul className="flex-1 px-2 overflow-y-auto">
-            <SidebarItem
+            {/* <SidebarItem
               icon={<FaUserGraduate />}
               text="Get All Payment Details"
               to="/dashboard/GetAllPaymentDetails"
               active={location.pathname === "/dashboard/GetAllPaymentDetails"}
-            />
+            /> */}
             
             <SidebarItem
               icon={<FaUserGraduate />}

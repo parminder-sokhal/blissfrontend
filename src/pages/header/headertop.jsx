@@ -28,13 +28,21 @@ const Headertop = () => {
           >
             <FaEnvelope className="text-xl" />
           </Link>
-          <Link
+          {/* <Link
             to="https://www.instagram.com/the_blisshospital?igsh=ejJmMjExb21mcDdp"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram className="text-white text-xl hover:text-black" />
-          </Link>
+          </Link> */}
+          <Link
+              to="https://maps.app.goo.gl/AR1WvaZ6PNzR9Fos7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 hover:text-black"
+            >
+              <FaMapMarkerAlt className="text-xl" />
+            </Link>
         </div>
 
         {/* Right Section: Desktop View - Full Contact Info and Social Icons */}
@@ -66,20 +74,20 @@ const Headertop = () => {
           </div>
 
           <div className="flex items-center space-x-4">
-            <Link
+            {/* <Link
               to="https://www.youtube.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaYoutube className="text-white text-xl hover:text-red-600" />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               to="https://www.facebook.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebook className="text-white text-xl hover:text-pink-600" />
-            </Link>
+            </Link> */}
             <Link
               to="https://www.instagram.com/the_blisshospital?igsh=ejJmMjExb21mcDdp"
               target="_blank"
