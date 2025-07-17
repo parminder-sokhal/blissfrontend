@@ -7,11 +7,11 @@ import { FaTimes } from "react-icons/fa";
 import Select from "react-select";
 
 const categoryOptions = [
-  { value: "homestories", label: "Home Page Our Patient Stories link" },
-  { value: "homeyoutube", label: "Home Page Trending YouTube Link" },
+  // { value: "homestories", label: "Home Page Our Patient Stories link" },
+  // { value: "homeyoutube", label: "Home Page Trending YouTube Link" },
   { value: "homeinsta", label: "Home Page Instagram  Highlights link" },
-  { value: "mediayoutube", label: "Media Page YouTube Links" },
-  { value: "mediayoutubelatest", label: "Media Page YouTube Latest Video Link" },
+  // { value: "mediayoutube", label: "Media Page YouTube Links" },
+  // { value: "mediayoutubelatest", label: "Media Page YouTube Latest Video Link" },
   { value: "mediainsta", label: "Media Page Instagram Links" },
 ];
 
