@@ -28,7 +28,7 @@ const VideoPlayHeader = () => {
             <FaPhoneAlt size={30} />
           </div>
           <div className="call lg:text-2xl sm:text-xl md:text-xl text-black hover:text-pink-700 font-semibold text-center flex flex-col gap-1 items-center">
-            <span className="font-bold px-1 py-1 rounded-sm">
+            <span className="font-bold px-1 py-1 rounded-sm bg-white">
               {"+91 9872334233"}
             </span>
           </div>

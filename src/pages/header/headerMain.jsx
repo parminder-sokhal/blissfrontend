@@ -88,6 +88,11 @@ function HeaderMain() {
               className="h-16"
               alt="blisshospital Logo"
             />
+            <img
+              src="/img/NABH.jpeg"
+              className="h-14"
+              alt="blisshospital Logo"
+            />
           </Link>
 
           {/* Desktop Navbar */}
@@ -266,14 +271,14 @@ function HeaderMain() {
                   </ul>
                 </div>
               </li>
-              {/* <li>
+              <li>
                 <Link
                   to="/management"
                   className="block py-2 px-3 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-800 md:p-0"
                 >
                   Management
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link
                   to="/careers"
@@ -997,7 +1002,7 @@ function HeaderMain() {
                   Careers
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link
                   to="/management"
                   onClick={toggleMobileMenu}
@@ -1005,7 +1010,7 @@ function HeaderMain() {
                 >
                   Management
                 </Link>
-              </li> */}
+              </li>
             </ul>
 
             <div onClick={toggleMobileMenu}>
