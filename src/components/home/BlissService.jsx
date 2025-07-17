@@ -47,7 +47,7 @@ const BlissService = () => {
     {
       id: 7,
       description: "Onco surgery",
-      image: "/img/OncoSurgery.jpeg",
+      image: "/img/OncoSurgeryN.jpeg",
       href: "/OncoSurgery",
     },
   ];

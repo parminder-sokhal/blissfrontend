@@ -4,7 +4,7 @@ import { addCareer } from "../../redux/actions/careersAction";
 
 const CareersPage = () => {
   const dispatch = useDispatch();
-  const { loading, error, successMessage } = useSelector(
+  const { loading, error } = useSelector(
     (state) => state.career
   );
   const [showSuccess, setShowSuccess] = useState(false);
@@ -103,7 +103,7 @@ const CareersPage = () => {
 
   return (
     <>
-      <div className="flex justify-center  w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgX9fSd50dP-IPvYVvflCjDb6H6nmIsCCZA&s')]">
+      <div className="flex justify-center  w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('/img/photo_6240115743811291761_y.jpg')]">
         <span className="flex justify-center items-center sm:text-8xl text-6xl font-semibold text-white">
           Careers
         </span>

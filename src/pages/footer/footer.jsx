@@ -55,33 +55,33 @@ const Footer = () => {
               {/* Treatments Links */}
               <div className="flex flex-col space-y-2 w-full">
                 <h3 className="text-2xl font-semibold">Treatments</h3>
-                <Link to="/psychiatry" className="text-md hover:text-black">
+                <Link to="/GeneralMedicine" className="text-md hover:text-black">
                   General Medicine
                 </Link>
                 <Link
-                  to="/counselling-and-therapy"
+                  to="/Oncology"
                   className="text-md hover:text-black"
                 >
                   Oncology
                 </Link>
                 <Link
-                  to="/mental-health-children"
+                  to="/ObstetricGynaecology"
                   className="text-md hover:text-black"
                 >
                   Gynaecology and Obstetrics
                 </Link>
-                <Link to="/deaddiction"
+                <Link to="/GeneralSurgery"
                  className="text-md hover:text-black">
                   General Surgery
                 </Link>
                 <Link
-                  to="/sexual-wellness-program"
+                  to="/NeurologyT"
                   className="text-md hover:text-black"
                 >
                   Neurology
                 </Link>
                 <Link
-                  to="/headache-clinic"
+                  to="/Urology"
                   className="text-md hover:text-black"
                 >
                   Urology

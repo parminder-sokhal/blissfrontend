@@ -17,8 +17,8 @@ const Insta = () => {
 
   return (
     <>
-      <div className="flex justify-center w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('/pictures/Background.jpeg')]">
-        <span className="flex justify-center items-center sm:text-8xl text-3xl font-semibold text-white">
+      <div className="flex justify-center w-full mt-34 sm:h-92 h-52 bg-cover bg-no-repeat bg-center bg-[url('/img/photo_6240115743811291761_y.jpg')]">
+        <span className="flex justify-center items-center sm:text-8xl text-3xl font-bold text-white">
           Instagram Highlights
         </span>
       </div>

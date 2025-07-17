@@ -3,13 +3,9 @@ import { useSwipeCarousel } from "../hook/useSwipeCarousel";
 
 const GallerySliding = () => {
   const images = [
-    "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
-    "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
-    "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
-    "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
-    "https://media.istockphoto.com/id/610675644/photo/demo-sign-on-red-cubes.jpg?s=612x612&w=0&k=20&c=8dU_a2Th99KQ8ih6oIoLMh-Ge4hbFd32IUKgQrDP35s=",
-    // "https://cdn.eka.care/clinics/62972d13d21e52001e294710/162200699512413/exterior/7e159a9421f0e50185219d390fbf971fc414fbf5d8454e051e00eb0811d17a22.jpeg",
-    // "https://cdn.eka.care/clinics/62972d13d21e52001e294710/162200699512413/exterior/d9211f7a455259908d1d93501fdd528d88c94c536148675e89357dbf2305a76f.jpeg",
+    "/img/photo_6240115743811291767_y.jpg",
+    "/img/photo_6240115743811291773_y.jpg",
+    "/img/photo_6240115743811291763_y.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
