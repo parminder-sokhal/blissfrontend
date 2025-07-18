@@ -17,7 +17,7 @@ const managementData = [
     name: "Ishant Bhardwaj",
     poisition: "Unit Head | Bliss Hospital",
     description: `With over 16 years of experience in healthcare management, Ishant Bhardwaj leads our team at Bliss Hospital. His extensive expertise in hospital operations and patient care ensures the highest standards of service and efficiency. Ishant is committed to fostering a collaborative environment that prioritizes both staff and patient well-being.`,
-    image: "/img/",
+    image: "/img/Ishant.jpg",
   },
   {
     name: "Deepali Parmar",
