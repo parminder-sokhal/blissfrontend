@@ -46,18 +46,21 @@ export default function Dashboard() {
               icon={<FaUserGraduate />}
               text="Add Doctor"
               to="/dashboard/AddDoctor"
+              onClick={closeSidebar}
               active={location.pathname === "/dashboard/AddDoctor"}
             />
             <SidebarItem
               icon={<FaUserGraduate />}
               text="Careers"
               to="/dashboard/Careers"
+              onClick={closeSidebar}
               active={location.pathname === "/dashboard/Careers"}
             />
             <SidebarItem
               icon={<FaUserGraduate />}
               text="Add Links"
               to="/dashboard/Links"
+              onClick={closeSidebar}
               active={location.pathname === "/dashboard/Links"}
             />
             <li className="py-4 border-t">
@@ -92,11 +95,12 @@ export default function Dashboard() {
   );
 }
 
-function SidebarItem({ icon, text, to, active }) {
+function SidebarItem({ icon, text, to, active,onClick  }) {
   return (
     <li className="my-1">
       <Link
         to={to}
+        onClick={onClick}
         className={`flex items-center p-2 rounded-md text-sm font-medium transition-colors ${
           active ? "bg-pink-500 text-white" : "text-gray-700 hover:bg-pink-100"
         }`}
