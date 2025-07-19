@@ -2,9 +2,9 @@ import React from "react";
 
 const managementData = [
   {
-    name: "Dr. Vinod Mimbran ",
+    name: "Dr. Vinod Nimbran ",
     poisition: "Managing Director | Bliss Hospital",
-    description: `Dr. Vinod Mimbran is a distinguished Radiation Oncologist with extensive experience in the field. As the Managing Director of Bliss Hospital, he is committed to providing exceptional patient care and advancing innovative treatment options in oncology. His leadership and expertise ensure the highest standards of medical excellence at our facility.`,
+    description: `Dr. Vinod Nimbran is a distinguished Radiation Oncologist with extensive experience in the field. As the Managing Director of Bliss Hospital, he is committed to providing exceptional patient care and advancing innovative treatment options in oncology. His leadership and expertise ensure the highest standards of medical excellence at our facility.`,
     image: "/img/Vinod.jpeg",
   },
   {
