@@ -329,7 +329,7 @@ function HeaderMain() {
         >
           {isDropdownOpen && (
             <div className="hidden md:block mt-2 absolute left-0 w-full bg-white z-40">
-              <div className="grid px-30 py-5 mx-auto text-gray-900 gap-6 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-7 ">
+              <div className="grid px-40 py-5 mx-auto text-gray-900 gap-6 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-7 ">
                 {/* General Medicine */}
                 <ul>
                   <li>
@@ -456,6 +456,9 @@ function HeaderMain() {
 
                 <ul>
                   <li>
+                    <Link to="" className="font-semibold text-md">
+                      Gynaecology and Obstetrics
+                    </Link>
                     <Link
                       to="/Obstetrics"
                       className="font-semibold block p-1 text-md"
@@ -464,45 +467,41 @@ function HeaderMain() {
                     </Link>
                     <Link
                       to="/AntenatalAndPostnatal"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Antenatal And Postnatal Care
                     </Link>
                     <Link
                       to="/NormalVaginalDelivery"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Normal Vaginal Delivery
                     </Link>
                     <Link
                       to="/CaesareanSection"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Caesarean Section
                     </Link>
                     <Link
                       to="/ManagementHighRiskPregnancy"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Management Of High-Risk Pregnancy
                     </Link>
                     <Link
                       to="/Ultrasound"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Ultrasound And Fetal Monitoring
                     </Link>
                     <Link
                       to="/EpiduralAnaesthesia"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Epidural Anaesthesia During Labor
                     </Link>
-
-                    
                   </li>
-                </ul>
-                <ul>
                   <li>
                     <Link
                       to="/Gynaecology"
@@ -513,47 +512,47 @@ function HeaderMain() {
 
                     <Link
                       to="/HormonalTherapy"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Hormonal Therapy
                     </Link>
                     <Link
                       to="/PapSmears"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Pap Smears And Cervical Biopsies
                     </Link>
                     <Link
                       to="/Hysterectomy"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Hysterectomy
                     </Link>
                     <Link
                       to="/DilationAndCurettage"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Dilation And Curettage
                     </Link>
                     <Link
                       to="/TreatmentForSTI"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Treatment For STIs
                     </Link>
                     <Link
                       to="/InfertilityTreatment"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Infertility Treatment
                     </Link>
                     <Link
                       to="/LaparoscopyAndHysteroscopy"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                      className="block p-1 text-xs rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Laparoscopy And Hysteroscopy
                     </Link>
-                    </li>
+                  </li>
                 </ul>
 
                 {/* General Surgery*/}
