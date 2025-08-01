@@ -39,31 +39,6 @@ const AboutHeading = () => {
           throughout their healthcare journey.
         </p>
 
-        {/* <ul className="list-disc pl-6 text-gray-700 text-lg leading-relaxed mb-12">
-          <li>
-            <span className="font-semibold text-black">
-              Individual Therapy:
-            </span>{" "}
-            Tailored sessions to address personal mental health issues.
-          </li>
-          <li>
-            <span className="font-semibold text-black">Group Therapy:</span>{" "}
-            Supportive group sessions fostering community and shared
-            experiences.
-          </li>
-          <li>
-            <span className="font-semibold text-black">
-              Medication Management:
-            </span>{" "}
-            Careful evaluation and management of psychiatric medications.
-          </li>
-          <li>
-            <span className="font-semibold text-black">Family Therapy:</span>{" "}
-            Involving family members in the treatment process to enhance support
-            systems.
-          </li>
-        </ul> */}
-
         <h3 className="text-3xl font-bold text-pink-600 mb-4">
           Comprehensive Medical Services
         </h3>
@@ -219,19 +194,30 @@ const AboutHeading = () => {
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 list-disc list-inside">
             <li>Aditya Birla Health Insurance</li>
             <li>Manipal Cigna</li>
-            <li>Niva Bupa Health Insurance</li>
-            <li>TATA AIG</li>
-            <li>East West ΤΡΑ</li>
+            <li>Max Bupa Health Insurance</li>
+            <li>Vision TPA</li>
+            <li>Ericson TPA</li>
+            <li>United Health Care Parekh</li>
+            <li>Sun Rise TPA</li>
+            <li>Universal Sompo GIC</li>
+            <li>East West TPA</li>
+            <li>Mediassist TPA</li>
+            <li>SBI General Insurance</li>
+            <li>MD India TPA</li>
+            <li>Paramount TPA</li>
+            <li>Chola Mandapam</li>
+            <li>Raksha TPA</li>
+            <li>Vipul Medcrop</li>
             <li>FHPL</li>
-            <li>Vidal Health ΤΡΑ</li>
-            <li>Safeway ΤΡΑ</li>
+            <li>Vidal Health TPA</li>
+            <li>Safeway TPA</li>
+            <li>Gipsa</li>
+            <li>Oriental Insurance</li>
             <li>The New India Insurance</li>
             <li>National Insurance</li>
-            <li>Mediassist ΤΡΑ</li>
-            <li>MD India ΤΡΑ</li>
-            <li>Paramount ΤΡΑ</li>
-            <li>Raksha ΤΡΑ</li>
-            <li>Vipul Medcrop</li>
+            <li>United India Insurance</li>
+            <li>H.P Govt</li>
+            <li>Reliance General Insurance</li>
           </ul>
         </div>
       </div>

@@ -31,11 +31,9 @@ import PoisoningAndDrug from '../../components/header/treatments/PoisoningAndDru
 // Oncology
 import OncologyT from '../../components/header/treatments/OncologyT.jsx';
 import Chemotherapy from '../../components/header/treatments/Chemotherapy.jsx';
-import RadiationTherapy from '../../components/header/treatments/RadiationTherapy.jsx';
 import SurgicalOncology from '../../components/header/treatments/SurgicalOncology.jsx';
 import TargetedTherapy from '../../components/header/treatments/TargetedTherapy.jsx';
 import Immunotherapy from '../../components/header/treatments/Immunotherapy.jsx';
-import BoneMarrow from '../../components/header/treatments/BoneMarrow.jsx';
 import PalliativeCare from '../../components/header/treatments/PalliativeCare.jsx';
 import HormoneTherapy from '../../components/header/treatments/HormoneTherapy.jsx';
 import OncologicalImagingBiopsy from '../../components/header/treatments/OncologicalImagingBiopsy.jsx';
@@ -100,6 +98,11 @@ import Vasectomy from '../../components/header/treatments/Vasectomy.jsx';
 import ReconstructiveUrological from '../../components/header/treatments/ReconstructiveUrological.jsx';
 import ErectileFunction from '../../components/header/treatments/ErectileFunction.jsx';
 
+// Pediatrics Treatment & Care
+import Pediatrics from '../../components/header/treatments/Pediatrics.jsx';
+
+
+
 const TreatmentAndSpeciality = (
   <>
     {/* Speciality */}
@@ -129,11 +132,9 @@ const TreatmentAndSpeciality = (
 
     <Route path="/OncologyT" element={<OncologyT />} />
     <Route path="/Chemotherapy" element={<Chemotherapy />} />
-    <Route path="/RadiationTherapy" element={<RadiationTherapy />} />
     <Route path="/SurgicalOncology" element={<SurgicalOncology />} />
     <Route path="/TargetedTherapy" element={<TargetedTherapy />} />
     <Route path="/Immunotherapy" element={<Immunotherapy />} />
-    <Route path="/BoneMarrow" element={<BoneMarrow />} />
     <Route path="/PalliativeCare" element={<PalliativeCare />} />
     <Route path="/HormoneTherapy" element={<HormoneTherapy />} />
     <Route path="/OncologicalImagingBiopsy" element={<OncologicalImagingBiopsy />} />
@@ -201,6 +202,8 @@ const TreatmentAndSpeciality = (
     <Route path="/ReconstructiveUrological" element={<ReconstructiveUrological />} />
     <Route path="/ErectileDysfunction" element={<ErectileFunction />} />
 
+    {/* Pediatrics Treatment & Care */}
+    <Route path="/Pediatrics" element={<Pediatrics />} />
   </>
 );
 
