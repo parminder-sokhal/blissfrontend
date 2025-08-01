@@ -27,7 +27,7 @@ const OncologicalImagingBiopsy = () => {
 
       <div className="px-10 lg:px-40 py-10">
         <h1 className="text-3xl font-bold mb-8 text-gray-800">
-          Oncological Imaging and Biopsy Services
+          Oncological Biopsy Services
         </h1>
 
         <div className="flex flex-col lg:flex-row gap-8">

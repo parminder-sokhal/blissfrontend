@@ -411,12 +411,7 @@ function HeaderMain() {
                     >
                       Chemotherapy
                     </Link>
-                    <Link
-                      to="/RadiationTherapy"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
-                    >
-                      Radiation Therapy
-                    </Link>
+
                     <Link
                       to="/SurgicalOncology"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
@@ -435,12 +430,7 @@ function HeaderMain() {
                     >
                       Immunotherapy
                     </Link>
-                    <Link
-                      to="/BoneMarrow"
-                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
-                    >
-                      Bone marrow or stem cell transplant
-                    </Link>
+
                     <Link
                       to="/PalliativeCare"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
@@ -457,7 +447,7 @@ function HeaderMain() {
                       to="/OncologicalImagingBiopsy"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
-                      Oncological imaging and biopsy services
+                      Oncological biopsy services
                     </Link>
                   </li>
                 </ul>
@@ -790,23 +780,23 @@ function HeaderMain() {
                   </li>
                 </ul> */}
 
-                {/* Epilepsy Clinic */}
-                {/* <ul>
+                {/* Pediatrics Treatment & Care*/}
+                <ul>
                   <li>
                     <Link
-                      to="/epilepsy-clinic"
+                      to="/Pediatrics"
                       className="font-semibold text-md  hover:text-pink-700"
                     >
-                      Epilepsy Clinic
+                      Pediatrics Treatment & Care
                     </Link>
-                    <Link
+                    {/* <Link
                       to="/seizure"
                       className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                     >
                       Seizure
-                    </Link>
+                    </Link> */}
                   </li>
-                </ul> */}
+                </ul>
               </div>
             </div>
           )}
@@ -1098,12 +1088,7 @@ function HeaderMain() {
                         >
                           Chemotherapy
                         </Link>
-                        <Link
-                          to="/RadiationTherapy"
-                          className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
-                        >
-                          Radiation Therapy
-                        </Link>
+
                         <Link
                           to="/SurgicalOncology"
                           className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
@@ -1122,12 +1107,7 @@ function HeaderMain() {
                         >
                           Immunotherapy
                         </Link>
-                        <Link
-                          to="/BoneMarrow"
-                          className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
-                        >
-                          Bone marrow or stem cell transplant
-                        </Link>
+
                         <Link
                           to="/PalliativeCare"
                           className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
@@ -1144,7 +1124,7 @@ function HeaderMain() {
                           to="/OncologicalImagingBiopsy"
                           className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
                         >
-                          Oncological imaging and biopsy services
+                          Oncological biopsy services
                         </Link>
                       </li>
                     </ul>
@@ -1450,6 +1430,22 @@ function HeaderMain() {
                         >
                           Reconstructive Urological Surgery
                         </Link>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <Link
+                          to="/Pediatrics"
+                          className="font-semibold text-md  hover:text-pink-700"
+                        >
+                          Pediatrics Treatment & Care
+                        </Link>
+                        {/* <Link
+                      to="/seizure"
+                      className="block p-1 text-sm rounded-lg hover:bg-gray-100 hover:text-pink-700"
+                    >
+                      Seizure
+                    </Link> */}
                       </li>
                     </ul>
                     {/* Add other mega menu sections here for mobile if needed */}
