@@ -329,7 +329,7 @@ function HeaderMain() {
         >
           {isDropdownOpen && (
             <div className="hidden md:block mt-2 absolute left-0 w-full bg-white z-40">
-              <div className="grid px-40 py-5 mx-auto text-gray-900 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 ">
+              <div className="grid px-30 py-5 mx-auto text-gray-900 gap-6 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-7 ">
                 {/* General Medicine */}
                 <ul>
                   <li>
@@ -457,13 +457,6 @@ function HeaderMain() {
                 <ul>
                   <li>
                     <Link
-                      to="/ObstetricsAndGynaecologyT"
-                      className="font-semibold text-md  hover:text-pink-700"
-                    >
-                      Obstetrics And Gynaecology
-                    </Link>
-
-                    <Link
                       to="/Obstetrics"
                       className="font-semibold block p-1 text-md"
                     >
@@ -506,6 +499,11 @@ function HeaderMain() {
                       Epidural Anaesthesia During Labor
                     </Link>
 
+                    
+                  </li>
+                </ul>
+                <ul>
+                  <li>
                     <Link
                       to="/Gynaecology"
                       className="font-semibold block p-1 text-md"
@@ -555,7 +553,7 @@ function HeaderMain() {
                     >
                       Laparoscopy And Hysteroscopy
                     </Link>
-                  </li>
+                    </li>
                 </ul>
 
                 {/* General Surgery*/}
