@@ -29,39 +29,35 @@ const Footer = () => {
                 <Link to="/Oncology" className="text-sm hover:text-black">
                   Oncology
                 </Link>
-                <Link
-                  to="/GeneralSurgery"
-                  className="text-md hover:text-black"
-                >
+                <Link to="/GeneralSurgery" className="text-md hover:text-black">
                   General surgery
                 </Link>
-                <Link to="/GeneralMedicine"
-                 className="text-md hover:text-black">
+                <Link
+                  to="/GeneralMedicine"
+                  className="text-md hover:text-black"
+                >
                   General medicine
                 </Link>
-                <Link to="/Urology"
-                 className="text-md hover:text-black">
+                <Link to="/Urology" className="text-md hover:text-black">
                   Urology
                 </Link>
-                <Link to="/Orthopaedic"
-                 className="text-md hover:text-black">
+                <Link to="/Orthopaedic" className="text-md hover:text-black">
                   Orthopaedic
                 </Link>
-                <Link to="/OncoSurgery"
-                 className="text-md hover:text-black">
+                <Link to="/OncoSurgery" className="text-md hover:text-black">
                   Onco surgery
                 </Link>
               </div>
               {/* Treatments Links */}
               <div className="flex flex-col space-y-2 w-full">
                 <h3 className="text-2xl font-semibold">Treatments</h3>
-                <Link to="/GeneralMedicine" className="text-md hover:text-black">
-                  General Medicine
-                </Link>
                 <Link
-                  to="/Oncology"
+                  to="/GeneralMedicine"
                   className="text-md hover:text-black"
                 >
+                  General Medicine
+                </Link>
+                <Link to="/Oncology" className="text-md hover:text-black">
                   Oncology
                 </Link>
                 <Link
@@ -70,20 +66,13 @@ const Footer = () => {
                 >
                   Gynaecology and Obstetrics
                 </Link>
-                <Link to="/GeneralSurgery"
-                 className="text-md hover:text-black">
+                <Link to="/GeneralSurgery" className="text-md hover:text-black">
                   General Surgery
                 </Link>
-                <Link
-                  to="/NeurologyT"
-                  className="text-md hover:text-black"
-                >
+                <Link to="/NeurologyT" className="text-md hover:text-black">
                   Neurology
                 </Link>
-                <Link
-                  to="/Urology"
-                  className="text-md hover:text-black"
-                >
+                <Link to="/Urology" className="text-md hover:text-black">
                   Urology
                 </Link>
               </div>
@@ -124,10 +113,8 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-              <div className="flex flex-col items-center mt-4 space-y-1 text-white">
-                <span className="text-md font-semibold">
-                  Contact us
-                </span>
+              <div className="flex flex-col items-center  space-y-1 text-white">
+                <span className="text-md font-semibold">Contact us</span>
                 <Link
                   to="tel:+919815490081"
                   className="flex items-center space-x-2 hover:text-black"
@@ -135,6 +122,13 @@ const Footer = () => {
                   <FaPhoneAlt className="text-lg" />
                   <span>01722923333</span>
                 </Link>
+              </div>
+              <div>
+                <span className="text-xl font-semibold ">
+                  <Link to="/careers" className="hover:text-black ">
+                    Apply for Careers{" "}
+                  </Link>
+                </span>
               </div>
             </div>
 
@@ -173,7 +167,11 @@ const Footer = () => {
               <div className="space-y-2 py-5">
                 <h3 className="text-xl font-semibold">About Hospital</h3>
                 <p className="text-sm w-4/5 hover:text-black">
-                  To be a beacon of hope and healing in the healthcare landscape. As a hospital, we are committed to excellence, innovation, and compassionate care—continuously enhancing our services and facilities to remain a trusted choice for patients and their families.
+                  To be a beacon of hope and healing in the healthcare
+                  landscape. As a hospital, we are committed to excellence,
+                  innovation, and compassionate care—continuously enhancing our
+                  services and facilities to remain a trusted choice for
+                  patients and their families.
                 </p>
               </div>
             </div>
@@ -184,10 +182,9 @@ const Footer = () => {
         <div className="flex w-full text-center justify-center bg-white text-black">
           <p className="sm:text-sm px-4 py-2">
             <Link to="/dashboard" className="hover:text-gray-700">
-             Bliss Hospital&nbsp;
+              Bliss Hospital&nbsp;
             </Link>
-            © 2025 All Rights Reserved. | Designed & Developed
-            by:&nbsp;
+            © 2025 All Rights Reserved. | Designed & Developed by:&nbsp;
             <a
               href="https://quantivisiontech.com"
               target="_blank"

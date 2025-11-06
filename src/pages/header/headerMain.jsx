@@ -85,18 +85,23 @@ function HeaderMain() {
           >
             <img
               src="/logo/blisslogo1.png"
-              className="h-16"
+              className="h-12 sm:h-16"
               alt="blisshospital Logo"
             />
             <img
               src="/img/NABH.jpeg"
-              className="h-14"
+              className="h-10 sm:h-12"
+              alt="blisshospital Logo"
+            />
+            <img
+              src="/img/logo.png"
+              className="h-10"
               alt="blisshospital Logo"
             />
           </Link>
 
           {/* Desktop Navbar */}
-          <div className="hidden lg:flex text-lg flex-grow justify-center">
+          <div className="hidden lg:flex text-md flex-grow justify-center">
             <ul className="flex space-x-8">
               <li>
                 <Link

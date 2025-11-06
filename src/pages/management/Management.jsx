@@ -14,16 +14,17 @@ const managementData = [
     image: "/img/Rajni.jpeg",
   },
   {
+    name: "Dr. Parveen Sharma",
+    poisition: "Chief Executive Officer | Bliss Hospital",
+    description: `Dr. Parveen Sharma is the Chief Executive Officer of The Bliss Hospital, bringing with him over 21 years of rich experience in both medical practice and healthcare administration. Holding degrees in BAMS and MHA (Master of Hospital Administration), Dr. Sharma combines deep clinical insight with exceptional management expertise.
+Known for his divine vision, bold decision-making, and compassionate leadership, he has been instrumental in driving The Bliss Hospital toward excellence in patient care and organizational growth. His dynamic approach, strong ethical values, and unwavering commitment to quality healthcare continue to inspire his team and set new benchmarks in hospital administration.`,
+    image: "/img/parveen.jpeg",
+  },
+  {
     name: "Ishant Bhardwaj",
     poisition: "Unit Head | Bliss Hospital",
     description: `With over 16 years of experience in healthcare management, Ishant Bhardwaj leads our team at Bliss Hospital. His extensive expertise in hospital operations and patient care ensures the highest standards of service and efficiency. Ishant is committed to fostering a collaborative environment that prioritizes both staff and patient well-being.`,
     image: "/img/Ishant.jpg",
-  },
-  {
-    name: "Deepali Parmar",
-    poisition: "Operations Manager | Bliss Hospital",
-    description: `With over 5 years of experience in hospital operations, Deepali Parmar has been instrumental in enhancing efficiency and patient care at Bliss Hospital. She holds an MBA in Hospital and Healthcare Management, equipping her with the expertise to drive operational excellence and implement strategic initiatives in a healthcare setting.`,
-    image: "/img/Deepali.jpeg",
   },
 ];
 
@@ -44,37 +45,37 @@ const Management = () => {
         </h2>
 
         <div className="space-y-20">
-            {managementData.map((member, index) => (
-              <div
-                key={index}
-                className={`flex flex-col-reverse md:flex-row items-center gap-10 ${
-                  index % 2 !== 0 ? "md:flex-row-reverse" : ""
-                }`}
-              >
-                {/* Image */}
-                <div className="w-full md:w-1/5">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-auto object-cover object-top rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-                  />
-                </div>
-
-                {/* Text */}
-                <div className="w-full md:w-2/3 text-left">
-                  <h3 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4">
-                    {member.name}
-                  </h3>
-                  <p className="text-gray-700 text-lg font-bold leading-relaxed my-2">
-                    {member.poisition}
-                  </p>
-                  <p className="text-gray-700 text-lg leading-relaxed">
-                    {member.description}
-                  </p>
-                </div>
+          {managementData.map((member, index) => (
+            <div
+              key={index}
+              className={`flex flex-col-reverse md:flex-row items-center gap-10 ${
+                index % 2 !== 0 ? "md:flex-row-reverse" : ""
+              }`}
+            >
+              {/* Image */}
+              <div className="w-full md:w-1/5">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-auto object-cover object-top rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+                />
               </div>
-            ))}
-          </div>
+
+              {/* Text */}
+              <div className="w-full md:w-2/3 text-left">
+                <h3 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4">
+                  {member.name}
+                </h3>
+                <p className="text-gray-700 text-lg font-bold leading-relaxed my-2">
+                  {member.poisition}
+                </p>
+                <p className="text-gray-700 text-lg leading-relaxed">
+                  {member.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
